@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="item_option_new">
+    <item_option_new action="DELETE">
+        <active>false</active>
+        <attributes/>
+        <cat_item display_value="Change Ownership of Shared Folder">1f8f92fa1bd24c9017daa6886e4bcbac</cat_item>
+        <category/>
+        <choice_direction>down</choice_direction>
+        <choice_field/>
+        <choice_table/>
+        <create_roles/>
+        <default_html_value/>
+        <default_value/>
+        <delete_roles/>
+        <delivery_plan/>
+        <description/>
+        <display_title>false</display_title>
+        <do_not_select_first>false</do_not_select_first>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <example_text/>
+        <field/>
+        <global>true</global>
+        <help_tag>More information</help_tag>
+        <help_text/>
+        <include_none>false</include_none>
+        <instructions><![CDATA[<p>Please click on the magnifier icon to select the share path for which you need access. If your share is not available in the displayed list please raise an incident in this link  <a title="Create Incident to ServiceNow" href="https://nxp2trn.service-now.com/incident.do?sys_id&#61;-1&amp;sysparm_query&#61;active&#61;true&amp;sysparm_stack&#61;incident_list.do?sysparm_query&#61;active&#61;true" target="_blank" rel="noopener noreferrer nofollow"><span style="color: #ff0000;"><strong>Create Incident to ServiceNow</strong></span>.</a></p>]]></instructions>
+        <layout>normal</layout>
+        <list_table/>
+        <lookup_label/>
+        <lookup_price/>
+        <lookup_table/>
+        <lookup_unique>false</lookup_unique>
+        <lookup_value/>
+        <macro/>
+        <mandatory>true</mandatory>
+        <map_to_field>false</map_to_field>
+        <mask_use_confirmation>false</mask_use_confirmation>
+        <mask_use_encryption>false</mask_use_encryption>
+        <name>chgown_gaf_shares</name>
+        <order>30</order>
+        <price_if_checked>0</price_if_checked>
+        <pricing_implications>false</pricing_implications>
+        <question_text>GAF Shares</question_text>
+        <read_roles/>
+        <rec_lookup_price/>
+        <rec_price_if_checked>0</rec_price_if_checked>
+        <record/>
+        <record_producer_table/>
+        <reference>cmdb_ci_storage_fileshare</reference>
+        <reference_qual>javascript: new x_nxps3_nxp_gaf_sh.NXPReferenceQualifierForShareFolder().getShareDetails(current.variables.chgown_site_code,current.variables.chgown_base_share);</reference_qual>
+        <reference_qual_condition/>
+        <scale_max>5</scale_max>
+        <scale_min>0</scale_min>
+        <show_help>true</show_help>
+        <show_help_on_load>true</show_help_on_load>
+        <sp_widget/>
+        <summary_macro/>
+        <sys_class_name>item_option_new</sys_class_name>
+        <sys_created_by>nxf29089</sys_created_by>
+        <sys_created_on>2020-01-16 08:29:04</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>9f34ee761b164c9017daa6886e4bcb0f</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>GAF Shares</sys_name>
+        <sys_package display_value="NXP GAF Share Automation" source="x_nxps3_nxp_gaf_sh">4a417d661b85005017daa6886e4bcb74</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NXP GAF Share Automation">4a417d661b85005017daa6886e4bcb74</sys_scope>
+        <sys_update_name>item_option_new_9f34ee761b164c9017daa6886e4bcb0f</sys_update_name>
+        <sys_updated_by>nxf29089</sys_updated_by>
+        <sys_updated_on>2020-01-24 10:48:13</sys_updated_on>
+        <table/>
+        <tooltip/>
+        <type>8</type>
+        <u_active>false</u_active>
+        <u_application_product_model/>
+        <u_assignment_group_s/>
+        <u_department/>
+        <u_interface_users_in_dev/>
+        <u_purpose/>
+        <u_status/>
+        <u_support_group_s/>
+        <ui_page/>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>advanced</use_reference_qualifier>
+        <validate_regex/>
+        <variable_name/>
+        <variable_set/>
+        <variable_width/>
+        <visibility>1</visibility>
+        <visible_bundle>true</visible_bundle>
+        <visible_guide>true</visible_guide>
+        <visible_standalone>true</visible_standalone>
+        <visible_summary>true</visible_summary>
+        <write_roles>catalog</write_roles>
+    </item_option_new>
+    <sys_translated_text action="DELETE" query="documentkey=9f34ee761b164c9017daa6886e4bcb0f"/>
+    <fx_price action="DELETE" query="id=9f34ee761b164c9017daa6886e4bcb0f"/>
+    <fx_price action="DELETE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>price_if_checked</field>
+        <id>9f34ee761b164c9017daa6886e4bcb0f</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>nxf29089</sys_created_by>
+        <sys_created_on>2020-01-16 08:29:04</sys_created_on>
+        <sys_id>ab26ee7e1b164c9017daa6886e4bcb68</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nxf29089</sys_updated_by>
+        <sys_updated_on>2020-01-16 08:29:04</sys_updated_on>
+        <table>item_option_new</table>
+        <type>calculated</type>
+    </fx_price>
+    <fx_price action="DELETE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>rec_price_if_checked</field>
+        <id>9f34ee761b164c9017daa6886e4bcb0f</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>nxf29089</sys_created_by>
+        <sys_created_on>2020-01-16 08:29:04</sys_created_on>
+        <sys_id>ab26ee7e1b164c9017daa6886e4bcb67</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nxf29089</sys_updated_by>
+        <sys_updated_on>2020-01-16 08:29:04</sys_updated_on>
+        <table>item_option_new</table>
+        <type>calculated</type>
+    </fx_price>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NXP GAF Share Automation">4a417d661b85005017daa6886e4bcb74</application>
+        <file_path/>
+        <instance_id>afde53a8db74c3881ddcf22ebf961981</instance_id>
+        <instance_name>nxp2trn</instance_name>
+        <name>item_option_new_9f34ee761b164c9017daa6886e4bcb0f</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="item_option_new"&gt;&lt;item_option_new action="INSERT_OR_UPDATE"&gt;&lt;active&gt;false&lt;/active&gt;&lt;attributes/&gt;&lt;cat_item display_value="Change Ownership of Shared Folder"&gt;1f8f92fa1bd24c9017daa6886e4bcbac&lt;/cat_item&gt;&lt;category/&gt;&lt;choice_direction&gt;down&lt;/choice_direction&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;create_roles/&gt;&lt;default_html_value/&gt;&lt;default_value/&gt;&lt;delete_roles/&gt;&lt;delivery_plan/&gt;&lt;description/&gt;&lt;display_title&gt;false&lt;/display_title&gt;&lt;do_not_select_first&gt;false&lt;/do_not_select_first&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;example_text/&gt;&lt;field/&gt;&lt;global&gt;true&lt;/global&gt;&lt;help_tag&gt;More information&lt;/help_tag&gt;&lt;help_text/&gt;&lt;include_none&gt;false&lt;/include_none&gt;&lt;instructions&gt;&lt;![CDATA[&lt;p&gt;Please click on the magnifier icon to select the share path for which you need access. If your share is not available in the displayed list please raise an incident in this link  &lt;a title="Create Incident to ServiceNow" href="https://nxp2trn.service-now.com/incident.do?sys_id&amp;#61;-1&amp;amp;sysparm_query&amp;#61;active&amp;#61;true&amp;amp;sysparm_stack&amp;#61;incident_list.do?sysparm_query&amp;#61;active&amp;#61;true" target="_blank" rel="noopener noreferrer nofollow"&gt;&lt;span style="color: #ff0000;"&gt;&lt;strong&gt;Create Incident to ServiceNow&lt;/strong&gt;&lt;/span&gt;.&lt;/a&gt;&lt;/p&gt;]]&gt;&lt;/instructions&gt;&lt;layout&gt;normal&lt;/layout&gt;&lt;list_table/&gt;&lt;lookup_label/&gt;&lt;lookup_price/&gt;&lt;lookup_table/&gt;&lt;lookup_unique&gt;false&lt;/lookup_unique&gt;&lt;lookup_value/&gt;&lt;macro/&gt;&lt;mandatory&gt;true&lt;/mandatory&gt;&lt;map_to_field&gt;false&lt;/map_to_field&gt;&lt;mask_use_confirmation&gt;false&lt;/mask_use_confirmation&gt;&lt;mask_use_encryption&gt;false&lt;/mask_use_encryption&gt;&lt;name&gt;chgown_gaf_shares&lt;/name&gt;&lt;order&gt;30&lt;/order&gt;&lt;price_if_checked&gt;0&lt;/price_if_checked&gt;&lt;pricing_implications&gt;false&lt;/pricing_implications&gt;&lt;question_text&gt;GAF Shares&lt;/question_text&gt;&lt;read_roles/&gt;&lt;rec_lookup_price/&gt;&lt;rec_price_if_checked&gt;0&lt;/rec_price_if_checked&gt;&lt;record/&gt;&lt;record_producer_table/&gt;&lt;reference&gt;cmdb_ci_storage_fileshare&lt;/reference&gt;&lt;reference_qual&gt;javascript: new x_nxps3_nxp_gaf_sh.NXPReferenceQualifierForShareFolder().getShareDetails(current.variables.chgown_site_code,current.variables.chgown_base_share);&lt;/reference_qual&gt;&lt;reference_qual_condition/&gt;&lt;scale_max&gt;5&lt;/scale_max&gt;&lt;scale_min&gt;0&lt;/scale_min&gt;&lt;show_help&gt;true&lt;/show_help&gt;&lt;show_help_on_load&gt;true&lt;/show_help_on_load&gt;&lt;sp_widget/&gt;&lt;summary_macro/&gt;&lt;sys_class_name&gt;item_option_new&lt;/sys_class_name&gt;&lt;sys_created_by&gt;nxf29089&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-01-16 08:29:04&lt;/sys_created_on&gt;&lt;sys_customer_update&gt;false&lt;/sys_customer_update&gt;&lt;sys_id&gt;9f34ee761b164c9017daa6886e4bcb0f&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_name&gt;GAF Shares&lt;/sys_name&gt;&lt;sys_package display_value="NXP GAF Share Automation" source="x_nxps3_nxp_gaf_sh"&gt;4a417d661b85005017daa6886e4bcb74&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_replace_on_upgrade&gt;false&lt;/sys_replace_on_upgrade&gt;&lt;sys_scope display_value="NXP GAF Share Automation"&gt;4a417d661b85005017daa6886e4bcb74&lt;/sys_scope&gt;&lt;sys_update_name&gt;item_option_new_9f34ee761b164c9017daa6886e4bcb0f&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;nxf29089&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-01-24 10:48:13&lt;/sys_updated_on&gt;&lt;table/&gt;&lt;tooltip/&gt;&lt;type&gt;8&lt;/type&gt;&lt;u_active&gt;false&lt;/u_active&gt;&lt;u_application_product_model/&gt;&lt;u_assignment_group_s/&gt;&lt;u_department/&gt;&lt;u_interface_users_in_dev/&gt;&lt;u_purpose/&gt;&lt;u_status/&gt;&lt;u_support_group_s/&gt;&lt;ui_page/&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;advanced&lt;/use_reference_qualifier&gt;&lt;validate_regex/&gt;&lt;variable_name/&gt;&lt;variable_set/&gt;&lt;variable_width/&gt;&lt;visibility&gt;1&lt;/visibility&gt;&lt;visible_bundle&gt;true&lt;/visible_bundle&gt;&lt;visible_guide&gt;true&lt;/visible_guide&gt;&lt;visible_standalone&gt;true&lt;/visible_standalone&gt;&lt;visible_summary&gt;true&lt;/visible_summary&gt;&lt;write_roles&gt;catalog&lt;/write_roles&gt;&lt;/item_option_new&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=9f34ee761b164c9017daa6886e4bcb0f"/&gt;&lt;fx_price action="delete_multiple" query="id=9f34ee761b164c9017daa6886e4bcb0f"/&gt;&lt;fx_price action="INSERT_OR_UPDATE"&gt;&lt;amount&gt;0&lt;/amount&gt;&lt;currency display_value="USD"&gt;USD&lt;/currency&gt;&lt;field&gt;price_if_checked&lt;/field&gt;&lt;id&gt;9f34ee761b164c9017daa6886e4bcb0f&lt;/id&gt;&lt;parent/&gt;&lt;reference_amount&gt;0&lt;/reference_amount&gt;&lt;reference_currency display_value="USD"&gt;USD&lt;/reference_currency&gt;&lt;sys_created_by&gt;nxf29089&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-01-16 08:29:04&lt;/sys_created_on&gt;&lt;sys_id&gt;ab26ee7e1b164c9017daa6886e4bcb68&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;nxf29089&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-01-16 08:29:04&lt;/sys_updated_on&gt;&lt;table&gt;item_option_new&lt;/table&gt;&lt;type&gt;calculated&lt;/type&gt;&lt;/fx_price&gt;&lt;fx_price action="INSERT_OR_UPDATE"&gt;&lt;amount&gt;0&lt;/amount&gt;&lt;currency display_value="USD"&gt;USD&lt;/currency&gt;&lt;field&gt;rec_price_if_checked&lt;/field&gt;&lt;id&gt;9f34ee761b164c9017daa6886e4bcb0f&lt;/id&gt;&lt;parent/&gt;&lt;reference_amount&gt;0&lt;/reference_amount&gt;&lt;reference_currency display_value="USD"&gt;USD&lt;/reference_currency&gt;&lt;sys_created_by&gt;nxf29089&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-01-16 08:29:04&lt;/sys_created_on&gt;&lt;sys_id&gt;ab26ee7e1b164c9017daa6886e4bcb67&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;nxf29089&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-01-16 08:29:04&lt;/sys_updated_on&gt;&lt;table&gt;item_option_new&lt;/table&gt;&lt;type&gt;calculated&lt;/type&gt;&lt;/fx_price&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>300979697</payload_hash>
+        <record_name>GAF Shares</record_name>
+        <reverted_from/>
+        <source>c641b1ea1b85005017daa6886e4bcb3e</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>nxf29089</sys_created_by>
+        <sys_created_on>2020-01-24 10:48:13</sys_created_on>
+        <sys_id>6fb218691b2e881417daa6886e4bcb82</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16fd72aa3400000001</sys_recorded_at>
+        <sys_updated_by>nxf29089</sys_updated_by>
+        <sys_updated_on>2020-01-24 10:48:13</sys_updated_on>
+        <type>Variable</type>
+        <update_guid>27b21869612e88144092197ba43b0982</update_guid>
+        <update_guid_history>27b21869612e88144092197ba43b0982:300979697,4b535538aa6e4cd0bf17fcf2bda0522f:1091909442,2726ee7e47164c90bb05f56a32c08a6b:1538858473</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">22c8b7001bc74c1017daa6886e4bcb6d</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>nxf29089</sys_created_by>
+        <sys_created_on>2020-02-14 08:13:48</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="item_option_new">item_option_new</sys_db_object>
+        <sys_id>efcf618454c64560a02929e4f28ca400</sys_id>
+        <sys_metadata>9f34ee761b164c9017daa6886e4bcb0f</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>GAF Shares</sys_name>
+        <sys_package display_value="NXP GAF Share Automation" source="x_nxps3_nxp_gaf_sh">4a417d661b85005017daa6886e4bcb74</sys_package>
+        <sys_parent display_value="Modify Ownership of Shared Folder">1f8f92fa1bd24c9017daa6886e4bcbac</sys_parent>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NXP GAF Share Automation">4a417d661b85005017daa6886e4bcb74</sys_scope>
+        <sys_scope_delete display_value="">17cd3dc6bfef44bb8b394cc6cae801d9</sys_scope_delete>
+        <sys_update_name>item_option_new_9f34ee761b164c9017daa6886e4bcb0f</sys_update_name>
+        <sys_update_version display_value="item_option_new_9f34ee761b164c9017daa6886e4bcb0f">6fb218691b2e881417daa6886e4bcb82</sys_update_version>
+        <sys_updated_by>nxf29089</sys_updated_by>
+        <sys_updated_on>2020-02-14 08:13:48</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

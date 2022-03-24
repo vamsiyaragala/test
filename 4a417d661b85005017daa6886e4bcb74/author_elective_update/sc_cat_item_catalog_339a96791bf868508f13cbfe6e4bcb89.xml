@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog">
+    <sc_cat_item_catalog action="DELETE">
+        <sc_cat_item display_value="Copy of Request\Revoke Access for a share folder">739a9e391bf868508f13cbfe6e4bcbec</sc_cat_item>
+        <sc_catalog display_value="IT Service Catalog">e0d08b13c3330100c8b837659bba8fb4</sc_catalog>
+        <sys_class_name>sc_cat_item_catalog</sys_class_name>
+        <sys_created_by>nxf64507</sys_created_by>
+        <sys_created_on>2020-12-01 07:52:46</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>339a96791bf868508f13cbfe6e4bcb89</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>IT Service Catalog.Copy of Request\Revoke Access for a share folder</sys_name>
+        <sys_package display_value="NXP GAF Share Automation" source="x_nxps3_nxp_gaf_sh">4a417d661b85005017daa6886e4bcb74</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NXP GAF Share Automation">4a417d661b85005017daa6886e4bcb74</sys_scope>
+        <sys_update_name>sc_cat_item_catalog_339a96791bf868508f13cbfe6e4bcb89</sys_update_name>
+        <sys_updated_by>nxf64507</sys_updated_by>
+        <sys_updated_on>2020-12-01 07:52:46</sys_updated_on>
+    </sc_cat_item_catalog>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NXP GAF Share Automation">4a417d661b85005017daa6886e4bcb74</application>
+        <file_path/>
+        <instance_id>afde53a8db74c3881ddcf22ebf961981</instance_id>
+        <instance_name>nxp2trn</instance_name>
+        <name>sc_cat_item_catalog_339a96791bf868508f13cbfe6e4bcb89</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog"><sc_cat_item_catalog action="INSERT_OR_UPDATE"><sc_cat_item display_value="Copy of Request\Revoke Access for a share folder">739a9e391bf868508f13cbfe6e4bcbec</sc_cat_item><sc_catalog display_value="IT Service Catalog">e0d08b13c3330100c8b837659bba8fb4</sc_catalog><sys_class_name>sc_cat_item_catalog</sys_class_name><sys_created_by>nxf64507</sys_created_by><sys_created_on>2020-12-01 07:52:46</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>339a96791bf868508f13cbfe6e4bcb89</sys_id><sys_mod_count>0</sys_mod_count><sys_name>IT Service Catalog.Copy of Request\Revoke Access for a share folder</sys_name><sys_package display_value="NXP GAF Share Automation" source="x_nxps3_nxp_gaf_sh">4a417d661b85005017daa6886e4bcb74</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="NXP GAF Share Automation">4a417d661b85005017daa6886e4bcb74</sys_scope><sys_update_name>sc_cat_item_catalog_339a96791bf868508f13cbfe6e4bcb89</sys_update_name><sys_updated_by>nxf64507</sys_updated_by><sys_updated_on>2020-12-01 07:52:46</sys_updated_on></sc_cat_item_catalog></record_update>]]></payload>
+        <payload_hash>44905028</payload_hash>
+        <record_name>IT Service Catalog.Copy of Request\Revoke Access for a share folder</record_name>
+        <reverted_from/>
+        <source>17247f3f1be1c49024ecca661a4bcb6c</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>nxf64507</sys_created_by>
+        <sys_created_on>2020-12-01 07:52:46</sys_created_on>
+        <sys_id>ff9a96791bf868508f13cbfe6e4bcb8c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1761d4a23b50000001</sys_recorded_at>
+        <sys_updated_by>nxf64507</sys_updated_by>
+        <sys_updated_on>2020-12-01 07:52:46</sys_updated_on>
+        <type>Catalog Items Catalog</type>
+        <update_guid>f79a967912f868500684a73d172d448c</update_guid>
+        <update_guid_history>f79a967912f868500684a73d172d448c:44905028</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">74e8da5b1bfa6450d3addd39cd4bcb15</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>nxf65326</sys_created_by>
+        <sys_created_on>2021-03-15 09:41:40</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sc_cat_item_catalog">sc_cat_item_catalog</sys_db_object>
+        <sys_id>2ea5a1f0ef2b4229aa329c966ff738c1</sys_id>
+        <sys_metadata>339a96791bf868508f13cbfe6e4bcb89</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>IT Service Catalog.Copy of Request\Revoke Access for a share folder</sys_name>
+        <sys_package display_value="NXP GAF Share Automation" source="x_nxps3_nxp_gaf_sh">4a417d661b85005017daa6886e4bcb74</sys_package>
+        <sys_parent display_value="">739a9e391bf868508f13cbfe6e4bcbec</sys_parent>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NXP GAF Share Automation">4a417d661b85005017daa6886e4bcb74</sys_scope>
+        <sys_scope_delete display_value="">17cd3dc6bfef44bb8b394cc6cae801d9</sys_scope_delete>
+        <sys_update_name>sc_cat_item_catalog_339a96791bf868508f13cbfe6e4bcb89</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_catalog_339a96791bf868508f13cbfe6e4bcb89">ff9a96791bf868508f13cbfe6e4bcb8c</sys_update_version>
+        <sys_updated_by>nxf65326</sys_updated_by>
+        <sys_updated_on>2021-03-15 09:41:40</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

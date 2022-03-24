@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_alias">
+    <sys_alias action="DELETE">
+        <configuration_template/>
+        <connection_type>http_connection</connection_type>
+        <id>x_nxps3_nxp_gaf_sh.Delete</id>
+        <multiple_connections>false</multiple_connections>
+        <name>Delete</name>
+        <parent/>
+        <retry_policy display_value="Default HTTP Retry Policy">ef751ff07301330025d71afe2ff6a7f9</retry_policy>
+        <sys_class_name>sys_alias</sys_class_name>
+        <sys_created_by>nxf52093</sys_created_by>
+        <sys_created_on>2019-12-09 08:12:14</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>77d5f6a21b69c89417daa6886e4bcb5f</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>x_nxps3_nxp_gaf_sh.Delete</sys_name>
+        <sys_package display_value="NXP GAF Share Automation" source="x_nxps3_nxp_gaf_sh">4a417d661b85005017daa6886e4bcb74</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NXP GAF Share Automation">4a417d661b85005017daa6886e4bcb74</sys_scope>
+        <sys_update_name>sys_alias_77d5f6a21b69c89417daa6886e4bcb5f</sys_update_name>
+        <sys_updated_by>nxf52093</sys_updated_by>
+        <sys_updated_on>2021-03-11 06:50:46</sys_updated_on>
+        <type>credential</type>
+    </sys_alias>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NXP GAF Share Automation">4a417d661b85005017daa6886e4bcb74</application>
+        <file_path/>
+        <instance_id>afde53a8db74c3881ddcf22ebf961981</instance_id>
+        <instance_name>nxp2trn</instance_name>
+        <name>sys_alias_77d5f6a21b69c89417daa6886e4bcb5f</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_alias"><sys_alias action="INSERT_OR_UPDATE"><configuration_template/><connection_type>http_connection</connection_type><id>x_nxps3_nxp_gaf_sh.Delete</id><multiple_connections>false</multiple_connections><name>Delete</name><parent/><retry_policy display_value="Default HTTP Retry Policy">ef751ff07301330025d71afe2ff6a7f9</retry_policy><sys_class_name>sys_alias</sys_class_name><sys_created_by>nxf52093</sys_created_by><sys_created_on>2019-12-09 08:12:14</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>77d5f6a21b69c89417daa6886e4bcb5f</sys_id><sys_mod_count>1</sys_mod_count><sys_name>x_nxps3_nxp_gaf_sh.Delete</sys_name><sys_package display_value="NXP GAF Share Automation" source="x_nxps3_nxp_gaf_sh">4a417d661b85005017daa6886e4bcb74</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="NXP GAF Share Automation">4a417d661b85005017daa6886e4bcb74</sys_scope><sys_update_name>sys_alias_77d5f6a21b69c89417daa6886e4bcb5f</sys_update_name><sys_updated_by>nxf52093</sys_updated_by><sys_updated_on>2021-03-11 06:50:46</sys_updated_on><type>credential</type></sys_alias></record_update>]]></payload>
+        <payload_hash>-140815282</payload_hash>
+        <record_name>x_nxps3_nxp_gaf_sh.Delete</record_name>
+        <reverted_from/>
+        <source>17247f3f1be1c49024ecca661a4bcb6c</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>nxf52093</sys_created_by>
+        <sys_created_on>2021-03-11 06:50:46</sys_created_on>
+        <sys_id>5a6bc5061bb26410d3addd39cd4bcb81</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>178200d4ddd0000001</sys_recorded_at>
+        <sys_updated_by>nxf52093</sys_updated_by>
+        <sys_updated_on>2021-03-11 06:50:46</sys_updated_on>
+        <type>Connection &amp; Credential Aliases</type>
+        <update_guid>526bc506c4b26410caa55f99110e8381</update_guid>
+        <update_guid_history>526bc506c4b26410caa55f99110e8381:-140815282,de6bc506f1b264102e55f04c970c027f:-1318804141</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>nxf65326</sys_created_by>
+        <sys_created_on>2021-03-15 10:57:11</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sys_alias">sys_alias</sys_db_object>
+        <sys_id>0986f68f893545ec9a217c655f2f8890</sys_id>
+        <sys_metadata>77d5f6a21b69c89417daa6886e4bcb5f</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_nxps3_nxp_gaf_sh.Delete</sys_name>
+        <sys_package display_value="NXP GAF Share Automation" source="x_nxps3_nxp_gaf_sh">4a417d661b85005017daa6886e4bcb74</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NXP GAF Share Automation">4a417d661b85005017daa6886e4bcb74</sys_scope>
+        <sys_scope_delete display_value="">17cd3dc6bfef44bb8b394cc6cae801d9</sys_scope_delete>
+        <sys_update_name>sys_alias_77d5f6a21b69c89417daa6886e4bcb5f</sys_update_name>
+        <sys_update_version display_value="sys_alias_77d5f6a21b69c89417daa6886e4bcb5f">5a6bc5061bb26410d3addd39cd4bcb81</sys_update_version>
+        <sys_updated_by>nxf65326</sys_updated_by>
+        <sys_updated_on>2021-03-15 10:57:11</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

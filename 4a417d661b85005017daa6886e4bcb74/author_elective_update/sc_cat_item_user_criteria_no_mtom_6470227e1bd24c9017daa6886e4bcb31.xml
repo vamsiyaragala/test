@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_user_criteria_no_mtom">
+    <sc_cat_item_user_criteria_no_mtom action="DELETE">
+        <sc_cat_item display_value="Modify Ownership of Shared Folder">1f8f92fa1bd24c9017daa6886e4bcbac</sc_cat_item>
+        <sys_class_name>sc_cat_item_user_criteria_no_mtom</sys_class_name>
+        <sys_created_by>nxf29089</sys_created_by>
+        <sys_created_on>2020-01-16 08:04:01</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>6470227e1bd24c9017daa6886e4bcb31</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Change Ownership of Shared Folder.SNC External</sys_name>
+        <sys_package display_value="NXP GAF Share Automation" source="x_nxps3_nxp_gaf_sh">4a417d661b85005017daa6886e4bcb74</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NXP GAF Share Automation">4a417d661b85005017daa6886e4bcb74</sys_scope>
+        <sys_update_name>sc_cat_item_user_criteria_no_mtom_6470227e1bd24c9017daa6886e4bcb31</sys_update_name>
+        <sys_updated_by>nxf29089</sys_updated_by>
+        <sys_updated_on>2020-01-16 08:04:01</sys_updated_on>
+        <user_criteria display_value="">262c3a8edbd94850027d80ab0b961960</user_criteria>
+    </sc_cat_item_user_criteria_no_mtom>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NXP GAF Share Automation">4a417d661b85005017daa6886e4bcb74</application>
+        <file_path/>
+        <instance_id>afde53a8db74c3881ddcf22ebf961981</instance_id>
+        <instance_name>nxp2trn</instance_name>
+        <name>sc_cat_item_user_criteria_no_mtom_6470227e1bd24c9017daa6886e4bcb31</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_user_criteria_no_mtom"><sc_cat_item_user_criteria_no_mtom action="INSERT_OR_UPDATE"><sc_cat_item display_value="Modify Ownership of Shared Folder">1f8f92fa1bd24c9017daa6886e4bcbac</sc_cat_item><sys_class_name>sc_cat_item_user_criteria_no_mtom</sys_class_name><sys_created_by>nxf29089</sys_created_by><sys_created_on>2020-01-16 08:04:01</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>6470227e1bd24c9017daa6886e4bcb31</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Change Ownership of Shared Folder.SNC External</sys_name><sys_package display_value="NXP GAF Share Automation" source="x_nxps3_nxp_gaf_sh">4a417d661b85005017daa6886e4bcb74</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="NXP GAF Share Automation">4a417d661b85005017daa6886e4bcb74</sys_scope><sys_update_name>sc_cat_item_user_criteria_no_mtom_6470227e1bd24c9017daa6886e4bcb31</sys_update_name><sys_updated_by>nxf29089</sys_updated_by><sys_updated_on>2020-01-16 08:04:01</sys_updated_on><user_criteria display_value="">262c3a8edbd94850027d80ab0b961960</user_criteria></sc_cat_item_user_criteria_no_mtom></record_update>]]></payload>
+        <payload_hash>1640876540</payload_hash>
+        <record_name>Change Ownership of Shared Folder.SNC External</record_name>
+        <reverted_from/>
+        <source>05d584001b122010d3addd39cd4bcb11</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>vamsikrishna.yaragal@snc</sys_created_by>
+        <sys_created_on>2021-02-08 00:07:30</sys_created_on>
+        <sys_id>12d3694e1bb66410d3addd39cd4bcbaf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1777ef6f5d00000000</sys_recorded_at>
+        <sys_updated_by>vamsikrishna.yaragal@snc</sys_updated_by>
+        <sys_updated_on>2022-03-24 06:53:49</sys_updated_on>
+        <type>Catalog Item Not Available for</type>
+        <update_guid>ded3694ea0b66410c089f7542ca458ae</update_guid>
+        <update_guid_history>ded3694ea0b66410c089f7542ca458ae:1640876540</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">9ed3694e1bb66410d3addd39cd4bcbb1</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>nxf52093</sys_created_by>
+        <sys_created_on>2021-03-11 08:37:31</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sc_cat_item_user_criteria_no_mtom">sc_cat_item_user_criteria_no_mtom</sys_db_object>
+        <sys_id>03403a813b4e434c801ddf1f51a50690</sys_id>
+        <sys_metadata>6470227e1bd24c9017daa6886e4bcb31</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Change Ownership of Shared Folder.SNC External</sys_name>
+        <sys_package display_value="NXP GAF Share Automation" source="x_nxps3_nxp_gaf_sh">4a417d661b85005017daa6886e4bcb74</sys_package>
+        <sys_parent display_value="Modify Ownership of Shared Folder">1f8f92fa1bd24c9017daa6886e4bcbac</sys_parent>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NXP GAF Share Automation">4a417d661b85005017daa6886e4bcb74</sys_scope>
+        <sys_scope_delete display_value="">17cd3dc6bfef44bb8b394cc6cae801d9</sys_scope_delete>
+        <sys_update_name>sc_cat_item_user_criteria_no_mtom_6470227e1bd24c9017daa6886e4bcb31</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_user_criteria_no_mtom_6470227e1bd24c9017daa6886e4bcb31">12d3694e1bb66410d3addd39cd4bcbaf</sys_update_version>
+        <sys_updated_by>nxf52093</sys_updated_by>
+        <sys_updated_on>2021-03-11 08:37:31</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

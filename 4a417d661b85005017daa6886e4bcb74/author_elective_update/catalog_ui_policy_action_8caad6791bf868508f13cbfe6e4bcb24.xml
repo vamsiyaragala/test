@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="DELETE">
+        <catalog_item/>
+        <catalog_variable>IO:aa2c08db1b4dc45017daa6886e4bcb53</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field/>
+        <mandatory>ignore</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>nxf64507</sys_created_by>
+        <sys_created_on>2020-12-01 07:52:47</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>8caad6791bf868508f13cbfe6e4bcb24</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>gaf_share_details</sys_name>
+        <sys_package display_value="NXP GAF Share Automation" source="x_nxps3_nxp_gaf_sh">4a417d661b85005017daa6886e4bcb74</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NXP GAF Share Automation">4a417d661b85005017daa6886e4bcb74</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_8caad6791bf868508f13cbfe6e4bcb24</sys_update_name>
+        <sys_updated_by>nxf64507</sys_updated_by>
+        <sys_updated_on>2020-12-01 07:52:47</sys_updated_on>
+        <table/>
+        <ui_policy display_value="GAF">80aad6791bf868508f13cbfe6e4bcb20</ui_policy>
+        <variable>gaf_share_details</variable>
+        <variable_set/>
+        <visible>ignore</visible>
+    </catalog_ui_policy_action>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NXP GAF Share Automation">4a417d661b85005017daa6886e4bcb74</application>
+        <file_path/>
+        <instance_id>afde53a8db74c3881ddcf22ebf961981</instance_id>
+        <instance_name>nxp2trn</instance_name>
+        <name>catalog_ui_policy_action_8caad6791bf868508f13cbfe6e4bcb24</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action"><catalog_ui_policy_action action="INSERT_OR_UPDATE"><catalog_item/><catalog_variable>IO:aa2c08db1b4dc45017daa6886e4bcb53</catalog_variable><cleared>false</cleared><disabled>ignore</disabled><field/><mandatory>ignore</mandatory><order>100</order><sys_class_name>catalog_ui_policy_action</sys_class_name><sys_created_by>nxf64507</sys_created_by><sys_created_on>2020-12-01 07:52:47</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>8caad6791bf868508f13cbfe6e4bcb24</sys_id><sys_mod_count>0</sys_mod_count><sys_name>gaf_share_details</sys_name><sys_package display_value="NXP GAF Share Automation" source="x_nxps3_nxp_gaf_sh">4a417d661b85005017daa6886e4bcb74</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="NXP GAF Share Automation">4a417d661b85005017daa6886e4bcb74</sys_scope><sys_update_name>catalog_ui_policy_action_8caad6791bf868508f13cbfe6e4bcb24</sys_update_name><sys_updated_by>nxf64507</sys_updated_by><sys_updated_on>2020-12-01 07:52:47</sys_updated_on><table/><ui_policy display_value="GAF">80aad6791bf868508f13cbfe6e4bcb20</ui_policy><variable>gaf_share_details</variable><variable_set/><visible>ignore</visible></catalog_ui_policy_action></record_update>]]></payload>
+        <payload_hash>1824473783</payload_hash>
+        <record_name>gaf_share_details</record_name>
+        <reverted_from/>
+        <source>17247f3f1be1c49024ecca661a4bcb6c</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>nxf65326</sys_created_by>
+        <sys_created_on>2021-03-15 09:41:41</sys_created_on>
+        <sys_id>d5e8d29b1bfa6450d3addd39cd4bcb10</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17835433a990000001</sys_recorded_at>
+        <sys_updated_by>nxf65326</sys_updated_by>
+        <sys_updated_on>2021-03-15 09:41:41</sys_updated_on>
+        <type>Catalog UI Policy Action</type>
+        <update_guid>40aad679acf8685067f47b1b9ca27028</update_guid>
+        <update_guid_history>40aad679acf8685067f47b1b9ca27028:-5648607,40aad679acf8685067f47b1b9ca27028:-5648607</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">25c9125f1bfa6450d3addd39cd4bcb82</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>nxf65326</sys_created_by>
+        <sys_created_on>2021-03-15 09:45:32</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="catalog_ui_policy_action">catalog_ui_policy_action</sys_db_object>
+        <sys_id>0346e857eef84b26816d004c07438909</sys_id>
+        <sys_metadata>8caad6791bf868508f13cbfe6e4bcb24</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>gaf_share_details</sys_name>
+        <sys_package display_value="NXP GAF Share Automation" source="x_nxps3_nxp_gaf_sh">4a417d661b85005017daa6886e4bcb74</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NXP GAF Share Automation">4a417d661b85005017daa6886e4bcb74</sys_scope>
+        <sys_scope_delete display_value="">17cd3dc6bfef44bb8b394cc6cae801d9</sys_scope_delete>
+        <sys_update_name>catalog_ui_policy_action_8caad6791bf868508f13cbfe6e4bcb24</sys_update_name>
+        <sys_update_version display_value="catalog_ui_policy_action_8caad6791bf868508f13cbfe6e4bcb24">d5e8d29b1bfa6450d3addd39cd4bcb10</sys_update_version>
+        <sys_updated_by>nxf65326</sys_updated_by>
+        <sys_updated_on>2021-03-15 09:45:32</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

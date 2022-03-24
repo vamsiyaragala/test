@@ -1,0 +1,859 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_action_type_definition">
+    <sys_hub_action_type_definition action="DELETE">
+        <access>public</access>
+        <acls/>
+        <action_template/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <ih_action>false</ih_action>
+        <internal_name>traditional_share_folder_access</internal_name>
+        <label_cache>[{"name":"{{step[86a795cc-c9ec-4313-b43a-b8239e6d656d].output}}","label":"step➛PowerShell step➛Output","type":"step","ref":""},{"name":"{{step[86a795cc-c9ec-4313-b43a-b8239e6d656d].error_message}}","label":"step➛PowerShell step➛Error Message","type":"step","ref":""},{"name":"{{step[5670a3cd-19f8-4ba8-946d-7bd60e56c462].record.fqdn}}","label":"step➛Look Up Record step➛Server Record➛Fully qualified domain name","type":"step","ref":""},{"name":"{{step[5670a3cd-19f8-4ba8-946d-7bd60e56c462].record.host_name}}","label":"step➛Look Up Record step➛Server Record➛Host name","type":"step","ref":""}]</label_cache>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <name>Delete Traditional Share Folder Access</name>
+        <natlang/>
+        <outputs/>
+        <outputs/>
+        <state>draft</state>
+        <sys_class_name>sys_hub_action_type_definition</sys_class_name>
+        <sys_created_by>nxf52091</sys_created_by>
+        <sys_created_on>2021-02-23 09:20:01</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>34249b381b226010d3addd39cd4bcb29</sys_id>
+        <sys_mod_count>41</sys_mod_count>
+        <sys_name>Delete Traditional Share Folder Access</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="NXP GAF Share Automation" source="x_nxps3_nxp_gaf_sh">4a417d661b85005017daa6886e4bcb74</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NXP GAF Share Automation">4a417d661b85005017daa6886e4bcb74</sys_scope>
+        <sys_update_name>sys_hub_action_type_definition_34249b381b226010d3addd39cd4bcb29</sys_update_name>
+        <sys_updated_by>nxf52093</sys_updated_by>
+        <sys_updated_on>2021-03-11 09:10:59</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_definition>
+    <sys_variable_value action="DELETE" query="document_key=34249b381b226010d3addd39cd4bcb29"/>
+    <sys_element_mapping action="DELETE" query="id=34249b381b226010d3addd39cd4bcb29"/>
+    <sys_element_mapping action="DELETE">
+        <field>shell_error</field>
+        <id>34249b381b226010d3addd39cd4bcb29</id>
+        <sys_created_by>nxf52091</sys_created_by>
+        <sys_created_on>2021-02-23 09:23:38</sys_created_on>
+        <sys_id>bdf4d3f81b226010d3addd39cd4bcbb1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nxf52091</sys_updated_by>
+        <sys_updated_on>2021-02-23 09:23:38</sys_updated_on>
+        <table>var__m_sys_hub_action_output_34249b381b226010d3addd39cd4bcb29</table>
+        <value>{{step[86a795cc-c9ec-4313-b43a-b8239e6d656d].error_message}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="DELETE">
+        <field>shell_output</field>
+        <id>34249b381b226010d3addd39cd4bcb29</id>
+        <sys_created_by>nxf52091</sys_created_by>
+        <sys_created_on>2021-02-23 09:23:38</sys_created_on>
+        <sys_id>71f4d3f81b226010d3addd39cd4bcbb2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nxf52091</sys_updated_by>
+        <sys_updated_on>2021-02-23 09:23:38</sys_updated_on>
+        <table>var__m_sys_hub_action_output_34249b381b226010d3addd39cd4bcb29</table>
+        <value>{{step[86a795cc-c9ec-4313-b43a-b8239e6d656d].output}}</value>
+    </sys_element_mapping>
+    <sys_hub_step_instance action="DELETE" query="action=34249b381b226010d3addd39cd4bcb29^sys_idNOT INa1f4d3f81b226010d3addd39cd4bcb5f"/>
+    <sys_hub_step_instance action="DELETE">
+        <action display_value="Delete Traditional Share Folder Access">34249b381b226010d3addd39cd4bcb29</action>
+        <cid>86a795cc-c9ec-4313-b43a-b8239e6d656d</cid>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>PowerShell step</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="PowerShell">486f577a3721030003a08fb77e41f1d6</step_type>
+        <sys_class_name>sys_hub_step_instance</sys_class_name>
+        <sys_created_by>nxf52091</sys_created_by>
+        <sys_created_on>2021-02-23 09:23:37</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>a1f4d3f81b226010d3addd39cd4bcb5f</sys_id>
+        <sys_mod_count>32</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NXP GAF Share Automation">4a417d661b85005017daa6886e4bcb74</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>nxf52091</sys_updated_by>
+        <sys_updated_on>2021-03-03 09:41:51</sys_updated_on>
+        <u_active>false</u_active>
+        <u_application_product_model/>
+        <u_assignment_group_s/>
+        <u_department/>
+        <u_interface_users_in_dev/>
+        <u_purpose/>
+        <u_status/>
+        <u_support_group_s/>
+    </sys_hub_step_instance>
+    <sys_variable_value action="DELETE" query="document_key=a1f4d3f81b226010d3addd39cd4bcb5f"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_step_instance</document>
+        <document_key>a1f4d3f81b226010d3addd39cd4bcb5f</document_key>
+        <order>140</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>nxf52091</sys_created_by>
+        <sys_created_on>2021-02-23 09:23:37</sys_created_on>
+        <sys_id>21f4d3f81b226010d3addd39cd4bcb93</sys_id>
+        <sys_mod_count>14</sys_mod_count>
+        <sys_updated_by>nxf52091</sys_updated_by>
+        <sys_updated_on>2021-03-03 09:41:51</sys_updated_on>
+        <value>C:\temp\check.ps1
+</value>
+        <variable display_value="">c54323fa3721030003a08fb77e41f16e</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_step_instance</document>
+        <document_key>a1f4d3f81b226010d3addd39cd4bcb5f</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>nxf52091</sys_created_by>
+        <sys_created_on>2021-02-23 09:23:38</sys_created_on>
+        <sys_id>2df4d3f81b226010d3addd39cd4bcb93</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_updated_by>nxf52091</sys_updated_by>
+        <sys_updated_on>2021-03-03 05:43:25</sys_updated_on>
+        <value>twkhh01wsustw1v.wbi.nxp.com</value>
+        <variable display_value="">17b023ba3721030003a08fb77e41f15e</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_step_instance</document>
+        <document_key>a1f4d3f81b226010d3addd39cd4bcb5f</document_key>
+        <order>92</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>nxf52091</sys_created_by>
+        <sys_created_on>2021-02-23 09:23:38</sys_created_on>
+        <sys_id>69f4d3f81b226010d3addd39cd4bcb93</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_updated_by>nxf52091</sys_updated_by>
+        <sys_updated_on>2021-03-01 06:56:26</sys_updated_on>
+        <value>fc6e0ab5db357300fd22fd871d9619e5</value>
+        <variable display_value="">306d63c25f101300a09a2abd7f466627</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_step_instance</document>
+        <document_key>a1f4d3f81b226010d3addd39cd4bcb5f</document_key>
+        <order>130</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>nxf52091</sys_created_by>
+        <sys_created_on>2021-02-23 09:23:38</sys_created_on>
+        <sys_id>a1f4d3f81b226010d3addd39cd4bcb94</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nxf52091</sys_updated_by>
+        <sys_updated_on>2021-02-23 09:23:38</sys_updated_on>
+        <value>inline_script</value>
+        <variable display_value="">e6f26fba3721030003a08fb77e41f1eb</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_step_instance</document>
+        <document_key>a1f4d3f81b226010d3addd39cd4bcb5f</document_key>
+        <order>30</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>nxf52091</sys_created_by>
+        <sys_created_on>2021-02-23 09:23:38</sys_created_on>
+        <sys_id>a5f4d3f81b226010d3addd39cd4bcb93</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_updated_by>nxf52091</sys_updated_by>
+        <sys_updated_on>2021-03-01 08:29:07</sys_updated_on>
+        <value>68af522a1bac181017daa6886e4bcb91</value>
+        <variable display_value="">5c30ab7a3721030003a08fb77e41f12e</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_step_instance</document>
+        <document_key>a1f4d3f81b226010d3addd39cd4bcb5f</document_key>
+        <order>160</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>nxf52091</sys_created_by>
+        <sys_created_on>2021-03-01 06:24:02</sys_created_on>
+        <sys_id>a965a5b61b6aa410d3addd39cd4bcb43</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nxf52091</sys_updated_by>
+        <sys_updated_on>2021-03-01 06:24:02</sys_updated_on>
+        <value>{"parameter":""}</value>
+        <variable display_value="">2183a3fa3721030003a08fb77e41f1c2</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_step_instance</document>
+        <document_key>a1f4d3f81b226010d3addd39cd4bcb5f</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>nxf52091</sys_created_by>
+        <sys_created_on>2021-02-23 09:23:37</sys_created_on>
+        <sys_id>e1f4d3f81b226010d3addd39cd4bcb93</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nxf52091</sys_updated_by>
+        <sys_updated_on>2021-02-23 09:23:37</sys_updated_on>
+        <value>explicit_remoting</value>
+        <variable display_value="">c33d2a833731030003a08fb77e41f1dc</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_step_instance</document>
+        <document_key>a1f4d3f81b226010d3addd39cd4bcb5f</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>nxf52091</sys_created_by>
+        <sys_created_on>2021-02-23 09:23:37</sys_created_on>
+        <sys_id>e5f4d3f81b226010d3addd39cd4bcb92</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nxf52091</sys_updated_by>
+        <sys_updated_on>2021-02-23 09:23:37</sys_updated_on>
+        <value>427709a60a0006bc7d2904e99132532d</value>
+        <variable display_value="">2046cd992f201300a09a839fb18c956d</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_step_instance</document>
+        <document_key>a1f4d3f81b226010d3addd39cd4bcb5f</document_key>
+        <order>20</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>nxf52091</sys_created_by>
+        <sys_created_on>2021-02-23 09:23:38</sys_created_on>
+        <sys_id>edf4d3f81b226010d3addd39cd4bcb93</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nxf52091</sys_updated_by>
+        <sys_updated_on>2021-02-23 09:23:38</sys_updated_on>
+        <value>define_connection_inline</value>
+        <variable display_value="">4ecf1b7a3721030003a08fb77e41f149</variable>
+    </sys_variable_value>
+    <sys_hub_step_ext_output action="DELETE" query="model=a1f4d3f81b226010d3addd39cd4bcb5f^sys_idNOT IN29f4d3f81b226010d3addd39cd4bcb78"/>
+    <sys_hub_step_ext_output action="DELETE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,isLocal=true,uiType=password2,uiTypeLabel=Password (2 Way Encrypted),uiUniqueId=751a47d6-8d32-4b39-99cc-5acc9f1ba9db</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>sn_auth_token</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">password2</internal_type>
+        <label>Credential Value</label>
+        <mandatory>false</mandatory>
+        <max_length>255</max_length>
+        <model display_value="PowerShell step">a1f4d3f81b226010d3addd39cd4bcb5f</model>
+        <model_id>a1f4d3f81b226010d3addd39cd4bcb5f</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_a1f4d3f81b226010d3addd39cd4bcb5f</name>
+        <next_element/>
+        <order>4</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>nxf52091</sys_created_by>
+        <sys_created_on>2021-02-23 09:23:37</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>29f4d3f81b226010d3addd39cd4bcb78</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NXP GAF Share Automation">4a417d661b85005017daa6886e4bcb74</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>nxf52091</sys_updated_by>
+        <sys_updated_on>2021-02-23 09:24:39</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <u_model_id/>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_action_output action="DELETE" query="model=34249b381b226010d3addd39cd4bcb29^sys_idNOT INb5f4d3f81b226010d3addd39cd4bcb9f,fdf4d3f81b226010d3addd39cd4bcb97"/>
+    <sys_hub_action_output action="DELETE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=string,uiTypeLabel=String,uiUniqueId=45b90f73-961e-4d8d-ada2-aa90295641ef</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>shell_error</element>
+        <element_prototype display_value="Error Message" element="error_message" name="var__m_sys_flow_step_definition_output_486f577a3721030003a08fb77e41f1d6">1d8196c7e703030007a64caac2f6a999</element_prototype>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>shell_error</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Delete Traditional Share Folder Access">34249b381b226010d3addd39cd4bcb29</model>
+        <model_id>34249b381b226010d3addd39cd4bcb29</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_34249b381b226010d3addd39cd4bcb29</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>nxf52091</sys_created_by>
+        <sys_created_on>2021-02-23 09:23:38</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>b5f4d3f81b226010d3addd39cd4bcb9f</sys_id>
+        <sys_mod_count>73</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NXP GAF Share Automation">4a417d661b85005017daa6886e4bcb74</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>nxf52093</sys_updated_by>
+        <sys_updated_on>2021-03-11 09:10:59</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <u_model_id/>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_output action="DELETE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=string,uiTypeLabel=String,uiUniqueId=badf79ad-85bf-4baa-bbf2-30919e636823</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>shell_output</element>
+        <element_prototype display_value="Output" element="output" name="var__m_sys_flow_step_definition_output_486f577a3721030003a08fb77e41f1d6">4b98e37e3721030003a08fb77e41f1aa</element_prototype>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>shell_output</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Delete Traditional Share Folder Access">34249b381b226010d3addd39cd4bcb29</model>
+        <model_id>34249b381b226010d3addd39cd4bcb29</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_34249b381b226010d3addd39cd4bcb29</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>nxf52091</sys_created_by>
+        <sys_created_on>2021-02-23 09:23:38</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>fdf4d3f81b226010d3addd39cd4bcb97</sys_id>
+        <sys_mod_count>73</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NXP GAF Share Automation">4a417d661b85005017daa6886e4bcb74</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>nxf52093</sys_updated_by>
+        <sys_updated_on>2021-03-11 09:10:59</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <u_model_id/>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_step_instance action="DELETE" query="action=34249b381b226010d3addd39cd4bcb29^sys_idNOT INa1f4d3f81b226010d3addd39cd4bcb5f"/>
+    <sys_hub_step_instance action="DELETE">
+        <action display_value="Delete Traditional Share Folder Access">34249b381b226010d3addd39cd4bcb29</action>
+        <cid>86a795cc-c9ec-4313-b43a-b8239e6d656d</cid>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>PowerShell step</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="PowerShell">486f577a3721030003a08fb77e41f1d6</step_type>
+        <sys_class_name>sys_hub_step_instance</sys_class_name>
+        <sys_created_by>nxf52091</sys_created_by>
+        <sys_created_on>2021-02-23 09:23:37</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>a1f4d3f81b226010d3addd39cd4bcb5f</sys_id>
+        <sys_mod_count>32</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NXP GAF Share Automation">4a417d661b85005017daa6886e4bcb74</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>nxf52091</sys_updated_by>
+        <sys_updated_on>2021-03-03 09:41:51</sys_updated_on>
+        <u_active>false</u_active>
+        <u_application_product_model/>
+        <u_assignment_group_s/>
+        <u_department/>
+        <u_interface_users_in_dev/>
+        <u_purpose/>
+        <u_status/>
+        <u_support_group_s/>
+    </sys_hub_step_instance>
+    <sys_variable_value action="DELETE" query="document_key=a1f4d3f81b226010d3addd39cd4bcb5f"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_step_instance</document>
+        <document_key>a1f4d3f81b226010d3addd39cd4bcb5f</document_key>
+        <order>140</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>nxf52091</sys_created_by>
+        <sys_created_on>2021-02-23 09:23:37</sys_created_on>
+        <sys_id>21f4d3f81b226010d3addd39cd4bcb93</sys_id>
+        <sys_mod_count>14</sys_mod_count>
+        <sys_updated_by>nxf52091</sys_updated_by>
+        <sys_updated_on>2021-03-03 09:41:51</sys_updated_on>
+        <value>C:\temp\check.ps1
+</value>
+        <variable display_value="">c54323fa3721030003a08fb77e41f16e</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_step_instance</document>
+        <document_key>a1f4d3f81b226010d3addd39cd4bcb5f</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>nxf52091</sys_created_by>
+        <sys_created_on>2021-02-23 09:23:38</sys_created_on>
+        <sys_id>2df4d3f81b226010d3addd39cd4bcb93</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_updated_by>nxf52091</sys_updated_by>
+        <sys_updated_on>2021-03-03 05:43:25</sys_updated_on>
+        <value>twkhh01wsustw1v.wbi.nxp.com</value>
+        <variable display_value="">17b023ba3721030003a08fb77e41f15e</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_step_instance</document>
+        <document_key>a1f4d3f81b226010d3addd39cd4bcb5f</document_key>
+        <order>92</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>nxf52091</sys_created_by>
+        <sys_created_on>2021-02-23 09:23:38</sys_created_on>
+        <sys_id>69f4d3f81b226010d3addd39cd4bcb93</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_updated_by>nxf52091</sys_updated_by>
+        <sys_updated_on>2021-03-01 06:56:26</sys_updated_on>
+        <value>fc6e0ab5db357300fd22fd871d9619e5</value>
+        <variable display_value="">306d63c25f101300a09a2abd7f466627</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_step_instance</document>
+        <document_key>a1f4d3f81b226010d3addd39cd4bcb5f</document_key>
+        <order>130</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>nxf52091</sys_created_by>
+        <sys_created_on>2021-02-23 09:23:38</sys_created_on>
+        <sys_id>a1f4d3f81b226010d3addd39cd4bcb94</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nxf52091</sys_updated_by>
+        <sys_updated_on>2021-02-23 09:23:38</sys_updated_on>
+        <value>inline_script</value>
+        <variable display_value="">e6f26fba3721030003a08fb77e41f1eb</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_step_instance</document>
+        <document_key>a1f4d3f81b226010d3addd39cd4bcb5f</document_key>
+        <order>30</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>nxf52091</sys_created_by>
+        <sys_created_on>2021-02-23 09:23:38</sys_created_on>
+        <sys_id>a5f4d3f81b226010d3addd39cd4bcb93</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_updated_by>nxf52091</sys_updated_by>
+        <sys_updated_on>2021-03-01 08:29:07</sys_updated_on>
+        <value>68af522a1bac181017daa6886e4bcb91</value>
+        <variable display_value="">5c30ab7a3721030003a08fb77e41f12e</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_step_instance</document>
+        <document_key>a1f4d3f81b226010d3addd39cd4bcb5f</document_key>
+        <order>160</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>nxf52091</sys_created_by>
+        <sys_created_on>2021-03-01 06:24:02</sys_created_on>
+        <sys_id>a965a5b61b6aa410d3addd39cd4bcb43</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nxf52091</sys_updated_by>
+        <sys_updated_on>2021-03-01 06:24:02</sys_updated_on>
+        <value>{"parameter":""}</value>
+        <variable display_value="">2183a3fa3721030003a08fb77e41f1c2</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_step_instance</document>
+        <document_key>a1f4d3f81b226010d3addd39cd4bcb5f</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>nxf52091</sys_created_by>
+        <sys_created_on>2021-02-23 09:23:37</sys_created_on>
+        <sys_id>e1f4d3f81b226010d3addd39cd4bcb93</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nxf52091</sys_updated_by>
+        <sys_updated_on>2021-02-23 09:23:37</sys_updated_on>
+        <value>explicit_remoting</value>
+        <variable display_value="">c33d2a833731030003a08fb77e41f1dc</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_step_instance</document>
+        <document_key>a1f4d3f81b226010d3addd39cd4bcb5f</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>nxf52091</sys_created_by>
+        <sys_created_on>2021-02-23 09:23:37</sys_created_on>
+        <sys_id>e5f4d3f81b226010d3addd39cd4bcb92</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nxf52091</sys_updated_by>
+        <sys_updated_on>2021-02-23 09:23:37</sys_updated_on>
+        <value>427709a60a0006bc7d2904e99132532d</value>
+        <variable display_value="">2046cd992f201300a09a839fb18c956d</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_step_instance</document>
+        <document_key>a1f4d3f81b226010d3addd39cd4bcb5f</document_key>
+        <order>20</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>nxf52091</sys_created_by>
+        <sys_created_on>2021-02-23 09:23:38</sys_created_on>
+        <sys_id>edf4d3f81b226010d3addd39cd4bcb93</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nxf52091</sys_updated_by>
+        <sys_updated_on>2021-02-23 09:23:38</sys_updated_on>
+        <value>define_connection_inline</value>
+        <variable display_value="">4ecf1b7a3721030003a08fb77e41f149</variable>
+    </sys_variable_value>
+    <sys_hub_step_ext_output action="DELETE" query="model=a1f4d3f81b226010d3addd39cd4bcb5f^sys_idNOT IN29f4d3f81b226010d3addd39cd4bcb78"/>
+    <sys_hub_step_ext_output action="DELETE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,isLocal=true,uiType=password2,uiTypeLabel=Password (2 Way Encrypted),uiUniqueId=751a47d6-8d32-4b39-99cc-5acc9f1ba9db</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>sn_auth_token</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">password2</internal_type>
+        <label>Credential Value</label>
+        <mandatory>false</mandatory>
+        <max_length>255</max_length>
+        <model display_value="PowerShell step">a1f4d3f81b226010d3addd39cd4bcb5f</model>
+        <model_id>a1f4d3f81b226010d3addd39cd4bcb5f</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_a1f4d3f81b226010d3addd39cd4bcb5f</name>
+        <next_element/>
+        <order>4</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>nxf52091</sys_created_by>
+        <sys_created_on>2021-02-23 09:23:37</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>29f4d3f81b226010d3addd39cd4bcb78</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NXP GAF Share Automation">4a417d661b85005017daa6886e4bcb74</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>nxf52091</sys_updated_by>
+        <sys_updated_on>2021-02-23 09:24:39</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <u_model_id/>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_documentation action="DELETE" query="name=var__m_sys_hub_action_output_34249b381b226010d3addd39cd4bcb29^sys_idNOT IN75f4d3f81b226010d3addd39cd4bcba4,fdf4d3f81b226010d3addd39cd4bcb9d"/>
+    <sys_documentation action="DELETE">
+        <element>shell_error</element>
+        <help/>
+        <hint/>
+        <label>shell_error</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_34249b381b226010d3addd39cd4bcb29</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>nxf52091</sys_created_by>
+        <sys_created_on>2021-02-23 09:23:38</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>75f4d3f81b226010d3addd39cd4bcba4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="NXP GAF Share Automation" source="x_nxps3_nxp_gaf_sh">4a417d661b85005017daa6886e4bcb74</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NXP GAF Share Automation">4a417d661b85005017daa6886e4bcb74</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>nxf52091</sys_updated_by>
+        <sys_updated_on>2021-02-23 09:23:38</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="DELETE">
+        <element>shell_output</element>
+        <help/>
+        <hint/>
+        <label>shell_output</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_34249b381b226010d3addd39cd4bcb29</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>nxf52091</sys_created_by>
+        <sys_created_on>2021-02-23 09:23:38</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>fdf4d3f81b226010d3addd39cd4bcb9d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="NXP GAF Share Automation" source="x_nxps3_nxp_gaf_sh">4a417d661b85005017daa6886e4bcb74</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NXP GAF Share Automation">4a417d661b85005017daa6886e4bcb74</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>nxf52091</sys_updated_by>
+        <sys_updated_on>2021-02-23 09:23:38</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NXP GAF Share Automation">4a417d661b85005017daa6886e4bcb74</application>
+        <file_path/>
+        <instance_id>afde53a8db74c3881ddcf22ebf961981</instance_id>
+        <instance_name>nxp2trn</instance_name>
+        <name>sys_hub_action_type_definition_34249b381b226010d3addd39cd4bcb29</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_hub_action_type_definition"&gt;&lt;sys_hub_action_type_definition action="INSERT_OR_UPDATE"&gt;&lt;access&gt;public&lt;/access&gt;&lt;acls/&gt;&lt;action_template/&gt;&lt;active&gt;true&lt;/active&gt;&lt;annotation/&gt;&lt;callable_by_client_api&gt;false&lt;/callable_by_client_api&gt;&lt;category/&gt;&lt;copied_from/&gt;&lt;copied_from_name/&gt;&lt;description/&gt;&lt;ih_action&gt;false&lt;/ih_action&gt;&lt;internal_name&gt;traditional_share_folder_access&lt;/internal_name&gt;&lt;label_cache&gt;[{"name":"{{step[86a795cc-c9ec-4313-b43a-b8239e6d656d].output}}","label":"step➛PowerShell step➛Output","type":"step","ref":""},{"name":"{{step[86a795cc-c9ec-4313-b43a-b8239e6d656d].error_message}}","label":"step➛PowerShell step➛Error Message","type":"step","ref":""},{"name":"{{step[5670a3cd-19f8-4ba8-946d-7bd60e56c462].record.fqdn}}","label":"step➛Look Up Record step➛Server Record➛Fully qualified domain name","type":"step","ref":""},{"name":"{{step[5670a3cd-19f8-4ba8-946d-7bd60e56c462].record.host_name}}","label":"step➛Look Up Record step➛Server Record➛Host name","type":"step","ref":""}]&lt;/label_cache&gt;&lt;latest_snapshot/&gt;&lt;master_snapshot/&gt;&lt;name&gt;Delete Traditional Share Folder Access&lt;/name&gt;&lt;natlang/&gt;&lt;outputs/&gt;&lt;outputs/&gt;&lt;state&gt;draft&lt;/state&gt;&lt;sys_class_name&gt;sys_hub_action_type_definition&lt;/sys_class_name&gt;&lt;sys_created_by&gt;nxf52091&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-02-23 09:20:01&lt;/sys_created_on&gt;&lt;sys_customer_update&gt;false&lt;/sys_customer_update&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_id&gt;34249b381b226010d3addd39cd4bcb29&lt;/sys_id&gt;&lt;sys_mod_count&gt;41&lt;/sys_mod_count&gt;&lt;sys_name&gt;Delete Traditional Share Folder Access&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="NXP GAF Share Automation" source="x_nxps3_nxp_gaf_sh"&gt;4a417d661b85005017daa6886e4bcb74&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_replace_on_upgrade&gt;false&lt;/sys_replace_on_upgrade&gt;&lt;sys_scope display_value="NXP GAF Share Automation"&gt;4a417d661b85005017daa6886e4bcb74&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_hub_action_type_definition_34249b381b226010d3addd39cd4bcb29&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;nxf52093&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-03-11 09:10:59&lt;/sys_updated_on&gt;&lt;system_level&gt;false&lt;/system_level&gt;&lt;type/&gt;&lt;/sys_hub_action_type_definition&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=34249b381b226010d3addd39cd4bcb29"/&gt;&lt;sys_element_mapping action="delete_multiple" query="id=34249b381b226010d3addd39cd4bcb29"/&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;shell_error&lt;/field&gt;&lt;id&gt;34249b381b226010d3addd39cd4bcb29&lt;/id&gt;&lt;sys_created_by&gt;nxf52091&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-02-23 09:23:38&lt;/sys_created_on&gt;&lt;sys_id&gt;bdf4d3f81b226010d3addd39cd4bcbb1&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;nxf52091&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-02-23 09:23:38&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_hub_action_output_34249b381b226010d3addd39cd4bcb29&lt;/table&gt;&lt;value&gt;{{step[86a795cc-c9ec-4313-b43a-b8239e6d656d].error_message}}&lt;/value&gt;&lt;/sys_element_mapping&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;shell_output&lt;/field&gt;&lt;id&gt;34249b381b226010d3addd39cd4bcb29&lt;/id&gt;&lt;sys_created_by&gt;nxf52091&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-02-23 09:23:38&lt;/sys_created_on&gt;&lt;sys_id&gt;71f4d3f81b226010d3addd39cd4bcbb2&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;nxf52091&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-02-23 09:23:38&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_hub_action_output_34249b381b226010d3addd39cd4bcb29&lt;/table&gt;&lt;value&gt;{{step[86a795cc-c9ec-4313-b43a-b8239e6d656d].output}}&lt;/value&gt;&lt;/sys_element_mapping&gt;&lt;sys_hub_step_instance action="delete_multiple" query="action=34249b381b226010d3addd39cd4bcb29^sys_idNOT INa1f4d3f81b226010d3addd39cd4bcb5f"/&gt;&lt;sys_hub_step_instance action="INSERT_OR_UPDATE"&gt;&lt;action display_value="Delete Traditional Share Folder Access"&gt;34249b381b226010d3addd39cd4bcb29&lt;/action&gt;&lt;cid&gt;86a795cc-c9ec-4313-b43a-b8239e6d656d&lt;/cid&gt;&lt;extended_inputs/&gt;&lt;extended_outputs/&gt;&lt;icon/&gt;&lt;inputs/&gt;&lt;label&gt;PowerShell step&lt;/label&gt;&lt;order&gt;1&lt;/order&gt;&lt;outputs/&gt;&lt;section/&gt;&lt;step_type display_value="PowerShell"&gt;486f577a3721030003a08fb77e41f1d6&lt;/step_type&gt;&lt;sys_class_name&gt;sys_hub_step_instance&lt;/sys_class_name&gt;&lt;sys_created_by&gt;nxf52091&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-02-23 09:23:37&lt;/sys_created_on&gt;&lt;sys_customer_update&gt;false&lt;/sys_customer_update&gt;&lt;sys_id&gt;a1f4d3f81b226010d3addd39cd4bcb5f&lt;/sys_id&gt;&lt;sys_mod_count&gt;32&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_replace_on_upgrade&gt;false&lt;/sys_replace_on_upgrade&gt;&lt;sys_scope display_value="NXP GAF Share Automation"&gt;4a417d661b85005017daa6886e4bcb74&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;nxf52091&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-03-03 09:41:51&lt;/sys_updated_on&gt;&lt;u_active&gt;false&lt;/u_active&gt;&lt;u_application_product_model/&gt;&lt;u_assignment_group_s/&gt;&lt;u_department/&gt;&lt;u_interface_users_in_dev/&gt;&lt;u_purpose/&gt;&lt;u_status/&gt;&lt;u_support_group_s/&gt;&lt;/sys_hub_step_instance&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=a1f4d3f81b226010d3addd39cd4bcb5f"/&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_step_instance&lt;/document&gt;&lt;document_key&gt;a1f4d3f81b226010d3addd39cd4bcb5f&lt;/document_key&gt;&lt;order&gt;140&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;nxf52091&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-02-23 09:23:37&lt;/sys_created_on&gt;&lt;sys_id&gt;21f4d3f81b226010d3addd39cd4bcb93&lt;/sys_id&gt;&lt;sys_mod_count&gt;14&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;nxf52091&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-03-03 09:41:51&lt;/sys_updated_on&gt;&lt;value&gt;C:\temp\check.ps1
+&lt;/value&gt;&lt;variable display_value=""&gt;c54323fa3721030003a08fb77e41f16e&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_step_instance&lt;/document&gt;&lt;document_key&gt;a1f4d3f81b226010d3addd39cd4bcb5f&lt;/document_key&gt;&lt;order&gt;50&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;nxf52091&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-02-23 09:23:38&lt;/sys_created_on&gt;&lt;sys_id&gt;2df4d3f81b226010d3addd39cd4bcb93&lt;/sys_id&gt;&lt;sys_mod_count&gt;9&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;nxf52091&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-03-03 05:43:25&lt;/sys_updated_on&gt;&lt;value&gt;twkhh01wsustw1v.wbi.nxp.com&lt;/value&gt;&lt;variable display_value=""&gt;17b023ba3721030003a08fb77e41f15e&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_step_instance&lt;/document&gt;&lt;document_key&gt;a1f4d3f81b226010d3addd39cd4bcb5f&lt;/document_key&gt;&lt;order&gt;92&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;nxf52091&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-02-23 09:23:38&lt;/sys_created_on&gt;&lt;sys_id&gt;69f4d3f81b226010d3addd39cd4bcb93&lt;/sys_id&gt;&lt;sys_mod_count&gt;5&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;nxf52091&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-03-01 06:56:26&lt;/sys_updated_on&gt;&lt;value&gt;fc6e0ab5db357300fd22fd871d9619e5&lt;/value&gt;&lt;variable display_value=""&gt;306d63c25f101300a09a2abd7f466627&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_step_instance&lt;/document&gt;&lt;document_key&gt;a1f4d3f81b226010d3addd39cd4bcb5f&lt;/document_key&gt;&lt;order&gt;130&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;nxf52091&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-02-23 09:23:38&lt;/sys_created_on&gt;&lt;sys_id&gt;a1f4d3f81b226010d3addd39cd4bcb94&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;nxf52091&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-02-23 09:23:38&lt;/sys_updated_on&gt;&lt;value&gt;inline_script&lt;/value&gt;&lt;variable display_value=""&gt;e6f26fba3721030003a08fb77e41f1eb&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_step_instance&lt;/document&gt;&lt;document_key&gt;a1f4d3f81b226010d3addd39cd4bcb5f&lt;/document_key&gt;&lt;order&gt;30&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;nxf52091&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-02-23 09:23:38&lt;/sys_created_on&gt;&lt;sys_id&gt;a5f4d3f81b226010d3addd39cd4bcb93&lt;/sys_id&gt;&lt;sys_mod_count&gt;7&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;nxf52091&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-03-01 08:29:07&lt;/sys_updated_on&gt;&lt;value&gt;68af522a1bac181017daa6886e4bcb91&lt;/value&gt;&lt;variable display_value=""&gt;5c30ab7a3721030003a08fb77e41f12e&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_step_instance&lt;/document&gt;&lt;document_key&gt;a1f4d3f81b226010d3addd39cd4bcb5f&lt;/document_key&gt;&lt;order&gt;160&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;nxf52091&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-03-01 06:24:02&lt;/sys_created_on&gt;&lt;sys_id&gt;a965a5b61b6aa410d3addd39cd4bcb43&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;nxf52091&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-03-01 06:24:02&lt;/sys_updated_on&gt;&lt;value&gt;{"parameter":""}&lt;/value&gt;&lt;variable display_value=""&gt;2183a3fa3721030003a08fb77e41f1c2&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_step_instance&lt;/document&gt;&lt;document_key&gt;a1f4d3f81b226010d3addd39cd4bcb5f&lt;/document_key&gt;&lt;order&gt;100&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;nxf52091&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-02-23 09:23:37&lt;/sys_created_on&gt;&lt;sys_id&gt;e1f4d3f81b226010d3addd39cd4bcb93&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;nxf52091&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-02-23 09:23:37&lt;/sys_updated_on&gt;&lt;value&gt;explicit_remoting&lt;/value&gt;&lt;variable display_value=""&gt;c33d2a833731030003a08fb77e41f1dc&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_step_instance&lt;/document&gt;&lt;document_key&gt;a1f4d3f81b226010d3addd39cd4bcb5f&lt;/document_key&gt;&lt;order&gt;100&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;nxf52091&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-02-23 09:23:37&lt;/sys_created_on&gt;&lt;sys_id&gt;e5f4d3f81b226010d3addd39cd4bcb92&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;nxf52091&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-02-23 09:23:37&lt;/sys_updated_on&gt;&lt;value&gt;427709a60a0006bc7d2904e99132532d&lt;/value&gt;&lt;variable display_value=""&gt;2046cd992f201300a09a839fb18c956d&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_step_instance&lt;/document&gt;&lt;document_key&gt;a1f4d3f81b226010d3addd39cd4bcb5f&lt;/document_key&gt;&lt;order&gt;20&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;nxf52091&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-02-23 09:23:38&lt;/sys_created_on&gt;&lt;sys_id&gt;edf4d3f81b226010d3addd39cd4bcb93&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;nxf52091&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-02-23 09:23:38&lt;/sys_updated_on&gt;&lt;value&gt;define_connection_inline&lt;/value&gt;&lt;variable display_value=""&gt;4ecf1b7a3721030003a08fb77e41f149&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_hub_step_ext_output action="delete_multiple" query="model=a1f4d3f81b226010d3addd39cd4bcb5f^sys_idNOT IN29f4d3f81b226010d3addd39cd4bcb78"/&gt;&lt;sys_hub_step_ext_output action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes&gt;element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,isLocal=true,uiType=password2,uiTypeLabel=Password (2 Way Encrypted),uiUniqueId=751a47d6-8d32-4b39-99cc-5acc9f1ba9db&lt;/attributes&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;sn_auth_token&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_type display_value=""&gt;password2&lt;/internal_type&gt;&lt;label&gt;Credential Value&lt;/label&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;255&lt;/max_length&gt;&lt;model display_value="PowerShell step"&gt;a1f4d3f81b226010d3addd39cd4bcb5f&lt;/model&gt;&lt;model_id&gt;a1f4d3f81b226010d3addd39cd4bcb5f&lt;/model_id&gt;&lt;model_table&gt;sys_hub_step_instance&lt;/model_table&gt;&lt;name&gt;var__m_sys_hub_step_ext_output_a1f4d3f81b226010d3addd39cd4bcb5f&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;4&lt;/order&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_hub_step_ext_output&lt;/sys_class_name&gt;&lt;sys_created_by&gt;nxf52091&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-02-23 09:23:37&lt;/sys_created_on&gt;&lt;sys_customer_update&gt;false&lt;/sys_customer_update&gt;&lt;sys_id&gt;29f4d3f81b226010d3addd39cd4bcb78&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_replace_on_upgrade&gt;false&lt;/sys_replace_on_upgrade&gt;&lt;sys_scope display_value="NXP GAF Share Automation"&gt;4a417d661b85005017daa6886e4bcb74&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;nxf52091&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-02-23 09:24:39&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;u_model_id/&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_hub_step_ext_output&gt;&lt;sys_hub_action_output action="delete_multiple" query="model=34249b381b226010d3addd39cd4bcb29^sys_idNOT INb5f4d3f81b226010d3addd39cd4bcb9f,fdf4d3f81b226010d3addd39cd4bcb97"/&gt;&lt;sys_hub_action_output action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes&gt;element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=string,uiTypeLabel=String,uiUniqueId=45b90f73-961e-4d8d-ada2-aa90295641ef&lt;/attributes&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;shell_error&lt;/element&gt;&lt;element_prototype display_value="Error Message" element="error_message" name="var__m_sys_flow_step_definition_output_486f577a3721030003a08fb77e41f1d6"&gt;1d8196c7e703030007a64caac2f6a999&lt;/element_prototype&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_link/&gt;&lt;internal_type display_value="String"&gt;string&lt;/internal_type&gt;&lt;label&gt;shell_error&lt;/label&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;8000&lt;/max_length&gt;&lt;model display_value="Delete Traditional Share Folder Access"&gt;34249b381b226010d3addd39cd4bcb29&lt;/model&gt;&lt;model_id&gt;34249b381b226010d3addd39cd4bcb29&lt;/model_id&gt;&lt;model_table&gt;sys_hub_action_type_definition&lt;/model_table&gt;&lt;name&gt;var__m_sys_hub_action_output_34249b381b226010d3addd39cd4bcb29&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;2&lt;/order&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_hub_action_output&lt;/sys_class_name&gt;&lt;sys_created_by&gt;nxf52091&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-02-23 09:23:38&lt;/sys_created_on&gt;&lt;sys_customer_update&gt;false&lt;/sys_customer_update&gt;&lt;sys_id&gt;b5f4d3f81b226010d3addd39cd4bcb9f&lt;/sys_id&gt;&lt;sys_mod_count&gt;73&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_replace_on_upgrade&gt;false&lt;/sys_replace_on_upgrade&gt;&lt;sys_scope display_value="NXP GAF Share Automation"&gt;4a417d661b85005017daa6886e4bcb74&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;nxf52093&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-03-11 09:10:59&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;u_model_id/&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_hub_action_output&gt;&lt;sys_hub_action_output action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes&gt;element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=string,uiTypeLabel=String,uiUniqueId=badf79ad-85bf-4baa-bbf2-30919e636823&lt;/attributes&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;shell_output&lt;/element&gt;&lt;element_prototype display_value="Output" element="output" name="var__m_sys_flow_step_definition_output_486f577a3721030003a08fb77e41f1d6"&gt;4b98e37e3721030003a08fb77e41f1aa&lt;/element_prototype&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_link/&gt;&lt;internal_type display_value="String"&gt;string&lt;/internal_type&gt;&lt;label&gt;shell_output&lt;/label&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;8000&lt;/max_length&gt;&lt;model display_value="Delete Traditional Share Folder Access"&gt;34249b381b226010d3addd39cd4bcb29&lt;/model&gt;&lt;model_id&gt;34249b381b226010d3addd39cd4bcb29&lt;/model_id&gt;&lt;model_table&gt;sys_hub_action_type_definition&lt;/model_table&gt;&lt;name&gt;var__m_sys_hub_action_output_34249b381b226010d3addd39cd4bcb29&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;1&lt;/order&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_hub_action_output&lt;/sys_class_name&gt;&lt;sys_created_by&gt;nxf52091&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-02-23 09:23:38&lt;/sys_created_on&gt;&lt;sys_customer_update&gt;false&lt;/sys_customer_update&gt;&lt;sys_id&gt;fdf4d3f81b226010d3addd39cd4bcb97&lt;/sys_id&gt;&lt;sys_mod_count&gt;73&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_replace_on_upgrade&gt;false&lt;/sys_replace_on_upgrade&gt;&lt;sys_scope display_value="NXP GAF Share Automation"&gt;4a417d661b85005017daa6886e4bcb74&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;nxf52093&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-03-11 09:10:59&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;u_model_id/&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_hub_action_output&gt;&lt;sys_hub_step_instance action="delete_multiple" query="action=34249b381b226010d3addd39cd4bcb29^sys_idNOT INa1f4d3f81b226010d3addd39cd4bcb5f"/&gt;&lt;sys_hub_step_instance action="INSERT_OR_UPDATE"&gt;&lt;action display_value="Delete Traditional Share Folder Access"&gt;34249b381b226010d3addd39cd4bcb29&lt;/action&gt;&lt;cid&gt;86a795cc-c9ec-4313-b43a-b8239e6d656d&lt;/cid&gt;&lt;extended_inputs/&gt;&lt;extended_outputs/&gt;&lt;icon/&gt;&lt;inputs/&gt;&lt;label&gt;PowerShell step&lt;/label&gt;&lt;order&gt;1&lt;/order&gt;&lt;outputs/&gt;&lt;section/&gt;&lt;step_type display_value="PowerShell"&gt;486f577a3721030003a08fb77e41f1d6&lt;/step_type&gt;&lt;sys_class_name&gt;sys_hub_step_instance&lt;/sys_class_name&gt;&lt;sys_created_by&gt;nxf52091&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-02-23 09:23:37&lt;/sys_created_on&gt;&lt;sys_customer_update&gt;false&lt;/sys_customer_update&gt;&lt;sys_id&gt;a1f4d3f81b226010d3addd39cd4bcb5f&lt;/sys_id&gt;&lt;sys_mod_count&gt;32&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_replace_on_upgrade&gt;false&lt;/sys_replace_on_upgrade&gt;&lt;sys_scope display_value="NXP GAF Share Automation"&gt;4a417d661b85005017daa6886e4bcb74&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;nxf52091&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-03-03 09:41:51&lt;/sys_updated_on&gt;&lt;u_active&gt;false&lt;/u_active&gt;&lt;u_application_product_model/&gt;&lt;u_assignment_group_s/&gt;&lt;u_department/&gt;&lt;u_interface_users_in_dev/&gt;&lt;u_purpose/&gt;&lt;u_status/&gt;&lt;u_support_group_s/&gt;&lt;/sys_hub_step_instance&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=a1f4d3f81b226010d3addd39cd4bcb5f"/&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_step_instance&lt;/document&gt;&lt;document_key&gt;a1f4d3f81b226010d3addd39cd4bcb5f&lt;/document_key&gt;&lt;order&gt;140&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;nxf52091&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-02-23 09:23:37&lt;/sys_created_on&gt;&lt;sys_id&gt;21f4d3f81b226010d3addd39cd4bcb93&lt;/sys_id&gt;&lt;sys_mod_count&gt;14&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;nxf52091&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-03-03 09:41:51&lt;/sys_updated_on&gt;&lt;value&gt;C:\temp\check.ps1
+&lt;/value&gt;&lt;variable display_value=""&gt;c54323fa3721030003a08fb77e41f16e&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_step_instance&lt;/document&gt;&lt;document_key&gt;a1f4d3f81b226010d3addd39cd4bcb5f&lt;/document_key&gt;&lt;order&gt;50&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;nxf52091&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-02-23 09:23:38&lt;/sys_created_on&gt;&lt;sys_id&gt;2df4d3f81b226010d3addd39cd4bcb93&lt;/sys_id&gt;&lt;sys_mod_count&gt;9&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;nxf52091&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-03-03 05:43:25&lt;/sys_updated_on&gt;&lt;value&gt;twkhh01wsustw1v.wbi.nxp.com&lt;/value&gt;&lt;variable display_value=""&gt;17b023ba3721030003a08fb77e41f15e&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_step_instance&lt;/document&gt;&lt;document_key&gt;a1f4d3f81b226010d3addd39cd4bcb5f&lt;/document_key&gt;&lt;order&gt;92&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;nxf52091&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-02-23 09:23:38&lt;/sys_created_on&gt;&lt;sys_id&gt;69f4d3f81b226010d3addd39cd4bcb93&lt;/sys_id&gt;&lt;sys_mod_count&gt;5&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;nxf52091&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-03-01 06:56:26&lt;/sys_updated_on&gt;&lt;value&gt;fc6e0ab5db357300fd22fd871d9619e5&lt;/value&gt;&lt;variable display_value=""&gt;306d63c25f101300a09a2abd7f466627&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_step_instance&lt;/document&gt;&lt;document_key&gt;a1f4d3f81b226010d3addd39cd4bcb5f&lt;/document_key&gt;&lt;order&gt;130&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;nxf52091&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-02-23 09:23:38&lt;/sys_created_on&gt;&lt;sys_id&gt;a1f4d3f81b226010d3addd39cd4bcb94&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;nxf52091&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-02-23 09:23:38&lt;/sys_updated_on&gt;&lt;value&gt;inline_script&lt;/value&gt;&lt;variable display_value=""&gt;e6f26fba3721030003a08fb77e41f1eb&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_step_instance&lt;/document&gt;&lt;document_key&gt;a1f4d3f81b226010d3addd39cd4bcb5f&lt;/document_key&gt;&lt;order&gt;30&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;nxf52091&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-02-23 09:23:38&lt;/sys_created_on&gt;&lt;sys_id&gt;a5f4d3f81b226010d3addd39cd4bcb93&lt;/sys_id&gt;&lt;sys_mod_count&gt;7&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;nxf52091&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-03-01 08:29:07&lt;/sys_updated_on&gt;&lt;value&gt;68af522a1bac181017daa6886e4bcb91&lt;/value&gt;&lt;variable display_value=""&gt;5c30ab7a3721030003a08fb77e41f12e&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_step_instance&lt;/document&gt;&lt;document_key&gt;a1f4d3f81b226010d3addd39cd4bcb5f&lt;/document_key&gt;&lt;order&gt;160&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;nxf52091&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-03-01 06:24:02&lt;/sys_created_on&gt;&lt;sys_id&gt;a965a5b61b6aa410d3addd39cd4bcb43&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;nxf52091&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-03-01 06:24:02&lt;/sys_updated_on&gt;&lt;value&gt;{"parameter":""}&lt;/value&gt;&lt;variable display_value=""&gt;2183a3fa3721030003a08fb77e41f1c2&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_step_instance&lt;/document&gt;&lt;document_key&gt;a1f4d3f81b226010d3addd39cd4bcb5f&lt;/document_key&gt;&lt;order&gt;100&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;nxf52091&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-02-23 09:23:37&lt;/sys_created_on&gt;&lt;sys_id&gt;e1f4d3f81b226010d3addd39cd4bcb93&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;nxf52091&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-02-23 09:23:37&lt;/sys_updated_on&gt;&lt;value&gt;explicit_remoting&lt;/value&gt;&lt;variable display_value=""&gt;c33d2a833731030003a08fb77e41f1dc&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_step_instance&lt;/document&gt;&lt;document_key&gt;a1f4d3f81b226010d3addd39cd4bcb5f&lt;/document_key&gt;&lt;order&gt;100&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;nxf52091&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-02-23 09:23:37&lt;/sys_created_on&gt;&lt;sys_id&gt;e5f4d3f81b226010d3addd39cd4bcb92&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;nxf52091&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-02-23 09:23:37&lt;/sys_updated_on&gt;&lt;value&gt;427709a60a0006bc7d2904e99132532d&lt;/value&gt;&lt;variable display_value=""&gt;2046cd992f201300a09a839fb18c956d&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_step_instance&lt;/document&gt;&lt;document_key&gt;a1f4d3f81b226010d3addd39cd4bcb5f&lt;/document_key&gt;&lt;order&gt;20&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;nxf52091&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-02-23 09:23:38&lt;/sys_created_on&gt;&lt;sys_id&gt;edf4d3f81b226010d3addd39cd4bcb93&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;nxf52091&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-02-23 09:23:38&lt;/sys_updated_on&gt;&lt;value&gt;define_connection_inline&lt;/value&gt;&lt;variable display_value=""&gt;4ecf1b7a3721030003a08fb77e41f149&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_hub_step_ext_output action="delete_multiple" query="model=a1f4d3f81b226010d3addd39cd4bcb5f^sys_idNOT IN29f4d3f81b226010d3addd39cd4bcb78"/&gt;&lt;sys_hub_step_ext_output action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes&gt;element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,isLocal=true,uiType=password2,uiTypeLabel=Password (2 Way Encrypted),uiUniqueId=751a47d6-8d32-4b39-99cc-5acc9f1ba9db&lt;/attributes&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;sn_auth_token&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_type display_value=""&gt;password2&lt;/internal_type&gt;&lt;label&gt;Credential Value&lt;/label&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;255&lt;/max_length&gt;&lt;model display_value="PowerShell step"&gt;a1f4d3f81b226010d3addd39cd4bcb5f&lt;/model&gt;&lt;model_id&gt;a1f4d3f81b226010d3addd39cd4bcb5f&lt;/model_id&gt;&lt;model_table&gt;sys_hub_step_instance&lt;/model_table&gt;&lt;name&gt;var__m_sys_hub_step_ext_output_a1f4d3f81b226010d3addd39cd4bcb5f&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;4&lt;/order&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_hub_step_ext_output&lt;/sys_class_name&gt;&lt;sys_created_by&gt;nxf52091&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-02-23 09:23:37&lt;/sys_created_on&gt;&lt;sys_customer_update&gt;false&lt;/sys_customer_update&gt;&lt;sys_id&gt;29f4d3f81b226010d3addd39cd4bcb78&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_replace_on_upgrade&gt;false&lt;/sys_replace_on_upgrade&gt;&lt;sys_scope display_value="NXP GAF Share Automation"&gt;4a417d661b85005017daa6886e4bcb74&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;nxf52091&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-02-23 09:24:39&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;u_model_id/&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_hub_step_ext_output&gt;&lt;sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_34249b381b226010d3addd39cd4bcb29^sys_idNOT IN75f4d3f81b226010d3addd39cd4bcba4,fdf4d3f81b226010d3addd39cd4bcb9d"/&gt;&lt;sys_documentation action="INSERT_OR_UPDATE"&gt;&lt;element&gt;shell_error&lt;/element&gt;&lt;help/&gt;&lt;hint/&gt;&lt;label&gt;shell_error&lt;/label&gt;&lt;language&gt;en&lt;/language&gt;&lt;name&gt;var__m_sys_hub_action_output_34249b381b226010d3addd39cd4bcb29&lt;/name&gt;&lt;plural/&gt;&lt;sys_class_name&gt;sys_documentation&lt;/sys_class_name&gt;&lt;sys_created_by&gt;nxf52091&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-02-23 09:23:38&lt;/sys_created_on&gt;&lt;sys_customer_update&gt;false&lt;/sys_customer_update&gt;&lt;sys_id&gt;75f4d3f81b226010d3addd39cd4bcba4&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="NXP GAF Share Automation" source="x_nxps3_nxp_gaf_sh"&gt;4a417d661b85005017daa6886e4bcb74&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_replace_on_upgrade&gt;false&lt;/sys_replace_on_upgrade&gt;&lt;sys_scope display_value="NXP GAF Share Automation"&gt;4a417d661b85005017daa6886e4bcb74&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;nxf52091&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-02-23 09:23:38&lt;/sys_updated_on&gt;&lt;url/&gt;&lt;url_target/&gt;&lt;/sys_documentation&gt;&lt;sys_documentation action="INSERT_OR_UPDATE"&gt;&lt;element&gt;shell_output&lt;/element&gt;&lt;help/&gt;&lt;hint/&gt;&lt;label&gt;shell_output&lt;/label&gt;&lt;language&gt;en&lt;/language&gt;&lt;name&gt;var__m_sys_hub_action_output_34249b381b226010d3addd39cd4bcb29&lt;/name&gt;&lt;plural/&gt;&lt;sys_class_name&gt;sys_documentation&lt;/sys_class_name&gt;&lt;sys_created_by&gt;nxf52091&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-02-23 09:23:38&lt;/sys_created_on&gt;&lt;sys_customer_update&gt;false&lt;/sys_customer_update&gt;&lt;sys_id&gt;fdf4d3f81b226010d3addd39cd4bcb9d&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="NXP GAF Share Automation" source="x_nxps3_nxp_gaf_sh"&gt;4a417d661b85005017daa6886e4bcb74&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_replace_on_upgrade&gt;false&lt;/sys_replace_on_upgrade&gt;&lt;sys_scope display_value="NXP GAF Share Automation"&gt;4a417d661b85005017daa6886e4bcb74&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;nxf52091&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-02-23 09:23:38&lt;/sys_updated_on&gt;&lt;url/&gt;&lt;url_target/&gt;&lt;/sys_documentation&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1452077846</payload_hash>
+        <record_name>Delete Traditional Share Folder Access</record_name>
+        <reverted_from/>
+        <source>17247f3f1be1c49024ecca661a4bcb6c</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>nxf52093</sys_created_by>
+        <sys_created_on>2021-03-11 09:11:00</sys_created_on>
+        <sys_id>e08be1861b3a6410d3addd39cd4bcbb2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>178208db1ac0000001</sys_recorded_at>
+        <sys_updated_by>nxf52093</sys_updated_by>
+        <sys_updated_on>2021-03-11 09:11:00</sys_updated_on>
+        <type>Action Type</type>
+        <update_guid>a88be186e93a6410650c2920667d3ab1</update_guid>
+        <update_guid_history>a88be186e93a6410650c2920667d3ab1:1452077846,cfd5eca76122ec10fe85455d06bc1046:-1431949648,0da6b7573de6ac106a9c2667952a0618:-402005344,c676ff1745e6ac10452075f7b04a6883:1309915040,b1d5fb93f6e6ac10391842f19ee1b74f:-1414473008,b7d4b7df20a6ac10788e5c73a5f9a0a2:-355777762,7f24f35f8da6ac1030c4f676d683e895:-7321966,7fe2775bd8a6ac10b72d121c84392c94:-304730736,d642f3d74ca6ac103f51b9d3e1e31c59:-294843008,3def635334a6ac109a5986b17c26cf5c:-355158974,f88f2313bea6ac10e3ff2d016117512b:1204306832,0a4fa7dfb166ac105c5584cd658831e2:-855392986,fe8a0b07c322e810ffde785f685c2957:70063312,4a0286721d22e410e5729af68c61c747:-106523376,aa9102322e22e4101af6adef37c29727:-1489810256,e251c2fe66eea410134999897de162c5:-1675880624,9de0ca7eabeea410ffdeb9614f0e1400:-2096518704,b48eed3edeeaa410d909a5c304203d2b:1340085424,5cbda5f6beeaa410b2a0f9ac9a113246:-1103693488,3c6dad76d5eaa4104c1688a0bdae60e6:47457498,94dc25b297eaa410965e662cbaf0b25a:1108471977,7165a5b62f6aa410e9b104bb33c679d6:1611523151,8c5561b6e16aa4106d0a8eac1c45db5c:1683738351,fe03ebb465e2601077d83305b83b22fb:-536122001,c0f12fb054e26010b3c14b13dbb7aae8:-955890289,75b123b079e26010f532d0d2f070199a:1870177103,a261a3709fe260108e98d0ca1b33e1b0:994293135,b9f027fca2a2601006b93cb4a63e95e9:-160183281,60702b7c45a26010f01b2e0c6acdd967:2002363791,47095fb4ab626010eafb3b735fd41bed:785211247,c9471f709b626010015794ae8fcc94af:907928303,33e69f301d62601061de7896f872184e:-1008012689,a1e6db30406260100d1fd4cdaa5ca04d:1915010095,02b51b7c112260104936c966bd932c17:475094927,3035dff87e226010101d847d620ef89d:785211247,f5f4d3f85322601053042051d53792e7:-1298865427,b0249b3852226010f38914ec8771ee2e:-2037314607</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>nxf65326</sys_created_by>
+        <sys_created_on>2021-03-15 10:55:59</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sys_hub_action_type_definition">sys_hub_action_type_definition</sys_db_object>
+        <sys_id>8a78258bf2d44b26ad3de31a3981bee1</sys_id>
+        <sys_metadata>34249b381b226010d3addd39cd4bcb29</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Delete Traditional Share Folder Access</sys_name>
+        <sys_package display_value="NXP GAF Share Automation" source="x_nxps3_nxp_gaf_sh">4a417d661b85005017daa6886e4bcb74</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NXP GAF Share Automation">4a417d661b85005017daa6886e4bcb74</sys_scope>
+        <sys_scope_delete display_value="">17cd3dc6bfef44bb8b394cc6cae801d9</sys_scope_delete>
+        <sys_update_name>sys_hub_action_type_definition_34249b381b226010d3addd39cd4bcb29</sys_update_name>
+        <sys_update_version display_value="sys_hub_action_type_definition_34249b381b226010d3addd39cd4bcb29">e08be1861b3a6410d3addd39cd4bcbb2</sys_update_version>
+        <sys_updated_by>nxf65326</sys_updated_by>
+        <sys_updated_on>2021-03-15 10:55:59</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

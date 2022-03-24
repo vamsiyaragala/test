@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="io_set_item">
+    <io_set_item action="DELETE">
+        <order>200</order>
+        <sc_cat_item display_value="test Date">d22fbb0a1b9188d017daa6886e4bcb4f</sc_cat_item>
+        <sys_class_name>io_set_item</sys_class_name>
+        <sys_created_by>nxf41929</sys_created_by>
+        <sys_created_on>2019-11-25 14:32:04</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>7596485e1bd188d017daa6886e4bcb66</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>test1.test Date</sys_name>
+        <sys_package display_value="NXP GAF Share Automation" source="x_nxps3_nxp_gaf_sh">4a417d661b85005017daa6886e4bcb74</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NXP GAF Share Automation">4a417d661b85005017daa6886e4bcb74</sys_scope>
+        <sys_update_name>io_set_item_7596485e1bd188d017daa6886e4bcb66</sys_update_name>
+        <sys_updated_by>nxf41929</sys_updated_by>
+        <sys_updated_on>2019-11-25 14:32:40</sys_updated_on>
+        <u_active>false</u_active>
+        <u_application_product_model/>
+        <u_assignment_group_s/>
+        <u_department/>
+        <u_interface_users_in_dev/>
+        <u_purpose/>
+        <u_status/>
+        <u_support_group_s/>
+        <variable_set display_value="test1">1076cc1e1bd188d017daa6886e4bcbfe</variable_set>
+    </io_set_item>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NXP GAF Share Automation">4a417d661b85005017daa6886e4bcb74</application>
+        <file_path/>
+        <instance_id>afde53a8db74c3881ddcf22ebf961981</instance_id>
+        <instance_name>nxp2trn</instance_name>
+        <name>io_set_item_7596485e1bd188d017daa6886e4bcb66</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="io_set_item"><io_set_item action="INSERT_OR_UPDATE"><order>200</order><sc_cat_item display_value="test Date">d22fbb0a1b9188d017daa6886e4bcb4f</sc_cat_item><sys_class_name>io_set_item</sys_class_name><sys_created_by>nxf41929</sys_created_by><sys_created_on>2019-11-25 14:32:04</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>7596485e1bd188d017daa6886e4bcb66</sys_id><sys_mod_count>2</sys_mod_count><sys_name>test1.test Date</sys_name><sys_package display_value="NXP GAF Share Automation" source="x_nxps3_nxp_gaf_sh">4a417d661b85005017daa6886e4bcb74</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="NXP GAF Share Automation">4a417d661b85005017daa6886e4bcb74</sys_scope><sys_update_name>io_set_item_7596485e1bd188d017daa6886e4bcb66</sys_update_name><sys_updated_by>nxf41929</sys_updated_by><sys_updated_on>2019-11-25 14:32:40</sys_updated_on><u_active>false</u_active><u_application_product_model/><u_assignment_group_s/><u_department/><u_interface_users_in_dev/><u_purpose/><u_status/><u_support_group_s/><variable_set display_value="test1">1076cc1e1bd188d017daa6886e4bcbfe</variable_set></io_set_item></record_update>]]></payload>
+        <payload_hash>2000146055</payload_hash>
+        <record_name>test1.test Date</record_name>
+        <reverted_from/>
+        <source>c641b1ea1b85005017daa6886e4bcb3e</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>nxf41929</sys_created_by>
+        <sys_created_on>2019-11-25 14:32:40</sys_created_on>
+        <sys_id>6ab6c09e1bd188d017daa6886e4bcbd9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16ea2fa918a0000001</sys_recorded_at>
+        <sys_updated_by>nxf41929</sys_updated_by>
+        <sys_updated_on>2019-11-25 14:32:40</sys_updated_on>
+        <type>Catalog Variable Set</type>
+        <update_guid>22b6c09ebfd188d09dbc7b70dff49fd9</update_guid>
+        <update_guid_history>22b6c09ebfd188d09dbc7b70dff49fd9:2000146055,b996485e20d188d0fc8ebebcab65a26b:75765160</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">27d219fadbe24c10d35a6e8cd39619be</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>nxf29089</sys_created_by>
+        <sys_created_on>2020-01-28 12:40:47</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="io_set_item">io_set_item</sys_db_object>
+        <sys_id>2ecb37acf51546409aef7068bff51840</sys_id>
+        <sys_metadata>7596485e1bd188d017daa6886e4bcb66</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>test1.test Date</sys_name>
+        <sys_package display_value="NXP GAF Share Automation" source="x_nxps3_nxp_gaf_sh">4a417d661b85005017daa6886e4bcb74</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NXP GAF Share Automation">4a417d661b85005017daa6886e4bcb74</sys_scope>
+        <sys_scope_delete display_value="">17cd3dc6bfef44bb8b394cc6cae801d9</sys_scope_delete>
+        <sys_update_name>io_set_item_7596485e1bd188d017daa6886e4bcb66</sys_update_name>
+        <sys_update_version display_value="io_set_item_7596485e1bd188d017daa6886e4bcb66">6ab6c09e1bd188d017daa6886e4bcbd9</sys_update_version>
+        <sys_updated_by>nxf29089</sys_updated_by>
+        <sys_updated_on>2020-01-28 12:40:47</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

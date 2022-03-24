@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="io_set_item">
+    <io_set_item action="DELETE">
+        <order>10</order>
+        <sc_cat_item display_value="Copy of Request\Revoke GAF\Other Share Access">cba5eebfdb783458effc34523996193c</sc_cat_item>
+        <sys_class_name>io_set_item</sys_class_name>
+        <sys_created_by>nxf52093</sys_created_by>
+        <sys_created_on>2021-06-24 10:00:06</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>bba5eaffdb783458effc3452399619fe</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Shared Folder Access Common Variables.Copy of Request\Revoke GAF\Other Share Access</sys_name>
+        <sys_package display_value="NXP GAF Share Automation" source="x_nxps3_nxp_gaf_sh">4a417d661b85005017daa6886e4bcb74</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NXP GAF Share Automation">4a417d661b85005017daa6886e4bcb74</sys_scope>
+        <sys_update_name>io_set_item_bba5eaffdb783458effc3452399619fe</sys_update_name>
+        <sys_updated_by>nxf52093</sys_updated_by>
+        <sys_updated_on>2021-06-24 10:00:06</sys_updated_on>
+        <variable_set display_value="Shared Folder Access Common Variables">f46158651b2e881417daa6886e4bcb47</variable_set>
+    </io_set_item>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NXP GAF Share Automation">4a417d661b85005017daa6886e4bcb74</application>
+        <file_path/>
+        <instance_id>afde53a8db74c3881ddcf22ebf961981</instance_id>
+        <instance_name>nxp2trn</instance_name>
+        <name>io_set_item_bba5eaffdb783458effc3452399619fe</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="io_set_item"><io_set_item action="INSERT_OR_UPDATE"><order>10</order><sc_cat_item display_value="Copy of Request\Revoke GAF\Other Share Access">cba5eebfdb783458effc34523996193c</sc_cat_item><sys_class_name>io_set_item</sys_class_name><sys_created_by>nxf52093</sys_created_by><sys_created_on>2021-06-24 10:00:06</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>bba5eaffdb783458effc3452399619fe</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Shared Folder Access Common Variables.Copy of Request\Revoke GAF\Other Share Access</sys_name><sys_package display_value="NXP GAF Share Automation" source="x_nxps3_nxp_gaf_sh">4a417d661b85005017daa6886e4bcb74</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="NXP GAF Share Automation">4a417d661b85005017daa6886e4bcb74</sys_scope><sys_update_name>io_set_item_bba5eaffdb783458effc3452399619fe</sys_update_name><sys_updated_by>nxf52093</sys_updated_by><sys_updated_on>2021-06-24 10:00:06</sys_updated_on><variable_set display_value="Shared Folder Access Common Variables">f46158651b2e881417daa6886e4bcb47</variable_set></io_set_item></record_update>]]></payload>
+        <payload_hash>-110127558</payload_hash>
+        <record_name>Shared Folder Access Common Variables.Copy of Request\Revoke GAF\Other Share Access</record_name>
+        <reverted_from/>
+        <source>17247f3f1be1c49024ecca661a4bcb6c</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>nxf52093</sys_created_by>
+        <sys_created_on>2021-06-24 10:00:06</sys_created_on>
+        <sys_id>b7a52effdb783458effc345239961905</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17a3d7661e20000001</sys_recorded_at>
+        <sys_updated_by>nxf52093</sys_updated_by>
+        <sys_updated_on>2021-06-24 10:00:06</sys_updated_on>
+        <type>Catalog Variable Set</type>
+        <update_guid>bfa52eff2b7834582972e1b1dbd34804</update_guid>
+        <update_guid_history>bfa52eff2b7834582972e1b1dbd34804:-110127558</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">9af3afbbdb387458effc3452399619de</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>nxf49970</sys_created_by>
+        <sys_created_on>2021-06-24 14:32:15</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="io_set_item">io_set_item</sys_db_object>
+        <sys_id>0060c67f65b14e048896889586cbfa90</sys_id>
+        <sys_metadata>bba5eaffdb783458effc3452399619fe</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Shared Folder Access Common Variables.Copy of Request\Revoke GAF\Other Share Access</sys_name>
+        <sys_package display_value="NXP GAF Share Automation" source="x_nxps3_nxp_gaf_sh">4a417d661b85005017daa6886e4bcb74</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NXP GAF Share Automation">4a417d661b85005017daa6886e4bcb74</sys_scope>
+        <sys_scope_delete display_value="">17cd3dc6bfef44bb8b394cc6cae801d9</sys_scope_delete>
+        <sys_update_name>io_set_item_bba5eaffdb783458effc3452399619fe</sys_update_name>
+        <sys_update_version display_value="io_set_item_bba5eaffdb783458effc3452399619fe">b7a52effdb783458effc345239961905</sys_update_version>
+        <sys_updated_by>nxf49970</sys_updated_by>
+        <sys_updated_on>2021-06-24 14:32:15</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

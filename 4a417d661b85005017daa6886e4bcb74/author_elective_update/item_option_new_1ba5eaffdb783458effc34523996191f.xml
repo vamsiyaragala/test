@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="item_option_new">
+    <item_option_new action="DELETE">
+        <active>true</active>
+        <attributes/>
+        <cat_item display_value="Copy of Request\Revoke GAF\Other Share Access">cba5eebfdb783458effc34523996193c</cat_item>
+        <category/>
+        <choice_direction>down</choice_direction>
+        <choice_field/>
+        <choice_table/>
+        <create_roles/>
+        <default_html_value/>
+        <default_value/>
+        <delete_roles/>
+        <delivery_plan/>
+        <description/>
+        <display_title>false</display_title>
+        <do_not_select_first>false</do_not_select_first>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <enable_also_request_for>false</enable_also_request_for>
+        <example_text/>
+        <field/>
+        <global>true</global>
+        <help_tag>More information</help_tag>
+        <help_text/>
+        <include_none>false</include_none>
+        <instructions><![CDATA[<p><span style="color: #ff0000;"><span style="color: #000000;">Please click on magnifier icon to select the share path for which you need access. If your share is not available in the displayed list Please select:</span> <strong>\\Share not Found</strong></span></p>]]></instructions>
+        <layout>normal</layout>
+        <list_table/>
+        <lookup_label/>
+        <lookup_price/>
+        <lookup_table/>
+        <lookup_unique>false</lookup_unique>
+        <lookup_value/>
+        <macro/>
+        <mandatory>true</mandatory>
+        <map_to_field>false</map_to_field>
+        <mask_use_confirmation>false</mask_use_confirmation>
+        <mask_use_encryption>false</mask_use_encryption>
+        <name>please_select_the_share_path</name>
+        <order>11</order>
+        <price_if_checked>0</price_if_checked>
+        <pricing_implications>false</pricing_implications>
+        <question_text>Please select the share path</question_text>
+        <read_roles/>
+        <rec_lookup_price/>
+        <rec_price_if_checked>0</rec_price_if_checked>
+        <record/>
+        <record_producer_table/>
+        <reference>cmdb_ci_storage_fileshare</reference>
+        <reference_qual>pathSTARTSWITH\\^operational_status=1</reference_qual>
+        <reference_qual_condition table="cmdb_ci_storage_fileshare">pathSTARTSWITH\\^operational_status=1^EQ<item endquery="false" field="path" goto="false" newquery="false" operator="STARTSWITH" or="false" value="\\"/>
+            <item display_value="Operational" endquery="false" field="operational_status" goto="false" newquery="false" operator="=" or="false" value="1"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </reference_qual_condition>
+        <rich_text/>
+        <roles_to_use_also_request_for/>
+        <scale_max>5</scale_max>
+        <scale_min>0</scale_min>
+        <show_help>true</show_help>
+        <show_help_on_load>true</show_help_on_load>
+        <sp_widget/>
+        <summary_macro/>
+        <sys_class_name>item_option_new</sys_class_name>
+        <sys_created_by>nxf52093</sys_created_by>
+        <sys_created_on>2021-06-24 10:00:04</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>1ba5eaffdb783458effc34523996191f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Please select the share path</sys_name>
+        <sys_package display_value="NXP AUT Test Flow" source="x_nxps3_nxp_aut_te">7da752bedb92f700fd22fd871d96190d</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NXP GAF Share Automation">4a417d661b85005017daa6886e4bcb74</sys_scope>
+        <sys_update_name>item_option_new_1ba5eaffdb783458effc34523996191f</sys_update_name>
+        <sys_updated_by>nxf52093</sys_updated_by>
+        <sys_updated_on>2021-06-24 10:00:04</sys_updated_on>
+        <table/>
+        <tooltip/>
+        <type>8</type>
+        <ui_page/>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>advanced</use_reference_qualifier>
+        <validate_regex/>
+        <variable_name/>
+        <variable_set/>
+        <variable_width/>
+        <visibility>1</visibility>
+        <visible_bundle>true</visible_bundle>
+        <visible_guide>true</visible_guide>
+        <visible_standalone>true</visible_standalone>
+        <visible_summary>true</visible_summary>
+        <write_roles>catalog</write_roles>
+    </item_option_new>
+    <sys_translated_text action="DELETE" query="documentkey=1ba5eaffdb783458effc34523996191f"/>
+    <fx_price action="DELETE" query="id=1ba5eaffdb783458effc34523996191f"/>
+    <fx_price action="DELETE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>price_if_checked</field>
+        <id>1ba5eaffdb783458effc34523996191f</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>nxf52093</sys_created_by>
+        <sys_created_on>2021-06-24 10:00:04</sys_created_on>
+        <sys_id>d3a5eaffdb783458effc345239961922</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nxf52093</sys_updated_by>
+        <sys_updated_on>2021-06-24 10:00:04</sys_updated_on>
+        <table>item_option_new</table>
+        <type>calculated</type>
+    </fx_price>
+    <fx_price action="DELETE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>rec_price_if_checked</field>
+        <id>1ba5eaffdb783458effc34523996191f</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>nxf52093</sys_created_by>
+        <sys_created_on>2021-06-24 10:00:04</sys_created_on>
+        <sys_id>9ba5eaffdb783458effc345239961921</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nxf52093</sys_updated_by>
+        <sys_updated_on>2021-06-24 10:00:04</sys_updated_on>
+        <table>item_option_new</table>
+        <type>calculated</type>
+    </fx_price>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NXP GAF Share Automation">4a417d661b85005017daa6886e4bcb74</application>
+        <file_path/>
+        <instance_id>afde53a8db74c3881ddcf22ebf961981</instance_id>
+        <instance_name>nxp2trn</instance_name>
+        <name>item_option_new_1ba5eaffdb783458effc34523996191f</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="item_option_new"&gt;&lt;item_option_new action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;attributes/&gt;&lt;cat_item display_value="Copy of Request\Revoke GAF\Other Share Access"&gt;cba5eebfdb783458effc34523996193c&lt;/cat_item&gt;&lt;category/&gt;&lt;choice_direction&gt;down&lt;/choice_direction&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;create_roles/&gt;&lt;default_html_value/&gt;&lt;default_value/&gt;&lt;delete_roles/&gt;&lt;delivery_plan/&gt;&lt;description/&gt;&lt;display_title&gt;false&lt;/display_title&gt;&lt;do_not_select_first&gt;false&lt;/do_not_select_first&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;enable_also_request_for&gt;false&lt;/enable_also_request_for&gt;&lt;example_text/&gt;&lt;field/&gt;&lt;global&gt;true&lt;/global&gt;&lt;help_tag&gt;More information&lt;/help_tag&gt;&lt;help_text/&gt;&lt;include_none&gt;false&lt;/include_none&gt;&lt;instructions&gt;&lt;![CDATA[&lt;p&gt;&lt;span style="color: #ff0000;"&gt;&lt;span style="color: #000000;"&gt;Please click on magnifier icon to select the share path for which you need access. If your share is not available in the displayed list Please select:&lt;/span&gt; &lt;strong&gt;\\Share not Found&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;]]&gt;&lt;/instructions&gt;&lt;layout&gt;normal&lt;/layout&gt;&lt;list_table/&gt;&lt;lookup_label/&gt;&lt;lookup_price/&gt;&lt;lookup_table/&gt;&lt;lookup_unique&gt;false&lt;/lookup_unique&gt;&lt;lookup_value/&gt;&lt;macro/&gt;&lt;mandatory&gt;true&lt;/mandatory&gt;&lt;map_to_field&gt;false&lt;/map_to_field&gt;&lt;mask_use_confirmation&gt;false&lt;/mask_use_confirmation&gt;&lt;mask_use_encryption&gt;false&lt;/mask_use_encryption&gt;&lt;name&gt;please_select_the_share_path&lt;/name&gt;&lt;order&gt;11&lt;/order&gt;&lt;price_if_checked&gt;0&lt;/price_if_checked&gt;&lt;pricing_implications&gt;false&lt;/pricing_implications&gt;&lt;question_text&gt;Please select the share path&lt;/question_text&gt;&lt;read_roles/&gt;&lt;rec_lookup_price/&gt;&lt;rec_price_if_checked&gt;0&lt;/rec_price_if_checked&gt;&lt;record/&gt;&lt;record_producer_table/&gt;&lt;reference&gt;cmdb_ci_storage_fileshare&lt;/reference&gt;&lt;reference_qual&gt;pathSTARTSWITH\\^operational_status=1&lt;/reference_qual&gt;&lt;reference_qual_condition table="cmdb_ci_storage_fileshare"&gt;pathSTARTSWITH\\^operational_status=1^EQ&lt;item endquery="false" field="path" goto="false" newquery="false" operator="STARTSWITH" or="false" value="\\"/&gt;&lt;item display_value="Operational" endquery="false" field="operational_status" goto="false" newquery="false" operator="=" or="false" value="1"/&gt;&lt;item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/&gt;&lt;/reference_qual_condition&gt;&lt;rich_text/&gt;&lt;roles_to_use_also_request_for/&gt;&lt;scale_max&gt;5&lt;/scale_max&gt;&lt;scale_min&gt;0&lt;/scale_min&gt;&lt;show_help&gt;true&lt;/show_help&gt;&lt;show_help_on_load&gt;true&lt;/show_help_on_load&gt;&lt;sp_widget/&gt;&lt;summary_macro/&gt;&lt;sys_class_name&gt;item_option_new&lt;/sys_class_name&gt;&lt;sys_created_by&gt;nxf52093&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-06-24 10:00:04&lt;/sys_created_on&gt;&lt;sys_customer_update&gt;false&lt;/sys_customer_update&gt;&lt;sys_id&gt;1ba5eaffdb783458effc34523996191f&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Please select the share path&lt;/sys_name&gt;&lt;sys_package display_value="NXP AUT Test Flow" source="x_nxps3_nxp_aut_te"&gt;7da752bedb92f700fd22fd871d96190d&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_replace_on_upgrade&gt;false&lt;/sys_replace_on_upgrade&gt;&lt;sys_scope display_value="NXP GAF Share Automation"&gt;4a417d661b85005017daa6886e4bcb74&lt;/sys_scope&gt;&lt;sys_update_name&gt;item_option_new_1ba5eaffdb783458effc34523996191f&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;nxf52093&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-06-24 10:00:04&lt;/sys_updated_on&gt;&lt;table/&gt;&lt;tooltip/&gt;&lt;type&gt;8&lt;/type&gt;&lt;ui_page/&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;advanced&lt;/use_reference_qualifier&gt;&lt;validate_regex/&gt;&lt;variable_name/&gt;&lt;variable_set/&gt;&lt;variable_width/&gt;&lt;visibility&gt;1&lt;/visibility&gt;&lt;visible_bundle&gt;true&lt;/visible_bundle&gt;&lt;visible_guide&gt;true&lt;/visible_guide&gt;&lt;visible_standalone&gt;true&lt;/visible_standalone&gt;&lt;visible_summary&gt;true&lt;/visible_summary&gt;&lt;write_roles&gt;catalog&lt;/write_roles&gt;&lt;/item_option_new&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=1ba5eaffdb783458effc34523996191f"/&gt;&lt;fx_price action="delete_multiple" query="id=1ba5eaffdb783458effc34523996191f"/&gt;&lt;fx_price action="INSERT_OR_UPDATE"&gt;&lt;amount&gt;0&lt;/amount&gt;&lt;currency display_value="USD"&gt;USD&lt;/currency&gt;&lt;field&gt;price_if_checked&lt;/field&gt;&lt;id&gt;1ba5eaffdb783458effc34523996191f&lt;/id&gt;&lt;parent/&gt;&lt;reference_amount&gt;0&lt;/reference_amount&gt;&lt;reference_currency display_value="USD"&gt;USD&lt;/reference_currency&gt;&lt;sys_created_by&gt;nxf52093&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-06-24 10:00:04&lt;/sys_created_on&gt;&lt;sys_id&gt;d3a5eaffdb783458effc345239961922&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;nxf52093&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-06-24 10:00:04&lt;/sys_updated_on&gt;&lt;table&gt;item_option_new&lt;/table&gt;&lt;type&gt;calculated&lt;/type&gt;&lt;/fx_price&gt;&lt;fx_price action="INSERT_OR_UPDATE"&gt;&lt;amount&gt;0&lt;/amount&gt;&lt;currency display_value="USD"&gt;USD&lt;/currency&gt;&lt;field&gt;rec_price_if_checked&lt;/field&gt;&lt;id&gt;1ba5eaffdb783458effc34523996191f&lt;/id&gt;&lt;parent/&gt;&lt;reference_amount&gt;0&lt;/reference_amount&gt;&lt;reference_currency display_value="USD"&gt;USD&lt;/reference_currency&gt;&lt;sys_created_by&gt;nxf52093&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-06-24 10:00:04&lt;/sys_created_on&gt;&lt;sys_id&gt;9ba5eaffdb783458effc345239961921&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;nxf52093&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-06-24 10:00:04&lt;/sys_updated_on&gt;&lt;table&gt;item_option_new&lt;/table&gt;&lt;type&gt;calculated&lt;/type&gt;&lt;/fx_price&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>2015546992</payload_hash>
+        <record_name>Please select the share path</record_name>
+        <reverted_from/>
+        <source>17247f3f1be1c49024ecca661a4bcb6c</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>nxf52093</sys_created_by>
+        <sys_created_on>2021-06-24 10:00:04</sys_created_on>
+        <sys_id>1fa5eaffdb783458effc345239961925</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17a3d765b9b0000001</sys_recorded_at>
+        <sys_updated_by>nxf52093</sys_updated_by>
+        <sys_updated_on>2021-06-24 10:00:04</sys_updated_on>
+        <type>Variable</type>
+        <update_guid>17a5eaff3f783458c306fd5188a9a125</update_guid>
+        <update_guid_history>17a5eaff3f783458c306fd5188a9a125:2015546992</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">3d832f3bdb387458effc34523996196d</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>nxf49970</sys_created_by>
+        <sys_created_on>2021-06-24 14:30:18</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="item_option_new">item_option_new</sys_db_object>
+        <sys_id>ca737ce506174f50a31b47c304aa6640</sys_id>
+        <sys_metadata>1ba5eaffdb783458effc34523996191f</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Please select the share path</sys_name>
+        <sys_package display_value="NXP AUT Test Flow" source="x_nxps3_nxp_aut_te">7da752bedb92f700fd22fd871d96190d</sys_package>
+        <sys_parent display_value="">cba5eebfdb783458effc34523996193c</sys_parent>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NXP GAF Share Automation">4a417d661b85005017daa6886e4bcb74</sys_scope>
+        <sys_scope_delete display_value="">17cd3dc6bfef44bb8b394cc6cae801d9</sys_scope_delete>
+        <sys_update_name>item_option_new_1ba5eaffdb783458effc34523996191f</sys_update_name>
+        <sys_update_version display_value="item_option_new_1ba5eaffdb783458effc34523996191f">1fa5eaffdb783458effc345239961925</sys_update_version>
+        <sys_updated_by>nxf49970</sys_updated_by>
+        <sys_updated_on>2021-06-24 14:30:18</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

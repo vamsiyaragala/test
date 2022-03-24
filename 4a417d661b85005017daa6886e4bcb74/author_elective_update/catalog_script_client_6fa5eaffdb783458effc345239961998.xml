@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="catalog_script_client">
+    <catalog_script_client action="DELETE">
+        <active>true</active>
+        <applies_catalog>true</applies_catalog>
+        <applies_extended>false</applies_extended>
+        <applies_req_item>true</applies_req_item>
+        <applies_sc_task>true</applies_sc_task>
+        <applies_target_record>false</applies_target_record>
+        <applies_to>item</applies_to>
+        <cat_item display_value="Copy of Request\Revoke GAF\Other Share Access">cba5eebfdb783458effc34523996193c</cat_item>
+        <cat_variable>IO:1ba5eaffdb783458effc34523996191f</cat_variable>
+        <condition/>
+        <description/>
+        <field/>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Validate the share type</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading) {
+   if (isLoading || newValue == '') {
+      return;
+   }
+
+	var sharetype = (g_form.getValue('type_of_share'));
+	var path   = (g_form.getValue('please_select_the_share_path'));
+	
+	var host = g_form.getReference('please_select_the_share_path', function setIP(host) {
+	var paths =  host.path;
+	//alert (paths);
+	if( sharetype == "GAF Share"){
+		if (!paths.substring(0,5)== '\\wbi')
+			{
+				alert ('Share Type is "GAF Share" but the share path is "Traditional Share". So please change the share type/path');
+				//confirm('Selected Share path is not belongs to "Traditional Share". Please update share type.');
+				g_form.clearValue('please_select_the_share_path');
+			}
+		}
+	else if(sharetype == 'Traditional Share')
+			{
+				
+				if (paths.substring(2,9)== 'wbi.nxp')
+				{
+					//alert ('Share Type is "Traditional Share" but the share path is "GAF Share". So please change the share type/path');
+					confirm('Selected Share path is not belongs to "Traditional Share". Please update share type.');
+					g_form.clearValue('please_select_the_share_path');
+				}
+			}
+        //confirm(sharetype);
+        return false;
+		});
+    }
+		
+   
+]]></script>
+        <sys_class_name>catalog_script_client</sys_class_name>
+        <sys_created_by>nxf52093</sys_created_by>
+        <sys_created_on>2021-06-24 10:00:05</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>6fa5eaffdb783458effc345239961998</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Validate the share type</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="NXP GAF Share Automation" source="x_nxps3_nxp_gaf_sh">4a417d661b85005017daa6886e4bcb74</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NXP GAF Share Automation">4a417d661b85005017daa6886e4bcb74</sys_scope>
+        <sys_update_name>catalog_script_client_6fa5eaffdb783458effc345239961998</sys_update_name>
+        <sys_updated_by>nxf52093</sys_updated_by>
+        <sys_updated_on>2021-06-24 10:00:05</sys_updated_on>
+        <table/>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <variable_set/>
+        <view/>
+    </catalog_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NXP GAF Share Automation">4a417d661b85005017daa6886e4bcb74</application>
+        <file_path/>
+        <instance_id>afde53a8db74c3881ddcf22ebf961981</instance_id>
+        <instance_name>nxp2trn</instance_name>
+        <name>catalog_script_client_6fa5eaffdb783458effc345239961998</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="catalog_script_client"&gt;&lt;catalog_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_catalog&gt;true&lt;/applies_catalog&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;applies_req_item&gt;true&lt;/applies_req_item&gt;&lt;applies_sc_task&gt;true&lt;/applies_sc_task&gt;&lt;applies_target_record&gt;false&lt;/applies_target_record&gt;&lt;applies_to&gt;item&lt;/applies_to&gt;&lt;cat_item display_value="Copy of Request\Revoke GAF\Other Share Access"&gt;cba5eebfdb783458effc34523996193c&lt;/cat_item&gt;&lt;cat_variable&gt;IO:1ba5eaffdb783458effc34523996191f&lt;/cat_variable&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field/&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;Validate the share type&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onChange(control, oldValue, newValue, isLoading) {
+   if (isLoading || newValue == '') {
+      return;
+   }
+
+	var sharetype = (g_form.getValue('type_of_share'));
+	var path   = (g_form.getValue('please_select_the_share_path'));
+	
+	var host = g_form.getReference('please_select_the_share_path', function setIP(host) {
+	var paths =  host.path;
+	//alert (paths);
+	if( sharetype == "GAF Share"){
+		if (!paths.substring(0,5)== '\\wbi')
+			{
+				alert ('Share Type is "GAF Share" but the share path is "Traditional Share". So please change the share type/path');
+				//confirm('Selected Share path is not belongs to "Traditional Share". Please update share type.');
+				g_form.clearValue('please_select_the_share_path');
+			}
+		}
+	else if(sharetype == 'Traditional Share')
+			{
+				
+				if (paths.substring(2,9)== 'wbi.nxp')
+				{
+					//alert ('Share Type is "Traditional Share" but the share path is "GAF Share". So please change the share type/path');
+					confirm('Selected Share path is not belongs to "Traditional Share". Please update share type.');
+					g_form.clearValue('please_select_the_share_path');
+				}
+			}
+        //confirm(sharetype);
+        return false;
+		});
+    }
+		
+   
+]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;catalog_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;nxf52093&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-06-24 10:00:05&lt;/sys_created_on&gt;&lt;sys_customer_update&gt;false&lt;/sys_customer_update&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;6fa5eaffdb783458effc345239961998&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Validate the share type&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="NXP GAF Share Automation" source="x_nxps3_nxp_gaf_sh"&gt;4a417d661b85005017daa6886e4bcb74&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_replace_on_upgrade&gt;false&lt;/sys_replace_on_upgrade&gt;&lt;sys_scope display_value="NXP GAF Share Automation"&gt;4a417d661b85005017daa6886e4bcb74&lt;/sys_scope&gt;&lt;sys_update_name&gt;catalog_script_client_6fa5eaffdb783458effc345239961998&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;nxf52093&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-06-24 10:00:05&lt;/sys_updated_on&gt;&lt;table/&gt;&lt;type&gt;onChange&lt;/type&gt;&lt;ui_type&gt;10&lt;/ui_type&gt;&lt;variable_set/&gt;&lt;view/&gt;&lt;/catalog_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-2048195807</payload_hash>
+        <record_name>Validate the share type</record_name>
+        <reverted_from/>
+        <source>17247f3f1be1c49024ecca661a4bcb6c</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>nxf52093</sys_created_by>
+        <sys_created_on>2021-06-24 10:00:05</sys_created_on>
+        <sys_id>2fa5eaffdb783458effc34523996199b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17a3d765ed60000001</sys_recorded_at>
+        <sys_updated_by>nxf52093</sys_updated_by>
+        <sys_updated_on>2021-06-24 10:00:05</sys_updated_on>
+        <type>Catalog Client Scripts</type>
+        <update_guid>27a5eaff3a783458f7467dbe5c9bcd9b</update_guid>
+        <update_guid_history>27a5eaff3a783458f7467dbe5c9bcd9b:-2048195807</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">7db32f7bdb387458effc345239961953</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>nxf49970</sys_created_by>
+        <sys_created_on>2021-06-24 14:31:08</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="catalog_script_client">catalog_script_client</sys_db_object>
+        <sys_id>02f0ab97e41948c89ce4eacfd515de24</sys_id>
+        <sys_metadata>6fa5eaffdb783458effc345239961998</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Validate the share type</sys_name>
+        <sys_package display_value="NXP GAF Share Automation" source="x_nxps3_nxp_gaf_sh">4a417d661b85005017daa6886e4bcb74</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NXP GAF Share Automation">4a417d661b85005017daa6886e4bcb74</sys_scope>
+        <sys_scope_delete display_value="">17cd3dc6bfef44bb8b394cc6cae801d9</sys_scope_delete>
+        <sys_update_name>catalog_script_client_6fa5eaffdb783458effc345239961998</sys_update_name>
+        <sys_update_version display_value="catalog_script_client_6fa5eaffdb783458effc345239961998">2fa5eaffdb783458effc34523996199b</sys_update_version>
+        <sys_updated_by>nxf49970</sys_updated_by>
+        <sys_updated_on>2021-06-24 14:31:08</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

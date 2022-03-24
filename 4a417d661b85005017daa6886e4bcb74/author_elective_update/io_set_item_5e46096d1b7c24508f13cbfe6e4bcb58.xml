@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="io_set_item">
+    <io_set_item action="DELETE">
+        <order>80</order>
+        <sc_cat_item display_value="Request\Revoke GAF\Other Share Access">7d46052d1b7c24508f13cbfe6e4bcb68</sc_cat_item>
+        <sys_class_name>io_set_item</sys_class_name>
+        <sys_created_by>nxf64507</sys_created_by>
+        <sys_created_on>2020-11-30 07:05:49</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>5e46096d1b7c24508f13cbfe6e4bcb58</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Additional comments.Request\Revoke GAF\Other Share Access</sys_name>
+        <sys_package display_value="NXP GAF Share Automation" source="x_nxps3_nxp_gaf_sh">4a417d661b85005017daa6886e4bcb74</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NXP GAF Share Automation">4a417d661b85005017daa6886e4bcb74</sys_scope>
+        <sys_update_name>io_set_item_5e46096d1b7c24508f13cbfe6e4bcb58</sys_update_name>
+        <sys_updated_by>nxf52093</sys_updated_by>
+        <sys_updated_on>2021-05-07 06:51:09</sys_updated_on>
+        <variable_set display_value="Additional comments">3820df570a0a0b2700d944110d29fc55</variable_set>
+    </io_set_item>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NXP GAF Share Automation">4a417d661b85005017daa6886e4bcb74</application>
+        <file_path/>
+        <instance_id>afde53a8db74c3881ddcf22ebf961981</instance_id>
+        <instance_name>nxp2trn</instance_name>
+        <name>io_set_item_5e46096d1b7c24508f13cbfe6e4bcb58</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="io_set_item"><io_set_item action="INSERT_OR_UPDATE"><order>80</order><sc_cat_item display_value="Request\Revoke GAF\Other Share Access">7d46052d1b7c24508f13cbfe6e4bcb68</sc_cat_item><sys_class_name>io_set_item</sys_class_name><sys_created_by>nxf64507</sys_created_by><sys_created_on>2020-11-30 07:05:49</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>5e46096d1b7c24508f13cbfe6e4bcb58</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Additional comments.Request\Revoke GAF\Other Share Access</sys_name><sys_package display_value="NXP GAF Share Automation" source="x_nxps3_nxp_gaf_sh">4a417d661b85005017daa6886e4bcb74</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="NXP GAF Share Automation">4a417d661b85005017daa6886e4bcb74</sys_scope><sys_update_name>io_set_item_5e46096d1b7c24508f13cbfe6e4bcb58</sys_update_name><sys_updated_by>nxf52093</sys_updated_by><sys_updated_on>2021-05-07 06:51:09</sys_updated_on><variable_set display_value="Additional comments">3820df570a0a0b2700d944110d29fc55</variable_set></io_set_item></record_update>]]></payload>
+        <payload_hash>380828780</payload_hash>
+        <record_name>Additional comments.Request\Revoke GAF\Other Share Access</record_name>
+        <reverted_from/>
+        <source>17247f3f1be1c49024ecca661a4bcb6c</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>nxf52093</sys_created_by>
+        <sys_created_on>2021-05-07 06:51:10</sys_created_on>
+        <sys_id>c42e2e9cdbc4f450effc3452399619ad</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>179459827960000001</sys_recorded_at>
+        <sys_updated_by>nxf52093</sys_updated_by>
+        <sys_updated_on>2021-05-07 06:51:10</sys_updated_on>
+        <type>Catalog Variable Set</type>
+        <update_guid>8c2e2e9c4fc4f4503d16d6ed05f9f8ac</update_guid>
+        <update_guid_history>8c2e2e9c4fc4f4503d16d6ed05f9f8ac:380828780,1646096d0c7c2450276a86d69df7b55c:1981031332</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">ba96d8e5dbc4f01069baf9b2f3961999</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>nxf52093</sys_created_by>
+        <sys_created_on>2021-05-10 17:01:34</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="io_set_item">io_set_item</sys_db_object>
+        <sys_id>1698537948764faa84f726c8c83135c1</sys_id>
+        <sys_metadata>5e46096d1b7c24508f13cbfe6e4bcb58</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Additional comments.Request\Revoke GAF\Other Share Access</sys_name>
+        <sys_package display_value="NXP GAF Share Automation" source="x_nxps3_nxp_gaf_sh">4a417d661b85005017daa6886e4bcb74</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NXP GAF Share Automation">4a417d661b85005017daa6886e4bcb74</sys_scope>
+        <sys_scope_delete display_value="">17cd3dc6bfef44bb8b394cc6cae801d9</sys_scope_delete>
+        <sys_update_name>io_set_item_5e46096d1b7c24508f13cbfe6e4bcb58</sys_update_name>
+        <sys_update_version display_value="io_set_item_5e46096d1b7c24508f13cbfe6e4bcb58">c42e2e9cdbc4f450effc3452399619ad</sys_update_version>
+        <sys_updated_by>nxf52093</sys_updated_by>
+        <sys_updated_on>2021-05-10 17:01:34</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

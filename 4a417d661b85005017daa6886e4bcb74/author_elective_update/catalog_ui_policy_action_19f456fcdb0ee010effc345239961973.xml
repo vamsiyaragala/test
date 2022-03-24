@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="DELETE">
+        <catalog_item display_value="Request\Revoke GAF\Traditional Share Access">7d46052d1b7c24508f13cbfe6e4bcb68</catalog_item>
+        <catalog_variable>IO:36b8327cdb062410effc345239961928</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field/>
+        <mandatory>ignore</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>nxf52091</sys_created_by>
+        <sys_created_on>2021-01-29 08:12:52</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>19f456fcdb0ee010effc345239961973</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>group_r</sys_name>
+        <sys_package display_value="NXP GAF Share Automation" source="x_nxps3_nxp_gaf_sh">4a417d661b85005017daa6886e4bcb74</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NXP GAF Share Automation">4a417d661b85005017daa6886e4bcb74</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_19f456fcdb0ee010effc345239961973</sys_update_name>
+        <sys_updated_by>nxf52091</sys_updated_by>
+        <sys_updated_on>2021-01-29 12:54:20</sys_updated_on>
+        <table/>
+        <ui_policy display_value="only_for_ctask">fdd35a78db0ee010effc3452399619bb</ui_policy>
+        <variable>group_r</variable>
+        <variable_set/>
+        <visible>true</visible>
+    </catalog_ui_policy_action>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NXP GAF Share Automation">4a417d661b85005017daa6886e4bcb74</application>
+        <file_path/>
+        <instance_id>afde53a8db74c3881ddcf22ebf961981</instance_id>
+        <instance_name>nxp2trn</instance_name>
+        <name>catalog_ui_policy_action_19f456fcdb0ee010effc345239961973</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action"><catalog_ui_policy_action action="INSERT_OR_UPDATE"><catalog_item display_value="Request\Revoke GAF\Traditional Share Access">7d46052d1b7c24508f13cbfe6e4bcb68</catalog_item><catalog_variable>IO:36b8327cdb062410effc345239961928</catalog_variable><cleared>false</cleared><disabled>ignore</disabled><field/><mandatory>ignore</mandatory><order>100</order><sys_class_name>catalog_ui_policy_action</sys_class_name><sys_created_by>nxf52091</sys_created_by><sys_created_on>2021-01-29 08:12:52</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>19f456fcdb0ee010effc345239961973</sys_id><sys_mod_count>7</sys_mod_count><sys_name>group_r</sys_name><sys_package display_value="NXP GAF Share Automation" source="x_nxps3_nxp_gaf_sh">4a417d661b85005017daa6886e4bcb74</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="NXP GAF Share Automation">4a417d661b85005017daa6886e4bcb74</sys_scope><sys_update_name>catalog_ui_policy_action_19f456fcdb0ee010effc345239961973</sys_update_name><sys_updated_by>nxf52091</sys_updated_by><sys_updated_on>2021-01-29 12:54:20</sys_updated_on><table/><ui_policy display_value="only_for_ctask">fdd35a78db0ee010effc3452399619bb</ui_policy><variable>group_r</variable><variable_set/><visible>true</visible></catalog_ui_policy_action></record_update>]]></payload>
+        <payload_hash>1942122875</payload_hash>
+        <record_name>group_r</record_name>
+        <reverted_from/>
+        <source>17247f3f1be1c49024ecca661a4bcb6c</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>nxf52091</sys_created_by>
+        <sys_created_on>2021-01-29 12:54:20</sys_created_on>
+        <sys_id>e07553b4db0e2410effc34523996192a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1774e356f7d0000001</sys_recorded_at>
+        <sys_updated_by>nxf52091</sys_updated_by>
+        <sys_updated_on>2021-01-29 12:54:20</sys_updated_on>
+        <type>Catalog UI Policy Action</type>
+        <update_guid>a87553b4520e24104fb89964df70e729</update_guid>
+        <update_guid_history>a87553b4520e24104fb89964df70e729:1942122875,bc49be742746241087f2c1d56068cee6:-301838529,18c7be3862c6ac10cbe932526f64d420:1170757198,79667a38890624102551541858f504ff:-119025782,41a436b0ac062410a98738609b1ec690:-1828852474,45406a7cf9cee0105bd6251562338077:-1216929159,87ff9a3c6fcee01082ce306fd6fbd41d:-1828852474,a5055ebc3c0ee010aaa2b497df1a942e:-1216929159</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">2d1a5e5f1bfa6450d3addd39cd4bcb02</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>nxf65326</sys_created_by>
+        <sys_created_on>2021-03-15 09:46:54</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="catalog_ui_policy_action">catalog_ui_policy_action</sys_db_object>
+        <sys_id>bd8649920c234c849f8034f28b3a4d10</sys_id>
+        <sys_metadata>19f456fcdb0ee010effc345239961973</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>group_r</sys_name>
+        <sys_package display_value="NXP GAF Share Automation" source="x_nxps3_nxp_gaf_sh">4a417d661b85005017daa6886e4bcb74</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NXP GAF Share Automation">4a417d661b85005017daa6886e4bcb74</sys_scope>
+        <sys_scope_delete display_value="">17cd3dc6bfef44bb8b394cc6cae801d9</sys_scope_delete>
+        <sys_update_name>catalog_ui_policy_action_19f456fcdb0ee010effc345239961973</sys_update_name>
+        <sys_update_version display_value="catalog_ui_policy_action_19f456fcdb0ee010effc345239961973">e07553b4db0e2410effc34523996192a</sys_update_version>
+        <sys_updated_by>nxf65326</sys_updated_by>
+        <sys_updated_on>2021-03-15 09:46:54</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
