@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog">
+    <sc_cat_item_catalog action="INSERT_OR_UPDATE">
+        <sc_cat_item display_value="Modify Ownership of Shared Folder">1f8f92fa1bd24c9017daa6886e4bcbac</sc_cat_item>
+        <sc_catalog display_value="IT Service Catalog">e0d08b13c3330100c8b837659bba8fb4</sc_catalog>
+        <sys_class_name>sc_cat_item_catalog</sys_class_name>
+        <sys_created_by>nxf29089</sys_created_by>
+        <sys_created_on>2020-01-16 08:04:01</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>24706a7e1bd24c9017daa6886e4bcbee</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>IT Service Catalog.Change Ownership of Shared Folder</sys_name>
+        <sys_package display_value="NXP GAF Share Automation" source="x_nxps3_nxp_gaf_sh">4a417d661b85005017daa6886e4bcb74</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NXP GAF Share Automation">4a417d661b85005017daa6886e4bcb74</sys_scope>
+        <sys_update_name>sc_cat_item_catalog_24706a7e1bd24c9017daa6886e4bcbee</sys_update_name>
+        <sys_updated_by>nxf29089</sys_updated_by>
+        <sys_updated_on>2020-01-16 08:04:01</sys_updated_on>
+    </sc_cat_item_catalog>
+</record_update>

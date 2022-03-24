@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="response_body" label="Response Body" language="en" table="var__m_sys_hub_flow_input_ac7748c51b5de090d3addd39cd4bcb0a">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>response_body</element>
+            <help/>
+            <hint/>
+            <label>Response Body</label>
+            <language>en</language>
+            <name>var__m_sys_hub_flow_input_ac7748c51b5de090d3addd39cd4bcb0a</name>
+            <plural/>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>nxf52091</sys_created_by>
+            <sys_created_on>2020-12-23 09:45:43</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>e47748c51b5de090d3addd39cd4bcb62</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Response Body</sys_name>
+            <sys_package display_value="NXP GAF Share Automation" source="x_nxps3_nxp_gaf_sh">4a417d661b85005017daa6886e4bcb74</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="NXP GAF Share Automation">4a417d661b85005017daa6886e4bcb74</sys_scope>
+            <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_ac7748c51b5de090d3addd39cd4bcb0a_response_body_en</sys_update_name>
+            <sys_updated_by>nxf52091</sys_updated_by>
+            <sys_updated_on>2020-12-23 09:45:43</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

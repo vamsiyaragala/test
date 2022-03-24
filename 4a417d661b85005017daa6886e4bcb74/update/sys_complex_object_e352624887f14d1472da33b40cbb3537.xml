@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_complex_object">
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FD23526248d5f14d14af6f8bb40e040c37</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>4a417d661b85005017daa6886e4bcb74</scope_name>
+        <serialized_content>{"FlowDesigner:FD23526248d5f14d14af6f8bb40e040c37":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FD23526248d5f14d14af6f8bb40e040c37.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"\",\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"2007b8b7-b2f5-4d91-a08a-f0ebae8b82a6\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FD23526248d5f14d14af6f8bb40e040c37\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"\",\"sourceType\":\"\",\"hint\":null,\"uiType\":\"object\",\"order\":\"7\",\"max_length\":\"65000\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>nxf81477</sys_created_by>
+        <sys_created_on>2022-02-16 07:22:21</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>e352624887f14d1472da33b40cbb3537</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>FD23526248d5f14d14af6f8bb40e040c37</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="NXP GAF Share Automation" source="x_nxps3_nxp_gaf_sh">4a417d661b85005017daa6886e4bcb74</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NXP GAF Share Automation">4a417d661b85005017daa6886e4bcb74</sys_scope>
+        <sys_update_name>sys_complex_object_e352624887f14d1472da33b40cbb3537</sys_update_name>
+        <sys_updated_by>nxf81477</sys_updated_by>
+        <sys_updated_on>2022-02-16 07:22:21</sys_updated_on>
+        <type>complex_object_schema</type>
+    </sys_complex_object>
+</record_update>

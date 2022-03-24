@@ -1,0 +1,3932 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_action_type_definition">
+    <sys_hub_action_type_definition action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <action_status/>
+        <action_template/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <compiler_build>glide-rome-06-23-2021__patch0-07-07-2021_07-15-2021_1403.zip</compiler_build>
+        <copied_from>520f51f81b368c9417daa6886e4bcb13</copied_from>
+        <copied_from_name>get user id for changing Ownersh</copied_from_name>
+        <description/>
+        <ih_action>false</ih_action>
+        <internal_name>copy_of_get_user_id_for_changing_ownership</internal_name>
+        <label_cache>[{"name":"{{action.cowner}}","label":"action➛COwner","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.nowner}}","label":"action➛NOwner","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.group}}","label":"action➛group","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.server}}","label":"action➛server","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.alert}}","label":"action➛alert","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.starttime}}","label":"action➛starttime","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.endtime}}","label":"action➛endtime","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.main_name}}","label":"action➛main_name","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[e5e76075-82e0-47f8-b664-2fd45a07c184].remacc}}","label":"step➛Script step➛remacc","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[e5e76075-82e0-47f8-b664-2fd45a07c184].addacc}}","label":"step➛Script step➛addacc","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"7504177a-fd2d-4656-afa6-66baef596945"}},{"name":"{{step[e29a1516-9c01-4a25-ad84-15e43da4b3c5].instance}}","label":"step➛Script step➛instance","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[e5e76075-82e0-47f8-b664-2fd45a07c184].check1}}","label":"step➛Script step➛check1","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"19e82690-a6e2-474f-9aed-1f7315efca70"}},{"name":"{{step[8e9f6da9-660e-4d6e-820f-702e4f954bcf].out_server}}","label":"step➛Script step➛out_server_ims","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[8e9f6da9-660e-4d6e-820f-702e4f954bcf].out_server_fsl}}","label":"step➛Script step➛out_server_fsl","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[8e9f6da9-660e-4d6e-820f-702e4f954bcf].out_server_nxdi}}","label":"step➛Script step➛out_server_nxdi","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[8e9f6da9-660e-4d6e-820f-702e4f954bcf].out_server_not}}","label":"step➛Script step➛out_server_not","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[8e9f6da9-660e-4d6e-820f-702e4f954bcf].out_server_ims}}","label":"step➛Script step➛out_server_ims","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[8e9f6da9-660e-4d6e-820f-702e4f954bcf].cou_ims}}","label":"step➛Script step➛cou_ims","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[8e9f6da9-660e-4d6e-820f-702e4f954bcf].cou_fsl}}","label":"step➛Script step➛cou_fsl","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[8e9f6da9-660e-4d6e-820f-702e4f954bcf].cou_nxdi}}","label":"step➛Script step➛cou_nxdi","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[8e9f6da9-660e-4d6e-820f-702e4f954bcf].cou_not}}","label":"step➛Script step➛cou_not","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[8e9f6da9-660e-4d6e-820f-702e4f954bcf].server_total_count}}","label":"step➛Script step➛server_total_count","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[8e9f6da9-660e-4d6e-820f-702e4f954bcf].nxdi_only}}","label":"step➛Script step➛nxdi_only","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[8e9f6da9-660e-4d6e-820f-702e4f954bcf].alert}}","label":"step➛Script step➛alert","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[8e9f6da9-660e-4d6e-820f-702e4f954bcf].main_name}}","label":"step➛Script step➛main_name","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}}]</label_cache>
+        <master_snapshot>ec5609d387023c1072da33b40cbb35dc</master_snapshot>
+        <name>Copy of get user id for changing Ownership</name>
+        <natlang/>
+        <outputs/>
+        <outputs/>
+        <state>published</state>
+        <sys_class_name>sys_hub_action_type_definition</sys_class_name>
+        <sys_created_by>nxf52093</sys_created_by>
+        <sys_created_on>2021-08-23 17:04:27</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>7c36095387023c1072da33b40cbb3543</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Copy of get user id for changing Ownership</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="NXP GAF Share Automation" source="x_nxps3_nxp_gaf_sh">4a417d661b85005017daa6886e4bcb74</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NXP GAF Share Automation">4a417d661b85005017daa6886e4bcb74</sys_scope>
+        <sys_update_name>sys_hub_action_type_definition_7c36095387023c1072da33b40cbb3543</sys_update_name>
+        <sys_updated_by>nxf29089</sys_updated_by>
+        <sys_updated_on>2021-09-08 11:43:48</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_definition>
+    <sys_variable_value action="delete_multiple" query="document_key=7c36095387023c1072da33b40cbb3543"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_definition</document>
+        <document_key>7c36095387023c1072da33b40cbb3543</document_key>
+        <order>4</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>nxf52093</sys_created_by>
+        <sys_created_on>2021-08-23 17:04:29</sys_created_on>
+        <sys_id>5136895387023c1072da33b40cbb3596</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_updated_by>nxf52093</sys_updated_by>
+        <sys_updated_on>2021-08-31 11:39:35</sys_updated_on>
+        <value>{"version":"1.0","complexObjectSchema":{"FlowDesigner:FDc53689534c023c109942ce12589b5202":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDc53689534c023c109942ce12589b5202.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"\",\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"b5774c74-0962-4ae3-8649-39d758315348\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDc53689534c023c109942ce12589b5202\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"\",\"sourceType\":\"\",\"hint\":\"\",\"uiType\":\"object\",\"order\":\"4\",\"max_length\":\"65000\"}"}},"complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":""}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}},"serializationFormat":"JSON"}</value>
+        <variable display_value="Action Status">0d36895387023c1072da33b40cbb3540</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_definition</document>
+        <document_key>7c36095387023c1072da33b40cbb3543</document_key>
+        <order>5</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>nxf52093</sys_created_by>
+        <sys_created_on>2021-08-23 17:04:29</sys_created_on>
+        <sys_id>9d36895387023c1072da33b40cbb3595</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nxf52093</sys_updated_by>
+        <sys_updated_on>2021-08-23 17:04:29</sys_updated_on>
+        <value>0</value>
+        <variable display_value="Don't Treat as Error">4536895387023c1072da33b40cbb356d</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=7c36095387023c1072da33b40cbb3543"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>variable</field>
+        <id>7c36095387023c1072da33b40cbb3543</id>
+        <sys_created_by>nxf52093</sys_created_by>
+        <sys_created_on>2021-08-23 17:04:29</sys_created_on>
+        <sys_id>d136895387023c1072da33b40cbb3595</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nxf52093</sys_updated_by>
+        <sys_updated_on>2021-08-23 17:04:29</sys_updated_on>
+        <table>var__m_sys_hub_action_output_7c36095387023c1072da33b40cbb3543</table>
+        <value>{{step[e5e76075-82e0-47f8-b664-2fd45a07c184].addacc}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>variable1</field>
+        <id>7c36095387023c1072da33b40cbb3543</id>
+        <sys_created_by>nxf52093</sys_created_by>
+        <sys_created_on>2021-08-23 17:04:29</sys_created_on>
+        <sys_id>1136895387023c1072da33b40cbb3595</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nxf52093</sys_updated_by>
+        <sys_updated_on>2021-08-23 17:04:29</sys_updated_on>
+        <table>var__m_sys_hub_action_output_7c36095387023c1072da33b40cbb3543</table>
+        <value>{{step[e5e76075-82e0-47f8-b664-2fd45a07c184].remacc}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>variable12</field>
+        <id>7c36095387023c1072da33b40cbb3543</id>
+        <sys_created_by>nxf52093</sys_created_by>
+        <sys_created_on>2021-08-23 17:04:29</sys_created_on>
+        <sys_id>1d36895387023c1072da33b40cbb3595</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nxf52093</sys_updated_by>
+        <sys_updated_on>2021-08-23 17:04:29</sys_updated_on>
+        <table>var__m_sys_hub_action_output_7c36095387023c1072da33b40cbb3543</table>
+        <value>{{step[e29a1516-9c01-4a25-ad84-15e43da4b3c5].instance}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>__action_status__</field>
+        <id>7c36095387023c1072da33b40cbb3543</id>
+        <sys_created_by>nxf52093</sys_created_by>
+        <sys_created_on>2021-08-23 17:04:29</sys_created_on>
+        <sys_id>5936895387023c1072da33b40cbb3595</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nxf52093</sys_updated_by>
+        <sys_updated_on>2021-08-23 17:04:29</sys_updated_on>
+        <table>var__m_sys_hub_action_output_7c36095387023c1072da33b40cbb3543</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>__dont_treat_as_error__</field>
+        <id>7c36095387023c1072da33b40cbb3543</id>
+        <sys_created_by>nxf52093</sys_created_by>
+        <sys_created_on>2021-08-23 17:04:29</sys_created_on>
+        <sys_id>9536895387023c1072da33b40cbb3595</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nxf52093</sys_updated_by>
+        <sys_updated_on>2021-08-23 17:04:29</sys_updated_on>
+        <table>var__m_sys_hub_action_output_7c36095387023c1072da33b40cbb3543</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_step_instance action="delete_multiple" query="action=7c36095387023c1072da33b40cbb3543^sys_idNOT IN7036495387023c1072da33b40cbb3503,c536495387023c1072da33b40cbb358f"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Copy of get user id for changing Ownership">7c36095387023c1072da33b40cbb3543</action>
+        <cid>e5e76075-82e0-47f8-b664-2fd45a07c184</cid>
+        <error_handling_type>1</error_handling_type>
+        <extended_inputs/>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>Script step</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
+        <sys_class_name>sys_hub_step_instance</sys_class_name>
+        <sys_created_by>nxf52093</sys_created_by>
+        <sys_created_on>2021-08-23 17:04:27</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>7036495387023c1072da33b40cbb3503</sys_id>
+        <sys_mod_count>35</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NXP GAF Share Automation">4a417d661b85005017daa6886e4bcb74</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>nxf52093</sys_updated_by>
+        <sys_updated_on>2021-08-31 14:05:55</sys_updated_on>
+        <u_active>false</u_active>
+        <u_application_product_model/>
+        <u_assignment_group_s/>
+        <u_department/>
+        <u_interface_users_in_dev/>
+        <u_purpose/>
+        <u_status/>
+        <u_support_group_s/>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=7036495387023c1072da33b40cbb3503"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>7036495387023c1072da33b40cbb3503</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>nxf52093</sys_created_by>
+        <sys_created_on>2021-08-23 17:04:28</sys_created_on>
+        <sys_id>0136495387023c1072da33b40cbb358b</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>nxf52093</sys_updated_by>
+        <sys_updated_on>2021-08-23 17:18:50</sys_updated_on>
+        <value>instance</value>
+        <variable display_value="Required Runtime">74315b04b3201300176b051a16a8dc2b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>7036495387023c1072da33b40cbb3503</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>nxf52093</sys_created_by>
+        <sys_created_on>2021-08-23 17:04:28</sys_created_on>
+        <sys_id>0936495387023c1072da33b40cbb358a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nxf52093</sys_updated_by>
+        <sys_updated_on>2021-08-23 17:04:28</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="MID Application">f5e56d79b3101300176b051a16a8dce4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>7036495387023c1072da33b40cbb3503</document_key>
+        <order>600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>nxf52093</sys_created_by>
+        <sys_created_on>2021-08-23 17:04:28</sys_created_on>
+        <sys_id>c136495387023c1072da33b40cbb358b</sys_id>
+        <sys_mod_count>33</sys_mod_count>
+        <sys_updated_by>nxf52093</sys_updated_by>
+        <sys_updated_on>2021-08-31 14:05:55</sys_updated_on>
+        <value>(function execute(inputs, outputs) {
+// ... code ...
+     if (inputs.AOwner) 
+     {
+        var vales = inputs.AOwner;
+        var Auser_id = '';
+        var sys = [];
+        var Auser_id1;
+        var values = vales;
+    /*   
+       if(vales.next() != false)
+       {
+         // Multiple records
+         while(vales.next())
+         {
+            var idv = vales.user_name.getDisplayValue();
+         	Auser_id += '"' + idv + '"' + ',';
+           gs.info('while');
+          }
+         gs.info('if');
+       }
+       else
+       {
+         var idv = vales.user_name.getDisplayValue();
+         Auser_id += '"' + idv + '"';
+         gs.info('else');
+       }
+       */
+      do
+      {
+	      var idv = vales.user_name.getDisplayValue();
+          Auser_id += '"' + idv + '"' + ',';
+       }while(vales.next())
+       var user = Auser_id.trim().replace(/,{1,}$/, '');
+       gs.info('user' +user);
+       var ret = user.replace('"",','');
+
+	   //var n = 3;
+	   //var users = user.substring(n);
+     }
+     else 
+     {
+       //outputs.readaccstatus = 'notdefine';
+       gs.info('not define' + Auser_id);
+     }
+  gs.info('Auser_id' + ret);
+})(inputs, outputs);</value>
+        <variable display_value="Script">71aa7f6647032200b4fad7527c9a719b</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=7036495387023c1072da33b40cbb3503"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>AOwner</field>
+        <id>7036495387023c1072da33b40cbb3503</id>
+        <sys_created_by>nxf52093</sys_created_by>
+        <sys_created_on>2021-08-23 17:04:28</sys_created_on>
+        <sys_id>4136495387023c1072da33b40cbb358c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nxf52093</sys_updated_by>
+        <sys_updated_on>2021-08-23 17:04:28</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_7036495387023c1072da33b40cbb3503</table>
+        <value>{{action.nowner}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>group</field>
+        <id>7036495387023c1072da33b40cbb3503</id>
+        <sys_created_by>nxf52093</sys_created_by>
+        <sys_created_on>2021-08-23 17:04:28</sys_created_on>
+        <sys_id>0536495387023c1072da33b40cbb358c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nxf52093</sys_updated_by>
+        <sys_updated_on>2021-08-23 17:04:28</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_7036495387023c1072da33b40cbb3503</table>
+        <value>{{action.group}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ROwner</field>
+        <id>7036495387023c1072da33b40cbb3503</id>
+        <sys_created_by>nxf52093</sys_created_by>
+        <sys_created_on>2021-08-23 17:04:28</sys_created_on>
+        <sys_id>c536495387023c1072da33b40cbb358c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nxf52093</sys_updated_by>
+        <sys_updated_on>2021-08-23 17:04:28</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_7036495387023c1072da33b40cbb3503</table>
+        <value>{{action.cowner}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_step_ext_output_7036495387023c1072da33b40cbb3503^id=7036495387023c1072da33b40cbb3503"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7^id=7036495387023c1072da33b40cbb3503"/>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=7036495387023c1072da33b40cbb3503^sys_idNOT IN3436495387023c1072da33b40cbb352d,b836495387023c1072da33b40cbb3506,fc36495387023c1072da33b40cbb3526"/>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>group</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label/>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Script step">7036495387023c1072da33b40cbb3503</model>
+        <model_id>7036495387023c1072da33b40cbb3503</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_7036495387023c1072da33b40cbb3503</name>
+        <next_element/>
+        <order>200</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>nxf52093</sys_created_by>
+        <sys_created_on>2021-08-23 17:04:27</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>3436495387023c1072da33b40cbb352d</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NXP GAF Share Automation">4a417d661b85005017daa6886e4bcb74</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>nxf52093</sys_updated_by>
+        <sys_updated_on>2021-08-23 17:04:58</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <u_model_id/>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>ROwner</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label/>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Script step">7036495387023c1072da33b40cbb3503</model>
+        <model_id>7036495387023c1072da33b40cbb3503</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_7036495387023c1072da33b40cbb3503</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>nxf52093</sys_created_by>
+        <sys_created_on>2021-08-23 17:04:27</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>b836495387023c1072da33b40cbb3506</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NXP GAF Share Automation">4a417d661b85005017daa6886e4bcb74</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>nxf52093</sys_updated_by>
+        <sys_updated_on>2021-08-23 17:04:58</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <u_model_id/>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>AOwner</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label/>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Script step">7036495387023c1072da33b40cbb3503</model>
+        <model_id>7036495387023c1072da33b40cbb3503</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_7036495387023c1072da33b40cbb3503</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>nxf52093</sys_created_by>
+        <sys_created_on>2021-08-23 17:04:27</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>fc36495387023c1072da33b40cbb3526</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NXP GAF Share Automation">4a417d661b85005017daa6886e4bcb74</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>nxf52093</sys_updated_by>
+        <sys_updated_on>2021-08-23 17:04:58</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <u_model_id/>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=7036495387023c1072da33b40cbb3503^sys_idNOT IN0936495387023c1072da33b40cbb3573,7c36495387023c1072da33b40cbb3547,b836495387023c1072da33b40cbb3540"/>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=19e82690-a6e2-474f-9aed-1f7315efca70</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>check1</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>check1</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Script step">7036495387023c1072da33b40cbb3503</model>
+        <model_id>7036495387023c1072da33b40cbb3503</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_7036495387023c1072da33b40cbb3503</name>
+        <next_element/>
+        <order>3</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>nxf52093</sys_created_by>
+        <sys_created_on>2021-08-23 17:04:28</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>0936495387023c1072da33b40cbb3573</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NXP GAF Share Automation">4a417d661b85005017daa6886e4bcb74</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>nxf52093</sys_updated_by>
+        <sys_updated_on>2021-08-23 17:04:28</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <u_model_id/>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=7504177a-fd2d-4656-afa6-66baef596945</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>addacc</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>addacc</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Script step">7036495387023c1072da33b40cbb3503</model>
+        <model_id>7036495387023c1072da33b40cbb3503</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_7036495387023c1072da33b40cbb3503</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>nxf52093</sys_created_by>
+        <sys_created_on>2021-08-23 17:04:28</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>7c36495387023c1072da33b40cbb3547</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NXP GAF Share Automation">4a417d661b85005017daa6886e4bcb74</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>nxf52093</sys_updated_by>
+        <sys_updated_on>2021-08-23 17:04:28</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <u_model_id/>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=ae5bb544-1827-42dc-9c2a-8d0e56bee95c</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>remacc</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>remacc</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Script step">7036495387023c1072da33b40cbb3503</model>
+        <model_id>7036495387023c1072da33b40cbb3503</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_7036495387023c1072da33b40cbb3503</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>nxf52093</sys_created_by>
+        <sys_created_on>2021-08-23 17:04:27</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>b836495387023c1072da33b40cbb3540</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NXP GAF Share Automation">4a417d661b85005017daa6886e4bcb74</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>nxf52093</sys_updated_by>
+        <sys_updated_on>2021-08-23 17:04:27</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <u_model_id/>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_7036495387023c1072da33b40cbb3503^sys_idNOT IN4536495387023c1072da33b40cbb3572,b836495387023c1072da33b40cbb3546,c936495387023c1072da33b40cbb3578"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>addacc</element>
+        <help/>
+        <hint/>
+        <label>addacc</label>
+        <language>en</language>
+        <name>var__m_sys_hub_step_ext_output_7036495387023c1072da33b40cbb3503</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>nxf52093</sys_created_by>
+        <sys_created_on>2021-08-23 17:04:28</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>4536495387023c1072da33b40cbb3572</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>addacc</sys_name>
+        <sys_package display_value="NXP GAF Share Automation" source="x_nxps3_nxp_gaf_sh">4a417d661b85005017daa6886e4bcb74</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NXP GAF Share Automation">4a417d661b85005017daa6886e4bcb74</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_7036495387023c1072da33b40cbb3503_addacc_en</sys_update_name>
+        <sys_updated_by>nxf52093</sys_updated_by>
+        <sys_updated_on>2021-08-23 17:04:28</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>remacc</element>
+        <help/>
+        <hint/>
+        <label>remacc</label>
+        <language>en</language>
+        <name>var__m_sys_hub_step_ext_output_7036495387023c1072da33b40cbb3503</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>nxf52093</sys_created_by>
+        <sys_created_on>2021-08-23 17:04:28</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>b836495387023c1072da33b40cbb3546</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>remacc</sys_name>
+        <sys_package display_value="NXP GAF Share Automation" source="x_nxps3_nxp_gaf_sh">4a417d661b85005017daa6886e4bcb74</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NXP GAF Share Automation">4a417d661b85005017daa6886e4bcb74</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_7036495387023c1072da33b40cbb3503_remacc_en</sys_update_name>
+        <sys_updated_by>nxf52093</sys_updated_by>
+        <sys_updated_on>2021-08-23 17:04:28</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>check1</element>
+        <help/>
+        <hint/>
+        <label>check1</label>
+        <language>en</language>
+        <name>var__m_sys_hub_step_ext_output_7036495387023c1072da33b40cbb3503</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>nxf52093</sys_created_by>
+        <sys_created_on>2021-08-23 17:04:28</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>c936495387023c1072da33b40cbb3578</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>check1</sys_name>
+        <sys_package display_value="NXP GAF Share Automation" source="x_nxps3_nxp_gaf_sh">4a417d661b85005017daa6886e4bcb74</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NXP GAF Share Automation">4a417d661b85005017daa6886e4bcb74</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_7036495387023c1072da33b40cbb3503_check1_en</sys_update_name>
+        <sys_updated_by>nxf52093</sys_updated_by>
+        <sys_updated_on>2021-08-23 17:04:28</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Copy of get user id for changing Ownership">7c36095387023c1072da33b40cbb3543</action>
+        <cid>e29a1516-9c01-4a25-ad84-15e43da4b3c5</cid>
+        <error_handling_type>1</error_handling_type>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>Script step</label>
+        <order>2</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
+        <sys_class_name>sys_hub_step_instance</sys_class_name>
+        <sys_created_by>nxf52093</sys_created_by>
+        <sys_created_on>2021-08-23 17:04:28</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>c536495387023c1072da33b40cbb358f</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NXP GAF Share Automation">4a417d661b85005017daa6886e4bcb74</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>nxf52093</sys_updated_by>
+        <sys_updated_on>2021-08-23 17:04:28</sys_updated_on>
+        <u_active>false</u_active>
+        <u_application_product_model/>
+        <u_assignment_group_s/>
+        <u_department/>
+        <u_interface_users_in_dev/>
+        <u_purpose/>
+        <u_status/>
+        <u_support_group_s/>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=c536495387023c1072da33b40cbb358f"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>c536495387023c1072da33b40cbb358f</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>nxf52093</sys_created_by>
+        <sys_created_on>2021-08-23 17:04:28</sys_created_on>
+        <sys_id>0136895387023c1072da33b40cbb3500</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nxf52093</sys_updated_by>
+        <sys_updated_on>2021-08-23 17:04:28</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="MID Application">f5e56d79b3101300176b051a16a8dce4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>c536495387023c1072da33b40cbb358f</document_key>
+        <order>600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>nxf52093</sys_created_by>
+        <sys_created_on>2021-08-23 17:04:28</sys_created_on>
+        <sys_id>c136895387023c1072da33b40cbb3500</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nxf52093</sys_updated_by>
+        <sys_updated_on>2021-08-23 17:04:28</sys_updated_on>
+        <value>(function execute(inputs, outputs) {
+// ... code ...
+  outputs.instance = gs.getProperty('instance_name');
+})(inputs, outputs);
+</value>
+        <variable display_value="Script">71aa7f6647032200b4fad7527c9a719b</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_step_ext_output_c536495387023c1072da33b40cbb358f^id=c536495387023c1072da33b40cbb358f"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7^id=c536495387023c1072da33b40cbb358f"/>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=c536495387023c1072da33b40cbb358f^sys_idNOT INc136495387023c1072da33b40cbb3593"/>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=e8577fd2-0d1d-4d80-a37c-cf56e230c034</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>instance</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>instance</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Script step">c536495387023c1072da33b40cbb358f</model>
+        <model_id>c536495387023c1072da33b40cbb358f</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_c536495387023c1072da33b40cbb358f</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>nxf52093</sys_created_by>
+        <sys_created_on>2021-08-23 17:04:28</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>c136495387023c1072da33b40cbb3593</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NXP GAF Share Automation">4a417d661b85005017daa6886e4bcb74</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>nxf52093</sys_updated_by>
+        <sys_updated_on>2021-08-23 17:04:28</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <u_model_id/>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_c536495387023c1072da33b40cbb358f^sys_idNOT IN4536495387023c1072da33b40cbb35fc"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>instance</element>
+        <help/>
+        <hint/>
+        <label>instance</label>
+        <language>en</language>
+        <name>var__m_sys_hub_step_ext_output_c536495387023c1072da33b40cbb358f</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>nxf52093</sys_created_by>
+        <sys_created_on>2021-08-23 17:04:28</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>4536495387023c1072da33b40cbb35fc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>instance</sys_name>
+        <sys_package display_value="NXP GAF Share Automation" source="x_nxps3_nxp_gaf_sh">4a417d661b85005017daa6886e4bcb74</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NXP GAF Share Automation">4a417d661b85005017daa6886e4bcb74</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_c536495387023c1072da33b40cbb358f_instance_en</sys_update_name>
+        <sys_updated_by>nxf52093</sys_updated_by>
+        <sys_updated_on>2021-08-23 17:04:28</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_hub_action_input action="delete_multiple" query="model=7c36095387023c1072da33b40cbb3543^sys_idNOT IN3836095387023c1072da33b40cbb3583,7036095387023c1072da33b40cbb357b,f836095387023c1072da33b40cbb35e1"/>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=3f881fbc-7101-4f8d-9196-f4cc8fd5df0d</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>nowner</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>NOwner</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Copy of get user id for changing Ownership">7c36095387023c1072da33b40cbb3543</model>
+        <model_id>7c36095387023c1072da33b40cbb3543</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_input_7c36095387023c1072da33b40cbb3543</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>nxf52093</sys_created_by>
+        <sys_created_on>2021-08-23 17:04:27</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>3836095387023c1072da33b40cbb3583</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NXP GAF Share Automation">4a417d661b85005017daa6886e4bcb74</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>nxf52093</sys_updated_by>
+        <sys_updated_on>2021-08-23 17:04:27</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <u_model_id/>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=43d53266-84f6-4a22-80e2-cdf620c24010</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>cowner</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>COwner</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Copy of get user id for changing Ownership">7c36095387023c1072da33b40cbb3543</model>
+        <model_id>7c36095387023c1072da33b40cbb3543</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_input_7c36095387023c1072da33b40cbb3543</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>nxf52093</sys_created_by>
+        <sys_created_on>2021-08-23 17:04:27</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>7036095387023c1072da33b40cbb357b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NXP GAF Share Automation">4a417d661b85005017daa6886e4bcb74</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>nxf52093</sys_updated_by>
+        <sys_updated_on>2021-08-23 17:04:27</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <u_model_id/>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=7ddf56fd-5595-432f-846d-5d963b2b19d8</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>group</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>group</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Copy of get user id for changing Ownership">7c36095387023c1072da33b40cbb3543</model>
+        <model_id>7c36095387023c1072da33b40cbb3543</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_input_7c36095387023c1072da33b40cbb3543</name>
+        <next_element/>
+        <order>3</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>nxf52093</sys_created_by>
+        <sys_created_on>2021-08-23 17:04:27</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>f836095387023c1072da33b40cbb35e1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NXP GAF Share Automation">4a417d661b85005017daa6886e4bcb74</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>nxf52093</sys_updated_by>
+        <sys_updated_on>2021-08-23 17:04:27</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <u_model_id/>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_output action="delete_multiple" query="model=7c36095387023c1072da33b40cbb3543^sys_idNOT IN0936895387023c1072da33b40cbb3519,0d36895387023c1072da33b40cbb3540,4136895387023c1072da33b40cbb3505,4536895387023c1072da33b40cbb356d,4936895387023c1072da33b40cbb3539"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=string,uiTypeLabel=String,uiUniqueId=57abd093-416f-4ff1-bbe5-dd17d74f2dac</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>variable1</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>removal</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Copy of get user id for changing Ownership">7c36095387023c1072da33b40cbb3543</model>
+        <model_id>7c36095387023c1072da33b40cbb3543</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_7c36095387023c1072da33b40cbb3543</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>nxf52093</sys_created_by>
+        <sys_created_on>2021-08-23 17:04:28</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>0936895387023c1072da33b40cbb3519</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NXP GAF Share Automation">4a417d661b85005017daa6886e4bcb74</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>nxf52093</sys_updated_by>
+        <sys_updated_on>2021-08-23 17:04:28</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <u_model_id/>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>action_error_output=true,co_type_name=FDc53689534c023c109942ce12589b5202,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object,uiUniqueId=b5774c74-0962-4ae3-8649-39d758315348</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>__action_status__</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Action Status</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="Copy of get user id for changing Ownership">7c36095387023c1072da33b40cbb3543</model>
+        <model_id>7c36095387023c1072da33b40cbb3543</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_7c36095387023c1072da33b40cbb3543</name>
+        <next_element/>
+        <order>4</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>nxf52093</sys_created_by>
+        <sys_created_on>2021-08-23 17:04:28</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>0d36895387023c1072da33b40cbb3540</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NXP GAF Share Automation">4a417d661b85005017daa6886e4bcb74</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>nxf52093</sys_updated_by>
+        <sys_updated_on>2021-08-23 17:04:28</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <u_model_id/>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=string,uiTypeLabel=String,uiUniqueId=19bcb7e2-5c07-4005-9db4-c5e720a39de2</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>variable</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>addition</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Copy of get user id for changing Ownership">7c36095387023c1072da33b40cbb3543</model>
+        <model_id>7c36095387023c1072da33b40cbb3543</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_7c36095387023c1072da33b40cbb3543</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>nxf52093</sys_created_by>
+        <sys_created_on>2021-08-23 17:04:28</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>4136895387023c1072da33b40cbb3505</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NXP GAF Share Automation">4a417d661b85005017daa6886e4bcb74</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>nxf52093</sys_updated_by>
+        <sys_updated_on>2021-08-23 17:04:28</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <u_model_id/>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>action_error_output=true,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=boolean,uiTypeLabel=True/False,uiUniqueId=f30fa9f0-f08c-490f-95e3-532094773c81,visible_in_ui=false</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value>true</default_value>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>__dont_treat_as_error__</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="">boolean</internal_type>
+        <label>Don't Treat as Error</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Copy of get user id for changing Ownership">7c36095387023c1072da33b40cbb3543</model>
+        <model_id>7c36095387023c1072da33b40cbb3543</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_7c36095387023c1072da33b40cbb3543</name>
+        <next_element/>
+        <order>5</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>nxf52093</sys_created_by>
+        <sys_created_on>2021-08-23 17:04:28</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>4536895387023c1072da33b40cbb356d</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NXP GAF Share Automation">4a417d661b85005017daa6886e4bcb74</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>nxf52093</sys_updated_by>
+        <sys_updated_on>2021-08-23 17:04:29</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <u_model_id/>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=string,uiTypeLabel=String,uiUniqueId=8b43cd3d-6bfe-48e8-a3bd-04cd846813b1</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>variable12</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Sinstance</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Copy of get user id for changing Ownership">7c36095387023c1072da33b40cbb3543</model>
+        <model_id>7c36095387023c1072da33b40cbb3543</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_7c36095387023c1072da33b40cbb3543</name>
+        <next_element/>
+        <order>3</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>nxf52093</sys_created_by>
+        <sys_created_on>2021-08-23 17:04:28</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>4936895387023c1072da33b40cbb3539</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NXP GAF Share Automation">4a417d661b85005017daa6886e4bcb74</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>nxf52093</sys_updated_by>
+        <sys_updated_on>2021-08-23 17:04:28</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <u_model_id/>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_status_metadata action="delete_multiple" query="action_type_id=7c36095387023c1072da33b40cbb3543^sys_idNOT INd936895387023c1072da33b40cbb3598"/>
+    <sys_hub_action_status_metadata action="INSERT_OR_UPDATE">
+        <action_type_id display_value="Copy of get user id for changing Ownership">7c36095387023c1072da33b40cbb3543</action_type_id>
+        <sys_created_by>nxf52093</sys_created_by>
+        <sys_created_on>2021-08-23 17:04:29</sys_created_on>
+        <sys_id>d936895387023c1072da33b40cbb3598</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nxf52093</sys_updated_by>
+        <sys_updated_on>2021-08-23 17:04:29</sys_updated_on>
+    </sys_hub_action_status_metadata>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_7c36095387023c1072da33b40cbb3543^sys_idNOT IN3836095387023c1072da33b40cbb35e0,3836495387023c1072da33b40cbb3500,7436095387023c1072da33b40cbb3582"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>nowner</element>
+        <help/>
+        <hint/>
+        <label>NOwner</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_7c36095387023c1072da33b40cbb3543</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>nxf52093</sys_created_by>
+        <sys_created_on>2021-08-23 17:04:27</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>3836095387023c1072da33b40cbb35e0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>NOwner</sys_name>
+        <sys_package display_value="NXP GAF Share Automation" source="x_nxps3_nxp_gaf_sh">4a417d661b85005017daa6886e4bcb74</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NXP GAF Share Automation">4a417d661b85005017daa6886e4bcb74</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_7c36095387023c1072da33b40cbb3543_nowner_en</sys_update_name>
+        <sys_updated_by>nxf52093</sys_updated_by>
+        <sys_updated_on>2021-08-23 17:04:27</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>group</element>
+        <help/>
+        <hint/>
+        <label>group</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_7c36095387023c1072da33b40cbb3543</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>nxf52093</sys_created_by>
+        <sys_created_on>2021-08-23 17:04:27</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>3836495387023c1072da33b40cbb3500</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>group</sys_name>
+        <sys_package display_value="NXP GAF Share Automation" source="x_nxps3_nxp_gaf_sh">4a417d661b85005017daa6886e4bcb74</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NXP GAF Share Automation">4a417d661b85005017daa6886e4bcb74</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_7c36095387023c1072da33b40cbb3543_group_en</sys_update_name>
+        <sys_updated_by>nxf52093</sys_updated_by>
+        <sys_updated_on>2021-08-23 17:04:27</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>cowner</element>
+        <help/>
+        <hint/>
+        <label>COwner</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_7c36095387023c1072da33b40cbb3543</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>nxf52093</sys_created_by>
+        <sys_created_on>2021-08-23 17:04:27</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>7436095387023c1072da33b40cbb3582</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>COwner</sys_name>
+        <sys_package display_value="NXP GAF Share Automation" source="x_nxps3_nxp_gaf_sh">4a417d661b85005017daa6886e4bcb74</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NXP GAF Share Automation">4a417d661b85005017daa6886e4bcb74</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_7c36095387023c1072da33b40cbb3543_cowner_en</sys_update_name>
+        <sys_updated_by>nxf52093</sys_updated_by>
+        <sys_updated_on>2021-08-23 17:04:27</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_7c36095387023c1072da33b40cbb3543^sys_idNOT IN4536895387023c1072da33b40cbb3518,4936895387023c1072da33b40cbb353f,8136895387023c1072da33b40cbb356c,8536895387023c1072da33b40cbb3538,8536895387023c1072da33b40cbb3591"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>variable</element>
+        <help/>
+        <hint/>
+        <label>addition</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_7c36095387023c1072da33b40cbb3543</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>nxf52093</sys_created_by>
+        <sys_created_on>2021-08-23 17:04:28</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>4536895387023c1072da33b40cbb3518</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>addition</sys_name>
+        <sys_package display_value="NXP GAF Share Automation" source="x_nxps3_nxp_gaf_sh">4a417d661b85005017daa6886e4bcb74</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NXP GAF Share Automation">4a417d661b85005017daa6886e4bcb74</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_7c36095387023c1072da33b40cbb3543_variable_en</sys_update_name>
+        <sys_updated_by>nxf52093</sys_updated_by>
+        <sys_updated_on>2021-08-23 17:04:28</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>variable12</element>
+        <help/>
+        <hint/>
+        <label>Sinstance</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_7c36095387023c1072da33b40cbb3543</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>nxf52093</sys_created_by>
+        <sys_created_on>2021-08-23 17:04:28</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>4936895387023c1072da33b40cbb353f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Sinstance</sys_name>
+        <sys_package display_value="NXP GAF Share Automation" source="x_nxps3_nxp_gaf_sh">4a417d661b85005017daa6886e4bcb74</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NXP GAF Share Automation">4a417d661b85005017daa6886e4bcb74</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_7c36095387023c1072da33b40cbb3543_variable12_en</sys_update_name>
+        <sys_updated_by>nxf52093</sys_updated_by>
+        <sys_updated_on>2021-08-23 17:04:28</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>__action_status__</element>
+        <help/>
+        <hint/>
+        <label>Action Status</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_7c36095387023c1072da33b40cbb3543</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>nxf52093</sys_created_by>
+        <sys_created_on>2021-08-23 17:04:28</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>8136895387023c1072da33b40cbb356c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Action Status</sys_name>
+        <sys_package display_value="NXP GAF Share Automation" source="x_nxps3_nxp_gaf_sh">4a417d661b85005017daa6886e4bcb74</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NXP GAF Share Automation">4a417d661b85005017daa6886e4bcb74</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_7c36095387023c1072da33b40cbb3543___action_status___en</sys_update_name>
+        <sys_updated_by>nxf52093</sys_updated_by>
+        <sys_updated_on>2021-08-23 17:04:28</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>variable1</element>
+        <help/>
+        <hint/>
+        <label>removal</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_7c36095387023c1072da33b40cbb3543</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>nxf52093</sys_created_by>
+        <sys_created_on>2021-08-23 17:04:28</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>8536895387023c1072da33b40cbb3538</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>removal</sys_name>
+        <sys_package display_value="NXP GAF Share Automation" source="x_nxps3_nxp_gaf_sh">4a417d661b85005017daa6886e4bcb74</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NXP GAF Share Automation">4a417d661b85005017daa6886e4bcb74</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_7c36095387023c1072da33b40cbb3543_variable1_en</sys_update_name>
+        <sys_updated_by>nxf52093</sys_updated_by>
+        <sys_updated_on>2021-08-23 17:04:28</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>__dont_treat_as_error__</element>
+        <help/>
+        <hint/>
+        <label>Don't Treat as Error</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_7c36095387023c1072da33b40cbb3543</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>nxf52093</sys_created_by>
+        <sys_created_on>2021-08-23 17:04:29</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>8536895387023c1072da33b40cbb3591</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Don't Treat as Error</sys_name>
+        <sys_package display_value="NXP GAF Share Automation" source="x_nxps3_nxp_gaf_sh">4a417d661b85005017daa6886e4bcb74</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NXP GAF Share Automation">4a417d661b85005017daa6886e4bcb74</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_7c36095387023c1072da33b40cbb3543___dont_treat_as_error___en</sys_update_name>
+        <sys_updated_by>nxf52093</sys_updated_by>
+        <sys_updated_on>2021-08-23 17:04:29</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_hub_action_plan action="delete_multiple" query="action_id=7c36095387023c1072da33b40cbb3543^sys_idNOT IN5556c9d387023c1072da33b40cbb35ec"/>
+    <sys_hub_action_plan action="INSERT_OR_UPDATE">
+        <action_id display_value="Copy of get user id for changing Ownership">7c36095387023c1072da33b40cbb3543</action_id>
+        <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"5556c9d387023c1072da33b40cbb35ec","name":"plan","plan_signature":null}}</plan>
+        <snapshot>b58425711b1678580d041028bd4bcb79</snapshot>
+        <sys_created_by>nxf52093</sys_created_by>
+        <sys_created_on>2021-08-23 17:05:02</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>5556c9d387023c1072da33b40cbb35ec</sys_id>
+        <sys_mod_count>31</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>nxf52093</sys_updated_by>
+        <sys_updated_on>2021-08-31 13:41:48</sys_updated_on>
+    </sys_hub_action_plan>
+    <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <action_status/>
+        <action_template/>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>copy_of_get_user_id_for_changing_ownership</internal_name>
+        <label_cache>[{"name":"{{action.cowner}}","label":"action➛COwner","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.nowner}}","label":"action➛NOwner","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.group}}","label":"action➛group","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.server}}","label":"action➛server","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.alert}}","label":"action➛alert","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.starttime}}","label":"action➛starttime","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.endtime}}","label":"action➛endtime","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.main_name}}","label":"action➛main_name","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[e5e76075-82e0-47f8-b664-2fd45a07c184].remacc}}","label":"step➛Script step➛remacc","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[e5e76075-82e0-47f8-b664-2fd45a07c184].addacc}}","label":"step➛Script step➛addacc","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"7504177a-fd2d-4656-afa6-66baef596945"}},{"name":"{{step[e29a1516-9c01-4a25-ad84-15e43da4b3c5].instance}}","label":"step➛Script step➛instance","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[e5e76075-82e0-47f8-b664-2fd45a07c184].check1}}","label":"step➛Script step➛check1","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"19e82690-a6e2-474f-9aed-1f7315efca70"}},{"name":"{{step[8e9f6da9-660e-4d6e-820f-702e4f954bcf].out_server}}","label":"step➛Script step➛out_server_ims","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[8e9f6da9-660e-4d6e-820f-702e4f954bcf].out_server_fsl}}","label":"step➛Script step➛out_server_fsl","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[8e9f6da9-660e-4d6e-820f-702e4f954bcf].out_server_nxdi}}","label":"step➛Script step➛out_server_nxdi","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[8e9f6da9-660e-4d6e-820f-702e4f954bcf].out_server_not}}","label":"step➛Script step➛out_server_not","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[8e9f6da9-660e-4d6e-820f-702e4f954bcf].out_server_ims}}","label":"step➛Script step➛out_server_ims","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[8e9f6da9-660e-4d6e-820f-702e4f954bcf].cou_ims}}","label":"step➛Script step➛cou_ims","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[8e9f6da9-660e-4d6e-820f-702e4f954bcf].cou_fsl}}","label":"step➛Script step➛cou_fsl","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[8e9f6da9-660e-4d6e-820f-702e4f954bcf].cou_nxdi}}","label":"step➛Script step➛cou_nxdi","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[8e9f6da9-660e-4d6e-820f-702e4f954bcf].cou_not}}","label":"step➛Script step➛cou_not","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[8e9f6da9-660e-4d6e-820f-702e4f954bcf].server_total_count}}","label":"step➛Script step➛server_total_count","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[8e9f6da9-660e-4d6e-820f-702e4f954bcf].nxdi_only}}","label":"step➛Script step➛nxdi_only","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[8e9f6da9-660e-4d6e-820f-702e4f954bcf].alert}}","label":"step➛Script step➛alert","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[8e9f6da9-660e-4d6e-820f-702e4f954bcf].main_name}}","label":"step➛Script step➛main_name","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}}]</label_cache>
+        <master>true</master>
+        <name>Copy of get user id for changing Ownership</name>
+        <natlang/>
+        <outputs/>
+        <outputs/>
+        <parent_action display_value="Copy of get user id for changing Ownership">7c36095387023c1072da33b40cbb3543</parent_action>
+        <sys_class_name>sys_hub_action_type_snapshot</sys_class_name>
+        <sys_created_by>nxf52093</sys_created_by>
+        <sys_created_on>2021-08-23 17:04:59</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>ec5609d387023c1072da33b40cbb35dc</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NXP GAF Share Automation">4a417d661b85005017daa6886e4bcb74</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>nxf52093</sys_updated_by>
+        <sys_updated_on>2021-08-31 12:30:30</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_snapshot>
+    <sys_variable_value action="delete_multiple" query="document_key=ec5609d387023c1072da33b40cbb35dc"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_snapshot</document>
+        <document_key>ec5609d387023c1072da33b40cbb35dc</document_key>
+        <order>4</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>nxf52093</sys_created_by>
+        <sys_created_on>2021-08-23 17:05:00</sys_created_on>
+        <sys_id>8d5689d387023c1072da33b40cbb35aa</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>nxf52093</sys_updated_by>
+        <sys_updated_on>2021-08-31 11:39:43</sys_updated_on>
+        <value>{"version":"1.0","complexObjectSchema":{"FlowDesigner:FDf05689d3d5023c100885af230cac3100":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDf05689d3d5023c100885af230cac3100.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"b5774c74-0962-4ae3-8649-39d758315348\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDf05689d3d5023c100885af230cac3100\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"order\":\"4\",\"max_length\":\"65000\"}"}},"complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":""}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}},"serializationFormat":"JSON"}</value>
+        <variable display_value="Action Status">f05689d387023c1072da33b40cbb356f</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_snapshot</document>
+        <document_key>ec5609d387023c1072da33b40cbb35dc</document_key>
+        <order>5</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>nxf52093</sys_created_by>
+        <sys_created_on>2021-08-23 17:05:00</sys_created_on>
+        <sys_id>c95689d387023c1072da33b40cbb35aa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nxf52093</sys_updated_by>
+        <sys_updated_on>2021-08-23 17:05:00</sys_updated_on>
+        <value>0</value>
+        <variable display_value="Don't Treat as Error">b45689d387023c1072da33b40cbb3576</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=ec5609d387023c1072da33b40cbb35dc"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>variable</field>
+        <id>ec5609d387023c1072da33b40cbb35dc</id>
+        <sys_created_by>nxf52093</sys_created_by>
+        <sys_created_on>2021-08-23 17:05:00</sys_created_on>
+        <sys_id>015689d387023c1072da33b40cbb35aa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nxf52093</sys_updated_by>
+        <sys_updated_on>2021-08-23 17:05:00</sys_updated_on>
+        <table>var__m_sys_hub_action_output_ec5609d387023c1072da33b40cbb35dc</table>
+        <value>{{step[e5e76075-82e0-47f8-b664-2fd45a07c184].addacc}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>variable1</field>
+        <id>ec5609d387023c1072da33b40cbb35dc</id>
+        <sys_created_by>nxf52093</sys_created_by>
+        <sys_created_on>2021-08-23 17:05:00</sys_created_on>
+        <sys_id>4d5689d387023c1072da33b40cbb35a9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nxf52093</sys_updated_by>
+        <sys_updated_on>2021-08-23 17:05:00</sys_updated_on>
+        <table>var__m_sys_hub_action_output_ec5609d387023c1072da33b40cbb35dc</table>
+        <value>{{step[e5e76075-82e0-47f8-b664-2fd45a07c184].remacc}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>variable12</field>
+        <id>ec5609d387023c1072da33b40cbb35dc</id>
+        <sys_created_by>nxf52093</sys_created_by>
+        <sys_created_on>2021-08-23 17:05:00</sys_created_on>
+        <sys_id>495689d387023c1072da33b40cbb35aa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nxf52093</sys_updated_by>
+        <sys_updated_on>2021-08-23 17:05:00</sys_updated_on>
+        <table>var__m_sys_hub_action_output_ec5609d387023c1072da33b40cbb35dc</table>
+        <value>{{step[e29a1516-9c01-4a25-ad84-15e43da4b3c5].instance}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>__action_status__</field>
+        <id>ec5609d387023c1072da33b40cbb35dc</id>
+        <sys_created_by>nxf52093</sys_created_by>
+        <sys_created_on>2021-08-23 17:05:00</sys_created_on>
+        <sys_id>855689d387023c1072da33b40cbb35aa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nxf52093</sys_updated_by>
+        <sys_updated_on>2021-08-23 17:05:00</sys_updated_on>
+        <table>var__m_sys_hub_action_output_ec5609d387023c1072da33b40cbb35dc</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>__dont_treat_as_error__</field>
+        <id>ec5609d387023c1072da33b40cbb35dc</id>
+        <sys_created_by>nxf52093</sys_created_by>
+        <sys_created_on>2021-08-23 17:05:00</sys_created_on>
+        <sys_id>c15689d387023c1072da33b40cbb35aa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nxf52093</sys_updated_by>
+        <sys_updated_on>2021-08-23 17:05:00</sys_updated_on>
+        <table>var__m_sys_hub_action_output_ec5609d387023c1072da33b40cbb35dc</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_step_instance action="delete_multiple" query="action=ec5609d387023c1072da33b40cbb35dc^sys_idNOT IN705649d387023c1072da33b40cbb35a6,a45649d387023c1072da33b40cbb3529"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Copy of get user id for changing Ownership">ec5609d387023c1072da33b40cbb35dc</action>
+        <cid>e29a1516-9c01-4a25-ad84-15e43da4b3c5</cid>
+        <error_handling_type>1</error_handling_type>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>Script step</label>
+        <order>2</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
+        <sys_class_name>sys_hub_step_instance</sys_class_name>
+        <sys_created_by>nxf52093</sys_created_by>
+        <sys_created_on>2021-08-23 17:05:00</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>705649d387023c1072da33b40cbb35a6</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NXP GAF Share Automation">4a417d661b85005017daa6886e4bcb74</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>nxf52093</sys_updated_by>
+        <sys_updated_on>2021-08-23 17:05:00</sys_updated_on>
+        <u_active>false</u_active>
+        <u_application_product_model/>
+        <u_assignment_group_s/>
+        <u_department/>
+        <u_interface_users_in_dev/>
+        <u_purpose/>
+        <u_status/>
+        <u_support_group_s/>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=705649d387023c1072da33b40cbb35a6"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>705649d387023c1072da33b40cbb35a6</document_key>
+        <order>600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>nxf52093</sys_created_by>
+        <sys_created_on>2021-08-23 17:05:00</sys_created_on>
+        <sys_id>bc5649d387023c1072da33b40cbb35fd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nxf52093</sys_updated_by>
+        <sys_updated_on>2021-08-23 17:05:00</sys_updated_on>
+        <value>(function execute(inputs, outputs) {
+// ... code ...
+  outputs.instance = gs.getProperty('instance_name');
+})(inputs, outputs);
+</value>
+        <variable display_value="Script">71aa7f6647032200b4fad7527c9a719b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>705649d387023c1072da33b40cbb35a6</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>nxf52093</sys_created_by>
+        <sys_created_on>2021-08-23 17:05:00</sys_created_on>
+        <sys_id>f85649d387023c1072da33b40cbb35fd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nxf52093</sys_updated_by>
+        <sys_updated_on>2021-08-23 17:05:00</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="MID Application">f5e56d79b3101300176b051a16a8dce4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_step_ext_output_705649d387023c1072da33b40cbb35a6^id=705649d387023c1072da33b40cbb35a6"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7^id=705649d387023c1072da33b40cbb35a6"/>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=705649d387023c1072da33b40cbb35a6^sys_idNOT INb05649d387023c1072da33b40cbb35cf"/>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=e8577fd2-0d1d-4d80-a37c-cf56e230c034</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>instance</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>instance</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Script step">705649d387023c1072da33b40cbb35a6</model>
+        <model_id>705649d387023c1072da33b40cbb35a6</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_705649d387023c1072da33b40cbb35a6</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>nxf52093</sys_created_by>
+        <sys_created_on>2021-08-23 17:05:00</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>b05649d387023c1072da33b40cbb35cf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NXP GAF Share Automation">4a417d661b85005017daa6886e4bcb74</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>nxf52093</sys_updated_by>
+        <sys_updated_on>2021-08-23 17:05:00</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <u_model_id/>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_705649d387023c1072da33b40cbb35a6^sys_idNOT INf85649d387023c1072da33b40cbb35d4"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>instance</element>
+        <help/>
+        <hint/>
+        <label>instance</label>
+        <language>en</language>
+        <name>var__m_sys_hub_step_ext_output_705649d387023c1072da33b40cbb35a6</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>nxf52093</sys_created_by>
+        <sys_created_on>2021-08-23 17:05:00</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>f85649d387023c1072da33b40cbb35d4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>instance</sys_name>
+        <sys_package display_value="NXP GAF Share Automation" source="x_nxps3_nxp_gaf_sh">4a417d661b85005017daa6886e4bcb74</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NXP GAF Share Automation">4a417d661b85005017daa6886e4bcb74</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_705649d387023c1072da33b40cbb35a6_instance_en</sys_update_name>
+        <sys_updated_by>nxf52093</sys_updated_by>
+        <sys_updated_on>2021-08-23 17:05:00</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Copy of get user id for changing Ownership">ec5609d387023c1072da33b40cbb35dc</action>
+        <cid>e5e76075-82e0-47f8-b664-2fd45a07c184</cid>
+        <error_handling_type>1</error_handling_type>
+        <extended_inputs/>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>Script step</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
+        <sys_class_name>sys_hub_step_instance</sys_class_name>
+        <sys_created_by>nxf52093</sys_created_by>
+        <sys_created_on>2021-08-23 17:04:59</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>a45649d387023c1072da33b40cbb3529</sys_id>
+        <sys_mod_count>33</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NXP GAF Share Automation">4a417d661b85005017daa6886e4bcb74</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>nxf52093</sys_updated_by>
+        <sys_updated_on>2021-08-31 14:06:03</sys_updated_on>
+        <u_active>false</u_active>
+        <u_application_product_model/>
+        <u_assignment_group_s/>
+        <u_department/>
+        <u_interface_users_in_dev/>
+        <u_purpose/>
+        <u_status/>
+        <u_support_group_s/>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=a45649d387023c1072da33b40cbb3529"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>a45649d387023c1072da33b40cbb3529</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>nxf52093</sys_created_by>
+        <sys_created_on>2021-08-23 17:05:00</sys_created_on>
+        <sys_id>305649d387023c1072da33b40cbb35a2</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>nxf52093</sys_updated_by>
+        <sys_updated_on>2021-08-23 17:18:58</sys_updated_on>
+        <value>instance</value>
+        <variable display_value="Required Runtime">74315b04b3201300176b051a16a8dc2b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>a45649d387023c1072da33b40cbb3529</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>nxf52093</sys_created_by>
+        <sys_created_on>2021-08-23 17:05:00</sys_created_on>
+        <sys_id>7c5649d387023c1072da33b40cbb35a1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nxf52093</sys_updated_by>
+        <sys_updated_on>2021-08-23 17:05:00</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="MID Application">f5e56d79b3101300176b051a16a8dce4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>a45649d387023c1072da33b40cbb3529</document_key>
+        <order>600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>nxf52093</sys_created_by>
+        <sys_created_on>2021-08-23 17:05:00</sys_created_on>
+        <sys_id>f05649d387023c1072da33b40cbb35a2</sys_id>
+        <sys_mod_count>31</sys_mod_count>
+        <sys_updated_by>nxf52093</sys_updated_by>
+        <sys_updated_on>2021-08-31 14:06:03</sys_updated_on>
+        <value>(function execute(inputs, outputs) {
+// ... code ...
+     if (inputs.AOwner) 
+     {
+        var vales = inputs.AOwner;
+        var Auser_id = '';
+        var sys = [];
+        var Auser_id1;
+        var values = vales;
+    /*   
+       if(vales.next() != false)
+       {
+         // Multiple records
+         while(vales.next())
+         {
+            var idv = vales.user_name.getDisplayValue();
+         	Auser_id += '"' + idv + '"' + ',';
+           gs.info('while');
+          }
+         gs.info('if');
+       }
+       else
+       {
+         var idv = vales.user_name.getDisplayValue();
+         Auser_id += '"' + idv + '"';
+         gs.info('else');
+       }
+       */
+      do
+      {
+	      var idv = vales.user_name.getDisplayValue();
+          Auser_id += '"' + idv + '"' + ',';
+       }while(vales.next())
+       var user = Auser_id.trim().replace(/,{1,}$/, '');
+       gs.info('user' +user);
+       var ret = user.replace('"",','');
+
+	   //var n = 3;
+	   //var users = user.substring(n);
+     }
+     else 
+     {
+       //outputs.readaccstatus = 'notdefine';
+       gs.info('not define' + Auser_id);
+     }
+  gs.info('Auser_id' + ret);
+})(inputs, outputs);</value>
+        <variable display_value="Script">71aa7f6647032200b4fad7527c9a719b</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=a45649d387023c1072da33b40cbb3529"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>AOwner</field>
+        <id>a45649d387023c1072da33b40cbb3529</id>
+        <sys_created_by>nxf52093</sys_created_by>
+        <sys_created_on>2021-08-23 17:05:00</sys_created_on>
+        <sys_id>7c5649d387023c1072da33b40cbb35a2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nxf52093</sys_updated_by>
+        <sys_updated_on>2021-08-23 17:05:00</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_a45649d387023c1072da33b40cbb3529</table>
+        <value>{{action.nowner}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>group</field>
+        <id>a45649d387023c1072da33b40cbb3529</id>
+        <sys_created_by>nxf52093</sys_created_by>
+        <sys_created_on>2021-08-23 17:05:00</sys_created_on>
+        <sys_id>305649d387023c1072da33b40cbb35a3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nxf52093</sys_updated_by>
+        <sys_updated_on>2021-08-23 17:05:00</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_a45649d387023c1072da33b40cbb3529</table>
+        <value>{{action.group}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ROwner</field>
+        <id>a45649d387023c1072da33b40cbb3529</id>
+        <sys_created_by>nxf52093</sys_created_by>
+        <sys_created_on>2021-08-23 17:05:00</sys_created_on>
+        <sys_id>f05649d387023c1072da33b40cbb35a3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nxf52093</sys_updated_by>
+        <sys_updated_on>2021-08-23 17:05:00</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_a45649d387023c1072da33b40cbb3529</table>
+        <value>{{action.cowner}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_step_ext_output_a45649d387023c1072da33b40cbb3529^id=a45649d387023c1072da33b40cbb3529"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7^id=a45649d387023c1072da33b40cbb3529"/>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=a45649d387023c1072da33b40cbb3529^sys_idNOT IN305649d387023c1072da33b40cbb355f,605649d387023c1072da33b40cbb3539,6c5649d387023c1072da33b40cbb353f"/>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>group</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>group</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Script step">a45649d387023c1072da33b40cbb3529</model>
+        <model_id>a45649d387023c1072da33b40cbb3529</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_a45649d387023c1072da33b40cbb3529</name>
+        <next_element/>
+        <order>200</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>nxf52093</sys_created_by>
+        <sys_created_on>2021-08-23 17:04:59</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>305649d387023c1072da33b40cbb355f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NXP GAF Share Automation">4a417d661b85005017daa6886e4bcb74</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>nxf52093</sys_updated_by>
+        <sys_updated_on>2021-08-23 17:04:59</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <u_model_id/>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>ROwner</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>ROwner</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Script step">a45649d387023c1072da33b40cbb3529</model>
+        <model_id>a45649d387023c1072da33b40cbb3529</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_a45649d387023c1072da33b40cbb3529</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>nxf52093</sys_created_by>
+        <sys_created_on>2021-08-23 17:04:59</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>605649d387023c1072da33b40cbb3539</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NXP GAF Share Automation">4a417d661b85005017daa6886e4bcb74</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>nxf52093</sys_updated_by>
+        <sys_updated_on>2021-08-23 17:04:59</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <u_model_id/>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>AOwner</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>AOwner</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Script step">a45649d387023c1072da33b40cbb3529</model>
+        <model_id>a45649d387023c1072da33b40cbb3529</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_a45649d387023c1072da33b40cbb3529</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>nxf52093</sys_created_by>
+        <sys_created_on>2021-08-23 17:04:59</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>6c5649d387023c1072da33b40cbb353f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NXP GAF Share Automation">4a417d661b85005017daa6886e4bcb74</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>nxf52093</sys_updated_by>
+        <sys_updated_on>2021-08-23 17:04:59</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <u_model_id/>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=a45649d387023c1072da33b40cbb3529^sys_idNOT IN305649d387023c1072da33b40cbb3579,7c5649d387023c1072da33b40cbb3565,b45649d387023c1072da33b40cbb357f"/>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=7504177a-fd2d-4656-afa6-66baef596945</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>addacc</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>addacc</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Script step">a45649d387023c1072da33b40cbb3529</model>
+        <model_id>a45649d387023c1072da33b40cbb3529</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_a45649d387023c1072da33b40cbb3529</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>nxf52093</sys_created_by>
+        <sys_created_on>2021-08-23 17:04:59</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>305649d387023c1072da33b40cbb3579</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NXP GAF Share Automation">4a417d661b85005017daa6886e4bcb74</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>nxf52093</sys_updated_by>
+        <sys_updated_on>2021-08-23 17:04:59</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <u_model_id/>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=ae5bb544-1827-42dc-9c2a-8d0e56bee95c</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>remacc</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>remacc</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Script step">a45649d387023c1072da33b40cbb3529</model>
+        <model_id>a45649d387023c1072da33b40cbb3529</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_a45649d387023c1072da33b40cbb3529</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>nxf52093</sys_created_by>
+        <sys_created_on>2021-08-23 17:04:59</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>7c5649d387023c1072da33b40cbb3565</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NXP GAF Share Automation">4a417d661b85005017daa6886e4bcb74</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>nxf52093</sys_updated_by>
+        <sys_updated_on>2021-08-23 17:04:59</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <u_model_id/>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=19e82690-a6e2-474f-9aed-1f7315efca70</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>check1</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>check1</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Script step">a45649d387023c1072da33b40cbb3529</model>
+        <model_id>a45649d387023c1072da33b40cbb3529</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_a45649d387023c1072da33b40cbb3529</name>
+        <next_element/>
+        <order>3</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>nxf52093</sys_created_by>
+        <sys_created_on>2021-08-23 17:05:00</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>b45649d387023c1072da33b40cbb357f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NXP GAF Share Automation">4a417d661b85005017daa6886e4bcb74</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>nxf52093</sys_updated_by>
+        <sys_updated_on>2021-08-23 17:05:00</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <u_model_id/>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_a45649d387023c1072da33b40cbb3529^sys_idNOT IN7c5649d387023c1072da33b40cbb3577,f05649d387023c1072da33b40cbb357e,f45649d387023c1072da33b40cbb359d"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>remacc</element>
+        <help/>
+        <hint/>
+        <label>remacc</label>
+        <language>en</language>
+        <name>var__m_sys_hub_step_ext_output_a45649d387023c1072da33b40cbb3529</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>nxf52093</sys_created_by>
+        <sys_created_on>2021-08-23 17:04:59</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>7c5649d387023c1072da33b40cbb3577</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>remacc</sys_name>
+        <sys_package display_value="NXP GAF Share Automation" source="x_nxps3_nxp_gaf_sh">4a417d661b85005017daa6886e4bcb74</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NXP GAF Share Automation">4a417d661b85005017daa6886e4bcb74</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_a45649d387023c1072da33b40cbb3529_remacc_en</sys_update_name>
+        <sys_updated_by>nxf52093</sys_updated_by>
+        <sys_updated_on>2021-08-23 17:04:59</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>addacc</element>
+        <help/>
+        <hint/>
+        <label>addacc</label>
+        <language>en</language>
+        <name>var__m_sys_hub_step_ext_output_a45649d387023c1072da33b40cbb3529</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>nxf52093</sys_created_by>
+        <sys_created_on>2021-08-23 17:05:00</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>f05649d387023c1072da33b40cbb357e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>addacc</sys_name>
+        <sys_package display_value="NXP GAF Share Automation" source="x_nxps3_nxp_gaf_sh">4a417d661b85005017daa6886e4bcb74</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NXP GAF Share Automation">4a417d661b85005017daa6886e4bcb74</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_a45649d387023c1072da33b40cbb3529_addacc_en</sys_update_name>
+        <sys_updated_by>nxf52093</sys_updated_by>
+        <sys_updated_on>2021-08-23 17:05:00</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>check1</element>
+        <help/>
+        <hint/>
+        <label>check1</label>
+        <language>en</language>
+        <name>var__m_sys_hub_step_ext_output_a45649d387023c1072da33b40cbb3529</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>nxf52093</sys_created_by>
+        <sys_created_on>2021-08-23 17:05:00</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>f45649d387023c1072da33b40cbb359d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>check1</sys_name>
+        <sys_package display_value="NXP GAF Share Automation" source="x_nxps3_nxp_gaf_sh">4a417d661b85005017daa6886e4bcb74</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NXP GAF Share Automation">4a417d661b85005017daa6886e4bcb74</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_a45649d387023c1072da33b40cbb3529_check1_en</sys_update_name>
+        <sys_updated_by>nxf52093</sys_updated_by>
+        <sys_updated_on>2021-08-23 17:05:00</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_hub_action_input action="delete_multiple" query="model=ec5609d387023c1072da33b40cbb35dc^sys_idNOT IN205649d387023c1072da33b40cbb3521,245649d387023c1072da33b40cbb3512,ac5649d387023c1072da33b40cbb3519"/>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=7ddf56fd-5595-432f-846d-5d963b2b19d8</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>group</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>group</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Copy of get user id for changing Ownership">ec5609d387023c1072da33b40cbb35dc</model>
+        <model_id>ec5609d387023c1072da33b40cbb35dc</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_input_ec5609d387023c1072da33b40cbb35dc</name>
+        <next_element/>
+        <order>3</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>nxf52093</sys_created_by>
+        <sys_created_on>2021-08-23 17:04:59</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>205649d387023c1072da33b40cbb3521</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NXP GAF Share Automation">4a417d661b85005017daa6886e4bcb74</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>nxf52093</sys_updated_by>
+        <sys_updated_on>2021-08-23 17:04:59</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <u_model_id/>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=43d53266-84f6-4a22-80e2-cdf620c24010</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>cowner</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>COwner</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Copy of get user id for changing Ownership">ec5609d387023c1072da33b40cbb35dc</model>
+        <model_id>ec5609d387023c1072da33b40cbb35dc</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_input_ec5609d387023c1072da33b40cbb35dc</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>nxf52093</sys_created_by>
+        <sys_created_on>2021-08-23 17:04:59</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>245649d387023c1072da33b40cbb3512</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NXP GAF Share Automation">4a417d661b85005017daa6886e4bcb74</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>nxf52093</sys_updated_by>
+        <sys_updated_on>2021-08-23 17:04:59</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <u_model_id/>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=3f881fbc-7101-4f8d-9196-f4cc8fd5df0d</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>nowner</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>NOwner</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Copy of get user id for changing Ownership">ec5609d387023c1072da33b40cbb35dc</model>
+        <model_id>ec5609d387023c1072da33b40cbb35dc</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_input_ec5609d387023c1072da33b40cbb35dc</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>nxf52093</sys_created_by>
+        <sys_created_on>2021-08-23 17:04:59</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>ac5649d387023c1072da33b40cbb3519</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NXP GAF Share Automation">4a417d661b85005017daa6886e4bcb74</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>nxf52093</sys_updated_by>
+        <sys_updated_on>2021-08-23 17:04:59</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <u_model_id/>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_output action="delete_multiple" query="model=ec5609d387023c1072da33b40cbb35dc^sys_idNOT IN3c5689d387023c1072da33b40cbb3542,b45689d387023c1072da33b40cbb3502,b45689d387023c1072da33b40cbb3576,b85689d387023c1072da33b40cbb353b,f05689d387023c1072da33b40cbb356f"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=string,uiTypeLabel=String,uiUniqueId=8b43cd3d-6bfe-48e8-a3bd-04cd846813b1</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>variable12</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Sinstance</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Copy of get user id for changing Ownership">ec5609d387023c1072da33b40cbb35dc</model>
+        <model_id>ec5609d387023c1072da33b40cbb35dc</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_output_ec5609d387023c1072da33b40cbb35dc</name>
+        <next_element/>
+        <order>3</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>nxf52093</sys_created_by>
+        <sys_created_on>2021-08-23 17:05:00</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>3c5689d387023c1072da33b40cbb3542</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NXP GAF Share Automation">4a417d661b85005017daa6886e4bcb74</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>nxf52093</sys_updated_by>
+        <sys_updated_on>2021-08-23 17:05:00</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <u_model_id/>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=string,uiTypeLabel=String,uiUniqueId=19bcb7e2-5c07-4005-9db4-c5e720a39de2</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>variable</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>addition</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Copy of get user id for changing Ownership">ec5609d387023c1072da33b40cbb35dc</model>
+        <model_id>ec5609d387023c1072da33b40cbb35dc</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_output_ec5609d387023c1072da33b40cbb35dc</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>nxf52093</sys_created_by>
+        <sys_created_on>2021-08-23 17:05:00</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>b45689d387023c1072da33b40cbb3502</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NXP GAF Share Automation">4a417d661b85005017daa6886e4bcb74</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>nxf52093</sys_updated_by>
+        <sys_updated_on>2021-08-23 17:05:00</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <u_model_id/>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>action_error_output=true,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=boolean,uiTypeLabel=True/False,uiUniqueId=f30fa9f0-f08c-490f-95e3-532094773c81,visible_in_ui=false</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value>true</default_value>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>__dont_treat_as_error__</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="">boolean</internal_type>
+        <label>Don't Treat as Error</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Copy of get user id for changing Ownership">ec5609d387023c1072da33b40cbb35dc</model>
+        <model_id>ec5609d387023c1072da33b40cbb35dc</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_output_ec5609d387023c1072da33b40cbb35dc</name>
+        <next_element/>
+        <order>5</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>nxf52093</sys_created_by>
+        <sys_created_on>2021-08-23 17:05:00</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>b45689d387023c1072da33b40cbb3576</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NXP GAF Share Automation">4a417d661b85005017daa6886e4bcb74</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>nxf52093</sys_updated_by>
+        <sys_updated_on>2021-08-23 17:05:00</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <u_model_id/>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=string,uiTypeLabel=String,uiUniqueId=57abd093-416f-4ff1-bbe5-dd17d74f2dac</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>variable1</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>removal</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Copy of get user id for changing Ownership">ec5609d387023c1072da33b40cbb35dc</model>
+        <model_id>ec5609d387023c1072da33b40cbb35dc</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_output_ec5609d387023c1072da33b40cbb35dc</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>nxf52093</sys_created_by>
+        <sys_created_on>2021-08-23 17:05:00</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>b85689d387023c1072da33b40cbb353b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NXP GAF Share Automation">4a417d661b85005017daa6886e4bcb74</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>nxf52093</sys_updated_by>
+        <sys_updated_on>2021-08-23 17:05:00</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <u_model_id/>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>action_error_output=true,co_type_name=FDf05689d3d5023c100885af230cac3100,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object,uiUniqueId=b5774c74-0962-4ae3-8649-39d758315348</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>__action_status__</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Action Status</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="Copy of get user id for changing Ownership">ec5609d387023c1072da33b40cbb35dc</model>
+        <model_id>ec5609d387023c1072da33b40cbb35dc</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_output_ec5609d387023c1072da33b40cbb35dc</name>
+        <next_element/>
+        <order>4</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>nxf52093</sys_created_by>
+        <sys_created_on>2021-08-23 17:05:00</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>f05689d387023c1072da33b40cbb356f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NXP GAF Share Automation">4a417d661b85005017daa6886e4bcb74</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>nxf52093</sys_updated_by>
+        <sys_updated_on>2021-08-23 17:05:00</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <u_model_id/>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_status_metadata action="delete_multiple" query="action_type_id=ec5609d387023c1072da33b40cbb35dc^sys_idNOT INcd5689d387023c1072da33b40cbb35b9"/>
+    <sys_hub_action_status_metadata action="INSERT_OR_UPDATE">
+        <action_type_id display_value="Copy of get user id for changing Ownership">ec5609d387023c1072da33b40cbb35dc</action_type_id>
+        <sys_created_by>nxf52093</sys_created_by>
+        <sys_created_on>2021-08-23 17:05:00</sys_created_on>
+        <sys_id>cd5689d387023c1072da33b40cbb35b9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nxf52093</sys_updated_by>
+        <sys_updated_on>2021-08-23 17:05:00</sys_updated_on>
+    </sys_hub_action_status_metadata>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_ec5609d387023c1072da33b40cbb35dc^sys_idNOT IN6c5649d387023c1072da33b40cbb351f,e85649d387023c1072da33b40cbb3518,ec5649d387023c1072da33b40cbb3526"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>nowner</element>
+        <help/>
+        <hint/>
+        <label>NOwner</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_ec5609d387023c1072da33b40cbb35dc</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>nxf52093</sys_created_by>
+        <sys_created_on>2021-08-23 17:04:59</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>6c5649d387023c1072da33b40cbb351f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>NOwner</sys_name>
+        <sys_package display_value="NXP GAF Share Automation" source="x_nxps3_nxp_gaf_sh">4a417d661b85005017daa6886e4bcb74</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NXP GAF Share Automation">4a417d661b85005017daa6886e4bcb74</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_ec5609d387023c1072da33b40cbb35dc_nowner_en</sys_update_name>
+        <sys_updated_by>nxf52093</sys_updated_by>
+        <sys_updated_on>2021-08-23 17:04:59</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>cowner</element>
+        <help/>
+        <hint/>
+        <label>COwner</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_ec5609d387023c1072da33b40cbb35dc</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>nxf52093</sys_created_by>
+        <sys_created_on>2021-08-23 17:04:59</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>e85649d387023c1072da33b40cbb3518</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>COwner</sys_name>
+        <sys_package display_value="NXP GAF Share Automation" source="x_nxps3_nxp_gaf_sh">4a417d661b85005017daa6886e4bcb74</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NXP GAF Share Automation">4a417d661b85005017daa6886e4bcb74</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_ec5609d387023c1072da33b40cbb35dc_cowner_en</sys_update_name>
+        <sys_updated_by>nxf52093</sys_updated_by>
+        <sys_updated_on>2021-08-23 17:04:59</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>group</element>
+        <help/>
+        <hint/>
+        <label>group</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_ec5609d387023c1072da33b40cbb35dc</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>nxf52093</sys_created_by>
+        <sys_created_on>2021-08-23 17:04:59</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>ec5649d387023c1072da33b40cbb3526</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>group</sys_name>
+        <sys_package display_value="NXP GAF Share Automation" source="x_nxps3_nxp_gaf_sh">4a417d661b85005017daa6886e4bcb74</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NXP GAF Share Automation">4a417d661b85005017daa6886e4bcb74</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_ec5609d387023c1072da33b40cbb35dc_group_en</sys_update_name>
+        <sys_updated_by>nxf52093</sys_updated_by>
+        <sys_updated_on>2021-08-23 17:04:59</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_ec5609d387023c1072da33b40cbb35dc^sys_idNOT IN055689d387023c1072da33b40cbb35a6,305689d387023c1072da33b40cbb356e,785689d387023c1072da33b40cbb3541,f05689d387023c1072da33b40cbb3575,f85689d387023c1072da33b40cbb3508"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>__dont_treat_as_error__</element>
+        <help/>
+        <hint/>
+        <label>Don't Treat as Error</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_ec5609d387023c1072da33b40cbb35dc</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>nxf52093</sys_created_by>
+        <sys_created_on>2021-08-23 17:05:00</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>055689d387023c1072da33b40cbb35a6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Don't Treat as Error</sys_name>
+        <sys_package display_value="NXP GAF Share Automation" source="x_nxps3_nxp_gaf_sh">4a417d661b85005017daa6886e4bcb74</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NXP GAF Share Automation">4a417d661b85005017daa6886e4bcb74</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_ec5609d387023c1072da33b40cbb35dc___dont_treat_as_error___en</sys_update_name>
+        <sys_updated_by>nxf52093</sys_updated_by>
+        <sys_updated_on>2021-08-23 17:05:00</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>variable12</element>
+        <help/>
+        <hint/>
+        <label>Sinstance</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_ec5609d387023c1072da33b40cbb35dc</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>nxf52093</sys_created_by>
+        <sys_created_on>2021-08-23 17:05:00</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>305689d387023c1072da33b40cbb356e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Sinstance</sys_name>
+        <sys_package display_value="NXP GAF Share Automation" source="x_nxps3_nxp_gaf_sh">4a417d661b85005017daa6886e4bcb74</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NXP GAF Share Automation">4a417d661b85005017daa6886e4bcb74</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_ec5609d387023c1072da33b40cbb35dc_variable12_en</sys_update_name>
+        <sys_updated_by>nxf52093</sys_updated_by>
+        <sys_updated_on>2021-08-23 17:05:00</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>variable1</element>
+        <help/>
+        <hint/>
+        <label>removal</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_ec5609d387023c1072da33b40cbb35dc</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>nxf52093</sys_created_by>
+        <sys_created_on>2021-08-23 17:05:00</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>785689d387023c1072da33b40cbb3541</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>removal</sys_name>
+        <sys_package display_value="NXP GAF Share Automation" source="x_nxps3_nxp_gaf_sh">4a417d661b85005017daa6886e4bcb74</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NXP GAF Share Automation">4a417d661b85005017daa6886e4bcb74</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_ec5609d387023c1072da33b40cbb35dc_variable1_en</sys_update_name>
+        <sys_updated_by>nxf52093</sys_updated_by>
+        <sys_updated_on>2021-08-23 17:05:00</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>__action_status__</element>
+        <help/>
+        <hint/>
+        <label>Action Status</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_ec5609d387023c1072da33b40cbb35dc</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>nxf52093</sys_created_by>
+        <sys_created_on>2021-08-23 17:05:00</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>f05689d387023c1072da33b40cbb3575</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Action Status</sys_name>
+        <sys_package display_value="NXP GAF Share Automation" source="x_nxps3_nxp_gaf_sh">4a417d661b85005017daa6886e4bcb74</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NXP GAF Share Automation">4a417d661b85005017daa6886e4bcb74</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_ec5609d387023c1072da33b40cbb35dc___action_status___en</sys_update_name>
+        <sys_updated_by>nxf52093</sys_updated_by>
+        <sys_updated_on>2021-08-23 17:05:00</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>variable</element>
+        <help/>
+        <hint/>
+        <label>addition</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_ec5609d387023c1072da33b40cbb35dc</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>nxf52093</sys_created_by>
+        <sys_created_on>2021-08-23 17:05:00</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>f85689d387023c1072da33b40cbb3508</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>addition</sys_name>
+        <sys_package display_value="NXP GAF Share Automation" source="x_nxps3_nxp_gaf_sh">4a417d661b85005017daa6886e4bcb74</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NXP GAF Share Automation">4a417d661b85005017daa6886e4bcb74</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_ec5609d387023c1072da33b40cbb35dc_variable_en</sys_update_name>
+        <sys_updated_by>nxf52093</sys_updated_by>
+        <sys_updated_on>2021-08-23 17:05:00</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_hub_action_type_definition action="update">
+        <sys_id>7c36095387023c1072da33b40cbb3543</sys_id>
+        <latest_snapshot>ec5609d387023c1072da33b40cbb35dc</latest_snapshot>
+    </sys_hub_action_type_definition>
+</record_update>

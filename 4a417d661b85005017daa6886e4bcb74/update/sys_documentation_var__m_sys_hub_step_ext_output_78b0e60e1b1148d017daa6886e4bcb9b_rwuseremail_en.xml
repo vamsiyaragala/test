@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="rwuseremail" label="rwuseremail" language="en" table="var__m_sys_hub_step_ext_output_78b0e60e1b1148d017daa6886e4bcb9b">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>rwuseremail</element>
+            <help/>
+            <hint/>
+            <label>rwuseremail</label>
+            <language>en</language>
+            <name>var__m_sys_hub_step_ext_output_78b0e60e1b1148d017daa6886e4bcb9b</name>
+            <plural/>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>nxf52093</sys_created_by>
+            <sys_created_on>2019-11-25 07:06:56</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>55b02a0e1b1148d017daa6886e4bcb2c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>rwuseremail</sys_name>
+            <sys_package display_value="NXP GAF Share Automation" source="x_nxps3_nxp_gaf_sh">4a417d661b85005017daa6886e4bcb74</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="NXP GAF Share Automation">4a417d661b85005017daa6886e4bcb74</sys_scope>
+            <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_78b0e60e1b1148d017daa6886e4bcb9b_rwuseremail_en</sys_update_name>
+            <sys_updated_by>nxf52093</sys_updated_by>
+            <sys_updated_on>2019-11-25 07:06:56</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

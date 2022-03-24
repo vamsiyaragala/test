@@ -1,0 +1,1854 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation>Create Incident Task if no MidServer is in the Status "UP" based on the MidServer Application Entered, and wait till its completion.</annotation>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category display_value="Re-Usable Custom sub-flow">122f7d7ddbcffb047593522bdc9619c3</category>
+        <compiler_build>glide-rome-06-23-2021__patch6-01-13-2022_01-18-2022_0138.zip</compiler_build>
+        <copied_from>6572ca97db937b4024e8fb541f96191d</copied_from>
+        <copied_from_name>CheckMidServer for Catalog Tasks</copied_from_name>
+        <description>Create Incident Task if no MidServer is in the Status "UP" based on the MidServer Application Entered, and wait till its completion</description>
+        <internal_name>checkmidserver_for_catalog_tasks</internal_name>
+        <label_cache>[{"name":"121d9674-9bb8-418f-9c26-a1122a154caf.Catalog Task","label":"3➛Catalog Task","reference":"sc_task","reference_display":"Catalog Task","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"subflow.incident","label":"Input➛RITM_sysid","reference":"","reference_display":"","type":"string","base_type":"string","column_name":""},{"name":"f8843319-1f4b-4579-b5db-b4cff7530012.Table","label":"2.1➛Incident Task Table","reference":"incident_task","reference_display":"Incident Task","type":"table_name","base_type":"table_name"},{"name":"f8843319-1f4b-4579-b5db-b4cff7530012.Record","label":"2.1➛Incident Task Record","reference":"incident_task","reference_display":"Incident Task","type":"reference","base_type":"reference"},{"name":"19449790-83a6-44cd-8e28-8b0d9b9c8d4b.midstatus","label":"1➛midstatus","reference_display":"midstatus","type":"string","base_type":"string","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"subflow.midapplication","label":"Input➛midapplication","type":"string","base_type":"string"}]</label_cache>
+        <master_snapshot>63902d03db41ec10effc345239961958</master_snapshot>
+        <name>CheckMidServer for Catalog Tasks</name>
+        <natlang/>
+        <outputs/>
+        <remote_trigger_id/>
+        <run_as>system</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>nxf52091</sys_created_by>
+        <sys_created_on>2020-12-17 11:06:35</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>6e602103db41ec10effc34523996192c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>CheckMidServer for Catalog Tasks</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="NXP GAF Share Automation" source="x_nxps3_nxp_gaf_sh">4a417d661b85005017daa6886e4bcb74</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NXP GAF Share Automation">4a417d661b85005017daa6886e4bcb74</sys_scope>
+        <sys_update_name>sys_hub_flow_6e602103db41ec10effc34523996192c</sys_update_name>
+        <sys_updated_by>nxf49970</sys_updated_by>
+        <sys_updated_on>2021-07-19 15:05:16</sys_updated_on>
+        <type>subflow</type>
+    </sys_hub_flow>
+    <sys_variable_value action="delete_multiple" query="document_key=6e602103db41ec10effc34523996192c"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_output_6e602103db41ec10effc34523996192c^id=6e602103db41ec10effc34523996192c"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=6e602103db41ec10effc34523996192c^sys_idNOT IN66602103db41ec10effc34523996192e"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>6e602103db41ec10effc34523996192c</id>
+        <name>CheckMidServer for Catalog Tasks</name>
+        <sys_class_name>sys_flow_cat_variable_model</sys_class_name>
+        <sys_created_by>nxf52091</sys_created_by>
+        <sys_created_on>2020-12-17 11:06:35</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>66602103db41ec10effc34523996192e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NXP GAF Share Automation">4a417d661b85005017daa6886e4bcb74</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>nxf52091</sys_updated_by>
+        <sys_updated_on>2020-12-17 11:06:35</sys_updated_on>
+        <u_active>false</u_active>
+        <u_application_product_model/>
+        <u_assignment_group_s/>
+        <u_department/>
+        <u_interface_users_in_dev/>
+        <u_purpose/>
+        <u_status/>
+        <u_support_group_s/>
+    </sys_flow_cat_variable_model>
+    <sys_hub_flow_input action="delete_multiple" query="model=6e602103db41ec10effc34523996192c^sys_idNOT IN76602103db41ec10effc345239961934,7a602103db41ec10effc345239961992"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=50843a68-6532-417c-9454-a162f31f7d6e</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>midapplication</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>midapplication</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="CheckMidServer for Catalog Tasks">6e602103db41ec10effc34523996192c</model>
+        <model_id>6e602103db41ec10effc34523996192c</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_6e602103db41ec10effc34523996192c</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>nxf52091</sys_created_by>
+        <sys_created_on>2020-12-17 11:06:35</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>76602103db41ec10effc345239961934</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NXP GAF Share Automation">4a417d661b85005017daa6886e4bcb74</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>nxf52091</sys_updated_by>
+        <sys_updated_on>2020-12-17 11:06:35</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <u_model_id/>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=69ac3756-bfa1-4d5e-b149-8e2841cf4515</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>incident</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>RITM_sysid</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="CheckMidServer for Catalog Tasks">6e602103db41ec10effc34523996192c</model>
+        <model_id>6e602103db41ec10effc34523996192c</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_6e602103db41ec10effc34523996192c</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>nxf52091</sys_created_by>
+        <sys_created_on>2020-12-17 11:06:35</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>7a602103db41ec10effc345239961992</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NXP GAF Share Automation">4a417d661b85005017daa6886e4bcb74</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>nxf52091</sys_updated_by>
+        <sys_updated_on>2020-12-17 11:06:35</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <u_model_id/>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_output action="delete_multiple" query="model=6e602103db41ec10effc34523996192c^sys_idNOT IN36602103db41ec10effc34523996199a,fe602103db41ec10effc3452399619ad"/>
+    <sys_hub_flow_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=boolean,uiTypeLabel=True/False,uiUniqueId=43f9fcde-e4cb-469d-9165-1f0fae9d1c86</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>taskclosed</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">boolean</internal_type>
+        <label>TaskClosed</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="CheckMidServer for Catalog Tasks">6e602103db41ec10effc34523996192c</model>
+        <model_id>6e602103db41ec10effc34523996192c</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_output_6e602103db41ec10effc34523996192c</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_output</sys_class_name>
+        <sys_created_by>nxf52091</sys_created_by>
+        <sys_created_on>2020-12-17 11:06:35</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>36602103db41ec10effc34523996199a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NXP GAF Share Automation">4a417d661b85005017daa6886e4bcb74</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>nxf52091</sys_updated_by>
+        <sys_updated_on>2020-12-17 11:06:35</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <u_model_id/>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_output>
+    <sys_hub_flow_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=90cf1cb0-f0a5-4ff8-a825-c7b0223754de</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>midstatus</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>MidStatus</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="CheckMidServer for Catalog Tasks">6e602103db41ec10effc34523996192c</model>
+        <model_id>6e602103db41ec10effc34523996192c</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_output_6e602103db41ec10effc34523996192c</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_output</sys_class_name>
+        <sys_created_by>nxf52091</sys_created_by>
+        <sys_created_on>2020-12-17 11:06:35</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>fe602103db41ec10effc3452399619ad</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NXP GAF Share Automation">4a417d661b85005017daa6886e4bcb74</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>nxf52091</sys_updated_by>
+        <sys_updated_on>2020-12-17 11:06:35</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <u_model_id/>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_output>
+    <sys_hub_action_instance action="delete_multiple" query="flow=6e602103db41ec10effc34523996192c^sys_idNOT IN87606103db41ec10effc34523996192b,cb606103db41ec10effc345239961915"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create Catalog Task">af51fd0e73141300612c273ffff6a785</action_type>
+        <action_type_parent display_value="Create Catalog Task">f597c41073081300612c273ffff6a767</action_type_parent>
+        <comment/>
+        <compiled_snapshot>af51fd0e73141300612c273ffff6a785</compiled_snapshot>
+        <display_text/>
+        <flow display_value="CheckMidServer for Catalog Tasks">6e602103db41ec10effc34523996192c</flow>
+        <order>3</order>
+        <parent_ui_id>f96905db-a33c-4489-8087-b1459d0a2c5d</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>nxf52091</sys_created_by>
+        <sys_created_on>2020-12-17 11:06:36</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>87606103db41ec10effc34523996192b</sys_id>
+        <sys_mod_count>24</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NXP GAF Share Automation">4a417d661b85005017daa6886e4bcb74</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2022-02-21 10:17:35</sys_updated_on>
+        <u_active>false</u_active>
+        <u_application_product_model/>
+        <u_assignment_group_s/>
+        <u_department/>
+        <u_interface_users_in_dev/>
+        <u_purpose/>
+        <u_status/>
+        <u_support_group_s/>
+        <ui_id>121d9674-9bb8-418f-9c26-a1122a154caf</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=87606103db41ec10effc34523996192b"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>87606103db41ec10effc34523996192b</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>nxf52091</sys_created_by>
+        <sys_created_on>2020-12-17 11:06:36</sys_created_on>
+        <sys_id>03606103db41ec10effc34523996192e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nxf52091</sys_updated_by>
+        <sys_updated_on>2020-12-17 11:06:36</sys_updated_on>
+        <value>assignment_group={"display":"ServiceNow Operations","value":"0857ec9c37339a0083058d2754990ee2"}</value>
+        <variable display_value="Fields">7751fd0e73141300612c273ffff6a7ac</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>87606103db41ec10effc34523996192b</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>nxf52091</sys_created_by>
+        <sys_created_on>2020-12-17 11:06:36</sys_created_on>
+        <sys_id>4f606103db41ec10effc34523996192d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nxf52091</sys_updated_by>
+        <sys_updated_on>2020-12-17 11:06:36</sys_updated_on>
+        <value>Check and Resolve MidServer issue</value>
+        <variable display_value="Short Description">3751fd0e73141300612c273ffff6a7a6</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=87606103db41ec10effc34523996192b"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_fields</field>
+        <id>87606103db41ec10effc34523996192b</id>
+        <sys_created_by>nxf52091</sys_created_by>
+        <sys_created_on>2020-12-17 11:06:36</sys_created_on>
+        <sys_id>cb606103db41ec10effc34523996192d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nxf52091</sys_updated_by>
+        <sys_updated_on>2020-12-17 11:06:36</sys_updated_on>
+        <table>var__m_sys_hub_action_input_af51fd0e73141300612c273ffff6a785</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_requested_item</field>
+        <id>87606103db41ec10effc34523996192b</id>
+        <sys_created_by>nxf52091</sys_created_by>
+        <sys_created_on>2020-12-17 11:06:36</sys_created_on>
+        <sys_id>0b606103db41ec10effc34523996192d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nxf52091</sys_updated_by>
+        <sys_updated_on>2020-12-17 11:06:36</sys_updated_on>
+        <table>var__m_sys_hub_action_input_af51fd0e73141300612c273ffff6a785</table>
+        <value>{{subflow.incident}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_short_description</field>
+        <id>87606103db41ec10effc34523996192b</id>
+        <sys_created_by>nxf52091</sys_created_by>
+        <sys_created_on>2020-12-17 11:06:36</sys_created_on>
+        <sys_id>47606103db41ec10effc34523996192d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nxf52091</sys_updated_by>
+        <sys_updated_on>2020-12-17 11:06:36</sys_updated_on>
+        <table>var__m_sys_hub_action_input_af51fd0e73141300612c273ffff6a785</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="MidServer Status Check">e09f2b05db0b7304fd22fd871d961947</action_type>
+        <action_type_parent display_value="MidServer Status Check">b0d56f89db877304fd22fd871d96197b</action_type_parent>
+        <comment/>
+        <compiled_snapshot>e09f2b05db0b7304fd22fd871d961947</compiled_snapshot>
+        <display_text/>
+        <flow display_value="CheckMidServer for Catalog Tasks">6e602103db41ec10effc34523996192c</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>nxf52091</sys_created_by>
+        <sys_created_on>2020-12-17 11:06:36</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>cb606103db41ec10effc345239961915</sys_id>
+        <sys_mod_count>24</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NXP GAF Share Automation">4a417d661b85005017daa6886e4bcb74</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2022-02-21 10:17:35</sys_updated_on>
+        <u_active>false</u_active>
+        <u_application_product_model/>
+        <u_assignment_group_s/>
+        <u_department/>
+        <u_interface_users_in_dev/>
+        <u_purpose/>
+        <u_status/>
+        <u_support_group_s/>
+        <ui_id>19449790-83a6-44cd-8e28-8b0d9b9c8d4b</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=cb606103db41ec10effc345239961915"/>
+    <sys_element_mapping action="delete_multiple" query="id=cb606103db41ec10effc345239961915"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>midserver</field>
+        <id>cb606103db41ec10effc345239961915</id>
+        <sys_created_by>nxf52091</sys_created_by>
+        <sys_created_on>2020-12-17 11:06:36</sys_created_on>
+        <sys_id>4b606103db41ec10effc345239961917</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nxf52091</sys_updated_by>
+        <sys_updated_on>2020-12-17 11:06:36</sys_updated_on>
+        <table>var__m_sys_hub_action_input_e09f2b05db0b7304fd22fd871d961947</table>
+        <value>{{subflow.midapplication}}</value>
+    </sys_element_mapping>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=6e602103db41ec10effc34523996192c^sys_idNOT IN0b606103db41ec10effc34523996190c,72602103db41ec10effc3452399619c3,b2602103db41ec10effc3452399619c8,fa602103db41ec10effc3452399619cb"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">85f3a832dbcb73447593522bdc9619e3</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="CheckMidServer for Catalog Tasks">6e602103db41ec10effc34523996192c</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <logic_definition display_value="Assign Subflow Outputs">df4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>6</order>
+        <outputs_assigned>midstatus</outputs_assigned>
+        <outputs_to_assign/>
+        <outputs_to_assign/>
+        <parent_ui_id>580e09b4-3b2c-42a5-9db4-5b526a51656f</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>nxf52091</sys_created_by>
+        <sys_created_on>2020-12-17 11:06:36</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>0b606103db41ec10effc34523996190c</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NXP GAF Share Automation">4a417d661b85005017daa6886e4bcb74</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>nxf52091</sys_updated_by>
+        <sys_updated_on>2020-12-17 11:07:30</sys_updated_on>
+        <u_active>false</u_active>
+        <u_application_product_model/>
+        <u_assignment_group_s/>
+        <u_department/>
+        <u_interface_users_in_dev/>
+        <u_purpose/>
+        <u_status/>
+        <u_support_group_s/>
+        <ui_id>41f5e747-2484-4b99-aff8-4968261b6812</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=0b606103db41ec10effc34523996190c"/>
+    <sys_element_mapping action="delete_multiple" query="id=0b606103db41ec10effc34523996190c"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>midstatus</field>
+        <id>0b606103db41ec10effc34523996190c</id>
+        <sys_created_by>nxf52091</sys_created_by>
+        <sys_created_on>2020-12-17 11:06:36</sys_created_on>
+        <sys_id>cb606103db41ec10effc34523996190e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nxf52091</sys_updated_by>
+        <sys_updated_on>2020-12-17 11:06:36</sys_updated_on>
+        <table>var__m_sys_hub_flow_output_6e602103db41ec10effc34523996192c</table>
+        <value>{{19449790-83a6-44cd-8e28-8b0d9b9c8d4b.midstatus}}</value>
+    </sys_element_mapping>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">9e214a71db033f047593522bdc961917</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="CheckMidServer for Catalog Tasks">6e602103db41ec10effc34523996192c</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>2</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>nxf52091</sys_created_by>
+        <sys_created_on>2020-12-17 11:06:36</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>72602103db41ec10effc3452399619c3</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NXP GAF Share Automation">4a417d661b85005017daa6886e4bcb74</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>nxf52091</sys_updated_by>
+        <sys_updated_on>2020-12-17 11:07:30</sys_updated_on>
+        <u_active>false</u_active>
+        <u_application_product_model/>
+        <u_assignment_group_s/>
+        <u_department/>
+        <u_interface_users_in_dev/>
+        <u_purpose/>
+        <u_status/>
+        <u_support_group_s/>
+        <ui_id>f96905db-a33c-4489-8087-b1459d0a2c5d</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=72602103db41ec10effc3452399619c3"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>72602103db41ec10effc3452399619c3</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>nxf52091</sys_created_by>
+        <sys_created_on>2020-12-17 11:06:36</sys_created_on>
+        <sys_id>7e602103db41ec10effc3452399619c6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nxf52091</sys_updated_by>
+        <sys_updated_on>2020-12-17 11:06:36</sys_updated_on>
+        <value>The Status of MidServer is NOT returned as UP</value>
+        <variable display_value="Condition Label">f0af19c1c32632002841b63b12d3aea3</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=72602103db41ec10effc3452399619c3"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition</field>
+        <id>72602103db41ec10effc3452399619c3</id>
+        <sys_created_by>nxf52091</sys_created_by>
+        <sys_created_on>2020-12-17 11:06:36</sys_created_on>
+        <sys_id>fa602103db41ec10effc3452399619c6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nxf52091</sys_updated_by>
+        <sys_updated_on>2020-12-17 11:06:36</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value>{{19449790-83a6-44cd-8e28-8b0d9b9c8d4b.midstatus}}=DOWN</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition_name</field>
+        <id>72602103db41ec10effc3452399619c3</id>
+        <sys_created_by>nxf52091</sys_created_by>
+        <sys_created_on>2020-12-17 11:06:36</sys_created_on>
+        <sys_id>36602103db41ec10effc3452399619c6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nxf52091</sys_updated_by>
+        <sys_updated_on>2020-12-17 11:06:36</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_output_6e602103db41ec10effc34523996192c^id=72602103db41ec10effc3452399619c3"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">6e214a71db033f047593522bdc96192a</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="CheckMidServer for Catalog Tasks">6e602103db41ec10effc34523996192c</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <logic_definition display_value="Assign Subflow Outputs">df4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>4</order>
+        <outputs_assigned>taskclosed</outputs_assigned>
+        <outputs_to_assign/>
+        <parent_ui_id>f96905db-a33c-4489-8087-b1459d0a2c5d</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>nxf52091</sys_created_by>
+        <sys_created_on>2020-12-17 11:06:36</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>b2602103db41ec10effc3452399619c8</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NXP GAF Share Automation">4a417d661b85005017daa6886e4bcb74</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>nxf52091</sys_updated_by>
+        <sys_updated_on>2020-12-17 11:07:30</sys_updated_on>
+        <u_active>false</u_active>
+        <u_application_product_model/>
+        <u_assignment_group_s/>
+        <u_department/>
+        <u_interface_users_in_dev/>
+        <u_purpose/>
+        <u_status/>
+        <u_support_group_s/>
+        <ui_id>de76862c-c868-463e-b615-f81941aa25b9</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=b2602103db41ec10effc3452399619c8"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>b2602103db41ec10effc3452399619c8</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>nxf52091</sys_created_by>
+        <sys_created_on>2020-12-17 11:06:36</sys_created_on>
+        <sys_id>7e602103db41ec10effc3452399619ca</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nxf52091</sys_updated_by>
+        <sys_updated_on>2020-12-17 11:06:36</sys_updated_on>
+        <value>1</value>
+        <variable display_value="TaskClosed">36602103db41ec10effc34523996199a</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_output_6e602103db41ec10effc34523996192c^id=b2602103db41ec10effc3452399619c8"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">0df3a832dbcb73447593522bdc9619ea</block>
+        <comment/>
+        <connected_to>f96905db-a33c-4489-8087-b1459d0a2c5d</connected_to>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="CheckMidServer for Catalog Tasks">6e602103db41ec10effc34523996192c</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <logic_definition display_value="Else">1f781bf3c32232002841b63b12d3aee6</logic_definition>
+        <order>5</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>nxf52091</sys_created_by>
+        <sys_created_on>2020-12-17 11:06:36</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>fa602103db41ec10effc3452399619cb</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NXP GAF Share Automation">4a417d661b85005017daa6886e4bcb74</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>nxf52091</sys_updated_by>
+        <sys_updated_on>2020-12-17 11:07:30</sys_updated_on>
+        <u_active>false</u_active>
+        <u_application_product_model/>
+        <u_assignment_group_s/>
+        <u_department/>
+        <u_interface_users_in_dev/>
+        <u_purpose/>
+        <u_status/>
+        <u_support_group_s/>
+        <ui_id>580e09b4-3b2c-42a5-9db4-5b526a51656f</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=fa602103db41ec10effc3452399619cb"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_output_6e602103db41ec10effc34523996192c^id=fa602103db41ec10effc3452399619cb"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_6e602103db41ec10effc34523996192c^sys_idNOT INb2602103db41ec10effc345239961991,f2602103db41ec10effc345239961997"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>midapplication</element>
+        <help/>
+        <hint/>
+        <label>midapplication</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_6e602103db41ec10effc34523996192c</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>nxf52091</sys_created_by>
+        <sys_created_on>2020-12-17 11:06:35</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>b2602103db41ec10effc345239961991</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>midapplication</sys_name>
+        <sys_package display_value="NXP GAF Share Automation" source="x_nxps3_nxp_gaf_sh">4a417d661b85005017daa6886e4bcb74</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NXP GAF Share Automation">4a417d661b85005017daa6886e4bcb74</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_6e602103db41ec10effc34523996192c_midapplication_en</sys_update_name>
+        <sys_updated_by>nxf52091</sys_updated_by>
+        <sys_updated_on>2020-12-17 11:06:35</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>incident</element>
+        <help/>
+        <hint/>
+        <label>RITM_sysid</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_6e602103db41ec10effc34523996192c</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>nxf52091</sys_created_by>
+        <sys_created_on>2020-12-17 11:06:35</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>f2602103db41ec10effc345239961997</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>RITM_sysid</sys_name>
+        <sys_package display_value="NXP GAF Share Automation" source="x_nxps3_nxp_gaf_sh">4a417d661b85005017daa6886e4bcb74</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NXP GAF Share Automation">4a417d661b85005017daa6886e4bcb74</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_6e602103db41ec10effc34523996192c_incident_en</sys_update_name>
+        <sys_updated_by>nxf52091</sys_updated_by>
+        <sys_updated_on>2020-12-17 11:06:35</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_6e602103db41ec10effc34523996192c^sys_idNOT IN3a602103db41ec10effc3452399619ac,7a602103db41ec10effc3452399619b2"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>taskclosed</element>
+        <help/>
+        <hint/>
+        <label>TaskClosed</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_output_6e602103db41ec10effc34523996192c</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>nxf52091</sys_created_by>
+        <sys_created_on>2020-12-17 11:06:35</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>3a602103db41ec10effc3452399619ac</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>TaskClosed</sys_name>
+        <sys_package display_value="NXP GAF Share Automation" source="x_nxps3_nxp_gaf_sh">4a417d661b85005017daa6886e4bcb74</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NXP GAF Share Automation">4a417d661b85005017daa6886e4bcb74</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_output_6e602103db41ec10effc34523996192c_taskclosed_en</sys_update_name>
+        <sys_updated_by>nxf52091</sys_updated_by>
+        <sys_updated_on>2020-12-17 11:06:35</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>midstatus</element>
+        <help/>
+        <hint/>
+        <label>MidStatus</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_output_6e602103db41ec10effc34523996192c</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>nxf52091</sys_created_by>
+        <sys_created_on>2020-12-17 11:06:36</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>7a602103db41ec10effc3452399619b2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>MidStatus</sys_name>
+        <sys_package display_value="NXP GAF Share Automation" source="x_nxps3_nxp_gaf_sh">4a417d661b85005017daa6886e4bcb74</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NXP GAF Share Automation">4a417d661b85005017daa6886e4bcb74</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_output_6e602103db41ec10effc34523996192c_midstatus_en</sys_update_name>
+        <sys_updated_by>nxf52091</sys_updated_by>
+        <sys_updated_on>2020-12-17 11:06:36</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_flow_subflow_plan action="delete_multiple" query="plan_id=6e602103db41ec10effc34523996192c^sys_idNOT INc0a06d03db41ec10effc34523996198e"/>
+    <sys_flow_subflow_plan action="INSERT_OR_UPDATE">
+        <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_subflow_plan","id":"c0a06d03db41ec10effc34523996198e","name":"plan","plan_signature":null}}</plan>
+        <plan_id display_value="CheckMidServer for Catalog Tasks">6e602103db41ec10effc34523996192c</plan_id>
+        <snapshot>5b6ab4311b3985540d041028bd4bcb81</snapshot>
+        <sys_class_name>sys_flow_subflow_plan</sys_class_name>
+        <sys_created_by>nxf52091</sys_created_by>
+        <sys_created_on>2020-12-17 11:07:29</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>c0a06d03db41ec10effc34523996198e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NXP GAF Share Automation">4a417d661b85005017daa6886e4bcb74</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>nxf52091</sys_updated_by>
+        <sys_updated_on>2020-12-17 11:07:29</sys_updated_on>
+        <u_active>false</u_active>
+        <u_application_product_model/>
+        <u_assignment_group_s/>
+        <u_department/>
+        <u_interface_users_in_dev/>
+        <u_purpose/>
+        <u_status/>
+        <u_support_group_s/>
+    </sys_flow_subflow_plan>
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation>Create Incident Task if no MidServer is in the Status "UP" based on the MidServer Application Entered, and wait till its completion.</annotation>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category display_value="Re-Usable Custom sub-flow">122f7d7ddbcffb047593522bdc9619c3</category>
+        <copied_from/>
+        <copied_from_name/>
+        <description>Create Incident Task if no MidServer is in the Status "UP" based on the MidServer Application Entered, and wait till its completion</description>
+        <internal_name>checkmidserver_for_catalog_tasks</internal_name>
+        <label_cache>[{"name":"121d9674-9bb8-418f-9c26-a1122a154caf.Catalog Task","label":"3➛Catalog Task","reference":"sc_task","reference_display":"Catalog Task","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"subflow.incident","label":"Input➛RITM_sysid","reference":"","reference_display":"","type":"string","base_type":"string","column_name":""},{"name":"f8843319-1f4b-4579-b5db-b4cff7530012.Table","label":"2.1➛Incident Task Table","reference":"incident_task","reference_display":"Incident Task","type":"table_name","base_type":"table_name"},{"name":"f8843319-1f4b-4579-b5db-b4cff7530012.Record","label":"2.1➛Incident Task Record","reference":"incident_task","reference_display":"Incident Task","type":"reference","base_type":"reference"},{"name":"19449790-83a6-44cd-8e28-8b0d9b9c8d4b.midstatus","label":"1➛midstatus","reference_display":"midstatus","type":"string","base_type":"string","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"subflow.midapplication","label":"Input➛midapplication","type":"string","base_type":"string"}]</label_cache>
+        <master>true</master>
+        <name>CheckMidServer for Catalog Tasks</name>
+        <natlang/>
+        <outputs/>
+        <parent_flow display_value="CheckMidServer for Catalog Tasks">6e602103db41ec10effc34523996192c</parent_flow>
+        <remote_trigger_id/>
+        <run_as>system</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>nxf52091</sys_created_by>
+        <sys_created_on>2020-12-17 11:07:27</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>63902d03db41ec10effc345239961958</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NXP GAF Share Automation">4a417d661b85005017daa6886e4bcb74</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>nxf52091</sys_updated_by>
+        <sys_updated_on>2020-12-17 11:07:27</sys_updated_on>
+        <type>subflow</type>
+    </sys_hub_flow_snapshot>
+    <sys_variable_value action="delete_multiple" query="document_key=63902d03db41ec10effc345239961958"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_output_63902d03db41ec10effc345239961958^id=63902d03db41ec10effc345239961958"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=63902d03db41ec10effc345239961958^sys_idNOT IN63902d03db41ec10effc345239961959"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>63902d03db41ec10effc345239961958</id>
+        <name>CheckMidServer for Catalog Tasks</name>
+        <sys_class_name>sys_flow_cat_variable_model</sys_class_name>
+        <sys_created_by>nxf52091</sys_created_by>
+        <sys_created_on>2020-12-17 11:07:27</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>63902d03db41ec10effc345239961959</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NXP GAF Share Automation">4a417d661b85005017daa6886e4bcb74</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>nxf52091</sys_updated_by>
+        <sys_updated_on>2020-12-17 11:07:27</sys_updated_on>
+        <u_active>false</u_active>
+        <u_application_product_model/>
+        <u_assignment_group_s/>
+        <u_department/>
+        <u_interface_users_in_dev/>
+        <u_purpose/>
+        <u_status/>
+        <u_support_group_s/>
+    </sys_flow_cat_variable_model>
+    <sys_hub_flow_input action="delete_multiple" query="model=63902d03db41ec10effc345239961958^sys_idNOT IN27902d03db41ec10effc34523996195a,e7902d03db41ec10effc3452399619b4"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=50843a68-6532-417c-9454-a162f31f7d6e</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>midapplication</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>midapplication</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="CheckMidServer for Catalog Tasks">63902d03db41ec10effc345239961958</model>
+        <model_id>63902d03db41ec10effc345239961958</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_63902d03db41ec10effc345239961958</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>nxf52091</sys_created_by>
+        <sys_created_on>2020-12-17 11:07:27</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>27902d03db41ec10effc34523996195a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NXP GAF Share Automation">4a417d661b85005017daa6886e4bcb74</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>nxf52091</sys_updated_by>
+        <sys_updated_on>2020-12-17 11:07:27</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <u_model_id/>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=69ac3756-bfa1-4d5e-b149-8e2841cf4515</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>incident</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>RITM_sysid</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="CheckMidServer for Catalog Tasks">63902d03db41ec10effc345239961958</model>
+        <model_id>63902d03db41ec10effc345239961958</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_63902d03db41ec10effc345239961958</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>nxf52091</sys_created_by>
+        <sys_created_on>2020-12-17 11:07:28</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>e7902d03db41ec10effc3452399619b4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NXP GAF Share Automation">4a417d661b85005017daa6886e4bcb74</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>nxf52091</sys_updated_by>
+        <sys_updated_on>2020-12-17 11:07:28</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <u_model_id/>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_output action="delete_multiple" query="model=63902d03db41ec10effc345239961958^sys_idNOT IN2f902d03db41ec10effc3452399619d7,e7902d03db41ec10effc3452399619c0"/>
+    <sys_hub_flow_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=90cf1cb0-f0a5-4ff8-a825-c7b0223754de</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>midstatus</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>MidStatus</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="CheckMidServer for Catalog Tasks">63902d03db41ec10effc345239961958</model>
+        <model_id>63902d03db41ec10effc345239961958</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_output_63902d03db41ec10effc345239961958</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_output</sys_class_name>
+        <sys_created_by>nxf52091</sys_created_by>
+        <sys_created_on>2020-12-17 11:07:28</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>2f902d03db41ec10effc3452399619d7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NXP GAF Share Automation">4a417d661b85005017daa6886e4bcb74</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>nxf52091</sys_updated_by>
+        <sys_updated_on>2020-12-17 11:07:28</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <u_model_id/>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_output>
+    <sys_hub_flow_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=boolean,uiTypeLabel=True/False,uiUniqueId=43f9fcde-e4cb-469d-9165-1f0fae9d1c86</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>taskclosed</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">boolean</internal_type>
+        <label>TaskClosed</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="CheckMidServer for Catalog Tasks">63902d03db41ec10effc345239961958</model>
+        <model_id>63902d03db41ec10effc345239961958</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_output_63902d03db41ec10effc345239961958</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_output</sys_class_name>
+        <sys_created_by>nxf52091</sys_created_by>
+        <sys_created_on>2020-12-17 11:07:28</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>e7902d03db41ec10effc3452399619c0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NXP GAF Share Automation">4a417d661b85005017daa6886e4bcb74</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>nxf52091</sys_updated_by>
+        <sys_updated_on>2020-12-17 11:07:28</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <u_model_id/>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_output>
+    <sys_hub_action_instance action="delete_multiple" query="flow=63902d03db41ec10effc345239961958^sys_idNOT INbb902d03db41ec10effc3452399619f7,bf906d03db41ec10effc345239961900"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="MidServer Status Check">e09f2b05db0b7304fd22fd871d961947</action_type>
+        <action_type_parent display_value="MidServer Status Check">b0d56f89db877304fd22fd871d96197b</action_type_parent>
+        <comment/>
+        <compiled_snapshot>e09f2b05db0b7304fd22fd871d961947</compiled_snapshot>
+        <display_text/>
+        <flow display_value="CheckMidServer for Catalog Tasks">63902d03db41ec10effc345239961958</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>nxf52091</sys_created_by>
+        <sys_created_on>2020-12-17 11:07:28</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>bb902d03db41ec10effc3452399619f7</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NXP GAF Share Automation">4a417d661b85005017daa6886e4bcb74</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>nxf52091</sys_updated_by>
+        <sys_updated_on>2020-12-17 11:07:28</sys_updated_on>
+        <u_active>false</u_active>
+        <u_application_product_model/>
+        <u_assignment_group_s/>
+        <u_department/>
+        <u_interface_users_in_dev/>
+        <u_purpose/>
+        <u_status/>
+        <u_support_group_s/>
+        <ui_id>19449790-83a6-44cd-8e28-8b0d9b9c8d4b</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=bb902d03db41ec10effc3452399619f7"/>
+    <sys_element_mapping action="delete_multiple" query="id=bb902d03db41ec10effc3452399619f7"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>midserver</field>
+        <id>bb902d03db41ec10effc3452399619f7</id>
+        <sys_created_by>nxf52091</sys_created_by>
+        <sys_created_on>2020-12-17 11:07:29</sys_created_on>
+        <sys_id>f7902d03db41ec10effc3452399619f8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nxf52091</sys_updated_by>
+        <sys_updated_on>2020-12-17 11:07:29</sys_updated_on>
+        <table>var__m_sys_hub_action_input_e09f2b05db0b7304fd22fd871d961947</table>
+        <value>{{subflow.midapplication}}</value>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create Catalog Task">af51fd0e73141300612c273ffff6a785</action_type>
+        <action_type_parent display_value="Create Catalog Task">f597c41073081300612c273ffff6a767</action_type_parent>
+        <comment/>
+        <compiled_snapshot>af51fd0e73141300612c273ffff6a785</compiled_snapshot>
+        <display_text/>
+        <flow display_value="CheckMidServer for Catalog Tasks">63902d03db41ec10effc345239961958</flow>
+        <order>3</order>
+        <parent_ui_id>f96905db-a33c-4489-8087-b1459d0a2c5d</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>nxf52091</sys_created_by>
+        <sys_created_on>2020-12-17 11:07:29</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>bf906d03db41ec10effc345239961900</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NXP GAF Share Automation">4a417d661b85005017daa6886e4bcb74</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>nxf52091</sys_updated_by>
+        <sys_updated_on>2020-12-17 11:07:29</sys_updated_on>
+        <u_active>false</u_active>
+        <u_application_product_model/>
+        <u_assignment_group_s/>
+        <u_department/>
+        <u_interface_users_in_dev/>
+        <u_purpose/>
+        <u_status/>
+        <u_support_group_s/>
+        <ui_id>121d9674-9bb8-418f-9c26-a1122a154caf</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=bf906d03db41ec10effc345239961900"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>bf906d03db41ec10effc345239961900</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>nxf52091</sys_created_by>
+        <sys_created_on>2020-12-17 11:07:29</sys_created_on>
+        <sys_id>b3906d03db41ec10effc345239961903</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nxf52091</sys_updated_by>
+        <sys_updated_on>2020-12-17 11:07:29</sys_updated_on>
+        <value>assignment_group={"display":"ServiceNow Operations","value":"0857ec9c37339a0083058d2754990ee2"}</value>
+        <variable display_value="Fields">7751fd0e73141300612c273ffff6a7ac</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>bf906d03db41ec10effc345239961900</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>nxf52091</sys_created_by>
+        <sys_created_on>2020-12-17 11:07:29</sys_created_on>
+        <sys_id>ff906d03db41ec10effc345239961902</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nxf52091</sys_updated_by>
+        <sys_updated_on>2020-12-17 11:07:29</sys_updated_on>
+        <value>Check and Resolve MidServer issue</value>
+        <variable display_value="Short Description">3751fd0e73141300612c273ffff6a7a6</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=bf906d03db41ec10effc345239961900"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_fields</field>
+        <id>bf906d03db41ec10effc345239961900</id>
+        <sys_created_by>nxf52091</sys_created_by>
+        <sys_created_on>2020-12-17 11:07:29</sys_created_on>
+        <sys_id>7f906d03db41ec10effc345239961902</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nxf52091</sys_updated_by>
+        <sys_updated_on>2020-12-17 11:07:29</sys_updated_on>
+        <table>var__m_sys_hub_action_input_af51fd0e73141300612c273ffff6a785</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_requested_item</field>
+        <id>bf906d03db41ec10effc345239961900</id>
+        <sys_created_by>nxf52091</sys_created_by>
+        <sys_created_on>2020-12-17 11:07:29</sys_created_on>
+        <sys_id>bb906d03db41ec10effc345239961902</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nxf52091</sys_updated_by>
+        <sys_updated_on>2020-12-17 11:07:29</sys_updated_on>
+        <table>var__m_sys_hub_action_input_af51fd0e73141300612c273ffff6a785</table>
+        <value>{{subflow.incident}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_short_description</field>
+        <id>bf906d03db41ec10effc345239961900</id>
+        <sys_created_by>nxf52091</sys_created_by>
+        <sys_created_on>2020-12-17 11:07:29</sys_created_on>
+        <sys_id>f7906d03db41ec10effc345239961902</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nxf52091</sys_updated_by>
+        <sys_updated_on>2020-12-17 11:07:29</sys_updated_on>
+        <table>var__m_sys_hub_action_input_af51fd0e73141300612c273ffff6a785</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=63902d03db41ec10effc345239961958^sys_idNOT IN77902d03db41ec10effc3452399619e4,b3902d03db41ec10effc3452399619ec,b7902d03db41ec10effc3452399619e8,ff902d03db41ec10effc3452399619ee"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">9e214a71db033f047593522bdc961917</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="CheckMidServer for Catalog Tasks">63902d03db41ec10effc345239961958</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>2</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>nxf52091</sys_created_by>
+        <sys_created_on>2020-12-17 11:07:28</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>77902d03db41ec10effc3452399619e4</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NXP GAF Share Automation">4a417d661b85005017daa6886e4bcb74</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>nxf52091</sys_updated_by>
+        <sys_updated_on>2020-12-17 11:07:28</sys_updated_on>
+        <u_active>false</u_active>
+        <u_application_product_model/>
+        <u_assignment_group_s/>
+        <u_department/>
+        <u_interface_users_in_dev/>
+        <u_purpose/>
+        <u_status/>
+        <u_support_group_s/>
+        <ui_id>f96905db-a33c-4489-8087-b1459d0a2c5d</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=77902d03db41ec10effc3452399619e4"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>77902d03db41ec10effc3452399619e4</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>nxf52091</sys_created_by>
+        <sys_created_on>2020-12-17 11:07:28</sys_created_on>
+        <sys_id>bb902d03db41ec10effc3452399619e7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nxf52091</sys_updated_by>
+        <sys_updated_on>2020-12-17 11:07:28</sys_updated_on>
+        <value>The Status of MidServer is NOT returned as UP</value>
+        <variable display_value="Condition Label">f0af19c1c32632002841b63b12d3aea3</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=77902d03db41ec10effc3452399619e4"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition</field>
+        <id>77902d03db41ec10effc3452399619e4</id>
+        <sys_created_by>nxf52091</sys_created_by>
+        <sys_created_on>2020-12-17 11:07:28</sys_created_on>
+        <sys_id>3b902d03db41ec10effc3452399619e7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nxf52091</sys_updated_by>
+        <sys_updated_on>2020-12-17 11:07:28</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value>{{19449790-83a6-44cd-8e28-8b0d9b9c8d4b.midstatus}}=DOWN</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition_name</field>
+        <id>77902d03db41ec10effc3452399619e4</id>
+        <sys_created_by>nxf52091</sys_created_by>
+        <sys_created_on>2020-12-17 11:07:28</sys_created_on>
+        <sys_id>77902d03db41ec10effc3452399619e7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nxf52091</sys_updated_by>
+        <sys_updated_on>2020-12-17 11:07:28</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_output_63902d03db41ec10effc345239961958^id=77902d03db41ec10effc3452399619e4"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">0df3a832dbcb73447593522bdc9619ea</block>
+        <comment/>
+        <connected_to>f96905db-a33c-4489-8087-b1459d0a2c5d</connected_to>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="CheckMidServer for Catalog Tasks">63902d03db41ec10effc345239961958</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <logic_definition display_value="Else">1f781bf3c32232002841b63b12d3aee6</logic_definition>
+        <order>5</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>nxf52091</sys_created_by>
+        <sys_created_on>2020-12-17 11:07:28</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>b3902d03db41ec10effc3452399619ec</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NXP GAF Share Automation">4a417d661b85005017daa6886e4bcb74</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>nxf52091</sys_updated_by>
+        <sys_updated_on>2020-12-17 11:07:28</sys_updated_on>
+        <u_active>false</u_active>
+        <u_application_product_model/>
+        <u_assignment_group_s/>
+        <u_department/>
+        <u_interface_users_in_dev/>
+        <u_purpose/>
+        <u_status/>
+        <u_support_group_s/>
+        <ui_id>580e09b4-3b2c-42a5-9db4-5b526a51656f</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=b3902d03db41ec10effc3452399619ec"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_output_63902d03db41ec10effc345239961958^id=b3902d03db41ec10effc3452399619ec"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">6e214a71db033f047593522bdc96192a</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="CheckMidServer for Catalog Tasks">63902d03db41ec10effc345239961958</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <logic_definition display_value="Assign Subflow Outputs">df4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>4</order>
+        <outputs_assigned>taskclosed</outputs_assigned>
+        <outputs_to_assign/>
+        <parent_ui_id>f96905db-a33c-4489-8087-b1459d0a2c5d</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>nxf52091</sys_created_by>
+        <sys_created_on>2020-12-17 11:07:28</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>b7902d03db41ec10effc3452399619e8</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NXP GAF Share Automation">4a417d661b85005017daa6886e4bcb74</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>nxf52091</sys_updated_by>
+        <sys_updated_on>2020-12-17 11:07:28</sys_updated_on>
+        <u_active>false</u_active>
+        <u_application_product_model/>
+        <u_assignment_group_s/>
+        <u_department/>
+        <u_interface_users_in_dev/>
+        <u_purpose/>
+        <u_status/>
+        <u_support_group_s/>
+        <ui_id>de76862c-c868-463e-b615-f81941aa25b9</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=b7902d03db41ec10effc3452399619e8"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>b7902d03db41ec10effc3452399619e8</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>nxf52091</sys_created_by>
+        <sys_created_on>2020-12-17 11:07:28</sys_created_on>
+        <sys_id>37902d03db41ec10effc3452399619eb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nxf52091</sys_updated_by>
+        <sys_updated_on>2020-12-17 11:07:28</sys_updated_on>
+        <value>1</value>
+        <variable display_value="TaskClosed">e7902d03db41ec10effc3452399619c0</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_output_63902d03db41ec10effc345239961958^id=b7902d03db41ec10effc3452399619e8"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">85f3a832dbcb73447593522bdc9619e3</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="CheckMidServer for Catalog Tasks">63902d03db41ec10effc345239961958</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <logic_definition display_value="Assign Subflow Outputs">df4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>6</order>
+        <outputs_assigned>midstatus</outputs_assigned>
+        <outputs_to_assign/>
+        <outputs_to_assign/>
+        <parent_ui_id>580e09b4-3b2c-42a5-9db4-5b526a51656f</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>nxf52091</sys_created_by>
+        <sys_created_on>2020-12-17 11:07:28</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>ff902d03db41ec10effc3452399619ee</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NXP GAF Share Automation">4a417d661b85005017daa6886e4bcb74</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>nxf52091</sys_updated_by>
+        <sys_updated_on>2020-12-17 11:07:28</sys_updated_on>
+        <u_active>false</u_active>
+        <u_application_product_model/>
+        <u_assignment_group_s/>
+        <u_department/>
+        <u_interface_users_in_dev/>
+        <u_purpose/>
+        <u_status/>
+        <u_support_group_s/>
+        <ui_id>41f5e747-2484-4b99-aff8-4968261b6812</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=ff902d03db41ec10effc3452399619ee"/>
+    <sys_element_mapping action="delete_multiple" query="id=ff902d03db41ec10effc3452399619ee"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>midstatus</field>
+        <id>ff902d03db41ec10effc3452399619ee</id>
+        <sys_created_by>nxf52091</sys_created_by>
+        <sys_created_on>2020-12-17 11:07:28</sys_created_on>
+        <sys_id>b3902d03db41ec10effc3452399619f1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nxf52091</sys_updated_by>
+        <sys_updated_on>2020-12-17 11:07:28</sys_updated_on>
+        <table>var__m_sys_hub_flow_output_63902d03db41ec10effc345239961958</table>
+        <value>{{19449790-83a6-44cd-8e28-8b0d9b9c8d4b.midstatus}}</value>
+    </sys_element_mapping>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_63902d03db41ec10effc345239961958^sys_idNOT INa7902d03db41ec10effc3452399619b0,af902d03db41ec10effc3452399619ba"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>midapplication</element>
+        <help/>
+        <hint/>
+        <label>midapplication</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_63902d03db41ec10effc345239961958</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>nxf52091</sys_created_by>
+        <sys_created_on>2020-12-17 11:07:28</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>a7902d03db41ec10effc3452399619b0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>midapplication</sys_name>
+        <sys_package display_value="NXP GAF Share Automation" source="x_nxps3_nxp_gaf_sh">4a417d661b85005017daa6886e4bcb74</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NXP GAF Share Automation">4a417d661b85005017daa6886e4bcb74</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_63902d03db41ec10effc345239961958_midapplication_en</sys_update_name>
+        <sys_updated_by>nxf52091</sys_updated_by>
+        <sys_updated_on>2020-12-17 11:07:28</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>incident</element>
+        <help/>
+        <hint/>
+        <label>RITM_sysid</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_63902d03db41ec10effc345239961958</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>nxf52091</sys_created_by>
+        <sys_created_on>2020-12-17 11:07:28</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>af902d03db41ec10effc3452399619ba</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>RITM_sysid</sys_name>
+        <sys_package display_value="NXP GAF Share Automation" source="x_nxps3_nxp_gaf_sh">4a417d661b85005017daa6886e4bcb74</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NXP GAF Share Automation">4a417d661b85005017daa6886e4bcb74</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_63902d03db41ec10effc345239961958_incident_en</sys_update_name>
+        <sys_updated_by>nxf52091</sys_updated_by>
+        <sys_updated_on>2020-12-17 11:07:28</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_63902d03db41ec10effc345239961958^sys_idNOT INe3902d03db41ec10effc3452399619de,eb902d03db41ec10effc3452399619d3"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>midstatus</element>
+        <help/>
+        <hint/>
+        <label>MidStatus</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_output_63902d03db41ec10effc345239961958</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>nxf52091</sys_created_by>
+        <sys_created_on>2020-12-17 11:07:28</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>e3902d03db41ec10effc3452399619de</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>MidStatus</sys_name>
+        <sys_package display_value="NXP GAF Share Automation" source="x_nxps3_nxp_gaf_sh">4a417d661b85005017daa6886e4bcb74</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NXP GAF Share Automation">4a417d661b85005017daa6886e4bcb74</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_output_63902d03db41ec10effc345239961958_midstatus_en</sys_update_name>
+        <sys_updated_by>nxf52091</sys_updated_by>
+        <sys_updated_on>2020-12-17 11:07:28</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>taskclosed</element>
+        <help/>
+        <hint/>
+        <label>TaskClosed</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_output_63902d03db41ec10effc345239961958</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>nxf52091</sys_created_by>
+        <sys_created_on>2020-12-17 11:07:28</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>eb902d03db41ec10effc3452399619d3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>TaskClosed</sys_name>
+        <sys_package display_value="NXP GAF Share Automation" source="x_nxps3_nxp_gaf_sh">4a417d661b85005017daa6886e4bcb74</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NXP GAF Share Automation">4a417d661b85005017daa6886e4bcb74</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_output_63902d03db41ec10effc345239961958_taskclosed_en</sys_update_name>
+        <sys_updated_by>nxf52091</sys_updated_by>
+        <sys_updated_on>2020-12-17 11:07:28</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_hub_flow action="update">
+        <sys_id>6e602103db41ec10effc34523996192c</sys_id>
+        <latest_snapshot>63902d03db41ec10effc345239961958</latest_snapshot>
+    </sys_hub_flow>
+</record_update>

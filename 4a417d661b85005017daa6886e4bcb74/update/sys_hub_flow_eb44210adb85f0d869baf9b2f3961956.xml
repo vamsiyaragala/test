@@ -1,0 +1,1628 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>false</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <compiler_build>glide-paris-06-24-2020__patch8-03-31-2021</compiler_build>
+        <copied_from>4244e294db44f450effc345239961986</copied_from>
+        <copied_from_name>Traditional Share path not avail</copied_from_name>
+        <description/>
+        <internal_name>copy_of_traditional_share_path_not_available</internal_name>
+        <label_cache>[{"name":"e54658a5-f6bc-41a4-9ad8-acdb6e5fdd05.table_name","label":"10➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"e54658a5-f6bc-41a4-9ad8-acdb6e5fdd05.record","label":"10➛Record","reference_display":"Record","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"776ad18a-45d0-4cc2-8218-67c65c51e4fa.error_message","label":"7➛Error Message","reference_display":"Error Message","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"87687532-9e3d-4497-a88e-90f45bfb9adb"}},{"name":"776ad18a-45d0-4cc2-8218-67c65c51e4fa.status","label":"7➛Status","reference_display":"Status","type":"choice","base_type":"choice","attributes":{"uiType":"choice","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"5e478657-3a84-4a60-a92b-d3e80005ad34"}},{"name":"776ad18a-45d0-4cc2-8218-67c65c51e4fa.Table","label":"7➛Storage File Share Table","reference":"cmdb_ci_storage_fileshare","reference_display":"Storage File Share Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"776ad18a-45d0-4cc2-8218-67c65c51e4fa.Record","label":"7➛Storage File Share Record","reference":"cmdb_ci_storage_fileshare","reference_display":"Storage File Share Record","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"90747d20-1204-40fc-bfa3-05afd1e0a71f.please_specify_valid_share_path","label":"2➛please_specify_valid_share_path","reference":"","reference_display":"please_specify_valid_share_path","type":"string","base_type":"string","attributes":{"catalogType":"6","catalogTypeLabel":"Single Line Text"}},{"name":"e838cc7e-4064-4f45-806c-668931651ba5.Catalog Task","label":"1➛Catalog Task","reference":"sc_task","reference_display":"Catalog Task","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"subflow.ritm","label":"Input➛RITM","reference":"sc_req_item","reference_display":"Requested Item","type":"reference","base_type":"reference","column_name":"","attributes":{"uiType":"reference","uiTypeLabel":"Reference","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"5e7cbdbc-fe65-43c6-915b-98b842826848","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"e838cc7e-4064-4f45-806c-668931651ba5.Catalog Task.state","label":"1➛Catalog Task➛Status(state)","reference":"","reference_display":"Status(state)","type":"choice","base_type":"choice","parent_table_name":"sc_task","column_name":"state"},{"name":"90747d20-1204-40fc-bfa3-05afd1e0a71f.group_r","label":"2➛group_r","reference":"u_email_distribution_lists","reference_display":"group_r","type":"string","base_type":"string","attributes":{"catalogType":"6","catalogTypeLabel":"Single Line Text"}},{"name":"90747d20-1204-40fc-bfa3-05afd1e0a71f.groupW","label":"2➛groupW","reference":"","reference_display":"groupW","type":"string","base_type":"string","attributes":{"catalogType":"6","catalogTypeLabel":"Single Line Text"}},{"name":"90747d20-1204-40fc-bfa3-05afd1e0a71f.share_own","label":"2➛share_own","reference":"sys_user","reference_display":"","type":"reference","base_type":"reference","column_name":"","attributes":{"catalogType":"8","catalogTypeLabel":"Reference"}},{"name":"0df04be4-b3fc-48a5-bae3-1099a91d5dad.Records","label":"3➛Email Distribution Lists Records","reference":"u_email_distribution_lists","reference_display":"Email Distribution Lists","type":"records","base_type":"records","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"0df04be4-b3fc-48a5-bae3-1099a91d5dad.Table","label":"3➛Email Distribution Lists Table","reference":"u_email_distribution_lists","reference_display":"Email Distribution Lists","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"0df04be4-b3fc-48a5-bae3-1099a91d5dad.Count","label":"3➛Count","reference_display":"Count","type":"integer","base_type":"integer","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"254daf5d-d273-46bc-b747-8fc61606fb13.record","label":"8➛Storage File Share Record","reference":"cmdb_ci_storage_fileshare","reference_display":"Storage File Share Record","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"254daf5d-d273-46bc-b747-8fc61606fb13.table_name","label":"8➛Storage File Share Table","reference":"cmdb_ci_storage_fileshare","reference_display":"Storage File Share Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"1302cd54-d1da-499c-a843-6a5b2dc8a506.Record","label":"3➛Email Distribution Lists Record","reference":"u_email_distribution_lists","reference_display":"Email Distribution Lists","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"1302cd54-d1da-499c-a843-6a5b2dc8a506.Table","label":"3➛Email Distribution Lists Table","reference":"u_email_distribution_lists","reference_display":"Email Distribution Lists Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"1302cd54-d1da-499c-a843-6a5b2dc8a506.status","label":"3➛Status","reference_display":"Status","type":"choice","base_type":"choice","attributes":{"uiType":"choice","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"5e478657-3a84-4a60-a92b-d3e80005ad34"}},{"name":"1302cd54-d1da-499c-a843-6a5b2dc8a506.error_message","label":"3➛Error Message","reference_display":"Error Message","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"87687532-9e3d-4497-a88e-90f45bfb9adb"}},{"name":"7eebc81b-7a64-439a-bc1a-b99fffb7fe2c.record","label":"6➛Email Distribution Lists Record","reference":"u_email_distribution_lists","reference_display":"Email Distribution Lists","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"7eebc81b-7a64-439a-bc1a-b99fffb7fe2c.table_name","label":"6➛Email Distribution Lists Table","reference":"u_email_distribution_lists","reference_display":"Email Distribution Lists Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"225ac796-9339-44fd-97c7-fc51c7feb43d.record","label":"13➛Storage File Share Record","reference":"cmdb_ci_storage_fileshare","reference_display":"Storage File Share Record","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"225ac796-9339-44fd-97c7-fc51c7feb43d.table_name","label":"13➛Storage File Share Table","reference":"cmdb_ci_storage_fileshare","reference_display":"Storage File Share Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"62e12344-c03c-4ff3-90eb-3fdd50f4abd1.record","label":"17➛Requested Item Record","reference":"sc_req_item","reference_display":"Requested Item Record","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"62e12344-c03c-4ff3-90eb-3fdd50f4abd1.table_name","label":"17➛Requested Item Table","reference":"sc_req_item","reference_display":"Requested Item Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"aa619c2e-4890-4fe0-82ee-0b582c207830.record","label":"19➛Requested Item Record","reference":"sc_req_item","reference_display":"Requested Item Record","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"aa619c2e-4890-4fe0-82ee-0b582c207830.table_name","label":"19➛Requested Item Table","reference":"sc_req_item","reference_display":"Requested Item Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"10a9f413-2cd0-414f-9364-1b7273bb406e.Record","label":"4➛Storage File Share Record","reference":"cmdb_ci_storage_fileshare","reference_display":"Storage File Share","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"10a9f413-2cd0-414f-9364-1b7273bb406e.Table","label":"4➛Storage File Share Table","reference":"cmdb_ci_storage_fileshare","reference_display":"Storage File Share Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"10a9f413-2cd0-414f-9364-1b7273bb406e.status","label":"4➛Status","type":"choice","base_type":"choice","attributes":{"uiType":"choice","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"5e478657-3a84-4a60-a92b-d3e80005ad34"}},{"name":"10a9f413-2cd0-414f-9364-1b7273bb406e.error_message","label":"4➛Error Message","reference_display":"Error Message","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"87687532-9e3d-4497-a88e-90f45bfb9adb"}}]</label_cache>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <name>Copy of Traditional Share path not available</name>
+        <natlang/>
+        <outputs/>
+        <remote_trigger_id/>
+        <run_as>system</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>draft</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>nxf52093</sys_created_by>
+        <sys_created_on>2021-07-01 05:00:48</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>eb44210adb85f0d869baf9b2f3961956</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Copy of Traditional Share path not available</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="NXP GAF Share Automation" source="x_nxps3_nxp_gaf_sh">4a417d661b85005017daa6886e4bcb74</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NXP GAF Share Automation">4a417d661b85005017daa6886e4bcb74</sys_scope>
+        <sys_update_name>sys_hub_flow_eb44210adb85f0d869baf9b2f3961956</sys_update_name>
+        <sys_updated_by>nxf52093</sys_updated_by>
+        <sys_updated_on>2021-07-01 05:36:21</sys_updated_on>
+        <type>subflow</type>
+    </sys_hub_flow>
+    <sys_variable_value action="delete_multiple" query="document_key=eb44210adb85f0d869baf9b2f3961956"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=eb44210adb85f0d869baf9b2f3961956^sys_idNOT IN2b44210adb85f0d869baf9b2f3961959"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>eb44210adb85f0d869baf9b2f3961956</id>
+        <name>Copy of Traditional Share path not available</name>
+        <sys_class_name>sys_flow_cat_variable_model</sys_class_name>
+        <sys_created_by>nxf52093</sys_created_by>
+        <sys_created_on>2021-07-01 05:00:48</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>2b44210adb85f0d869baf9b2f3961959</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NXP GAF Share Automation">4a417d661b85005017daa6886e4bcb74</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>nxf52093</sys_updated_by>
+        <sys_updated_on>2021-07-01 05:00:48</sys_updated_on>
+        <u_active>false</u_active>
+        <u_application_product_model/>
+        <u_assignment_group_s/>
+        <u_department/>
+        <u_interface_users_in_dev/>
+        <u_purpose/>
+        <u_status/>
+        <u_support_group_s/>
+    </sys_flow_cat_variable_model>
+    <sys_hub_flow_input action="delete_multiple" query="model=eb44210adb85f0d869baf9b2f3961956^sys_idNOT INeb44210adb85f0d869baf9b2f396195f"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference,uiTypeLabel=Reference,uiUniqueId=5e7cbdbc-fe65-43c6-915b-98b842826848</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table>sc_req_item</choice_table>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>ritm</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Reference">reference</internal_type>
+        <label>RITM</label>
+        <mandatory>false</mandatory>
+        <max_length>32</max_length>
+        <model display_value="Copy of Traditional Share path not available">eb44210adb85f0d869baf9b2f3961956</model>
+        <model_id>eb44210adb85f0d869baf9b2f3961956</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_eb44210adb85f0d869baf9b2f3961956</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="" name="sc_req_item">sc_req_item</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>nxf52093</sys_created_by>
+        <sys_created_on>2021-07-01 05:00:48</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>eb44210adb85f0d869baf9b2f396195f</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NXP GAF Share Automation">4a417d661b85005017daa6886e4bcb74</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>nxf52093</sys_updated_by>
+        <sys_updated_on>2021-07-01 05:00:48</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <u_model_id/>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_instance action="delete_multiple" query="flow=eb44210adb85f0d869baf9b2f3961956^sys_idNOT IN0054610adb85f0d869baf9b2f3961939,0854610adb85f0d869baf9b2f3961923,3744210adb85f0d869baf9b2f3961980,3744210adb85f0d869baf9b2f39619c7,4054610adb85f0d869baf9b2f3961933,4c54610adb85f0d869baf9b2f3961928,8854610adb85f0d869baf9b2f396192d,a2b66dcedb85f0d869baf9b2f39619f9,bb44610adb85f0d869baf9b2f396191c,c47ca142db09f0d869baf9b2f3961991,d87ca142db09f0d869baf9b2f39619b8"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <comment>Cancelling the request in case of reject</comment>
+        <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Copy of Traditional Share path not available">eb44210adb85f0d869baf9b2f3961956</flow>
+        <order>19</order>
+        <parent_ui_id>957954fe-5869-4774-a325-686b711681c0</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>nxf52093</sys_created_by>
+        <sys_created_on>2021-07-01 05:00:50</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>0054610adb85f0d869baf9b2f3961939</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NXP GAF Share Automation">4a417d661b85005017daa6886e4bcb74</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>nxf52093</sys_updated_by>
+        <sys_updated_on>2021-07-01 05:36:21</sys_updated_on>
+        <u_active>false</u_active>
+        <u_application_product_model/>
+        <u_assignment_group_s/>
+        <u_department/>
+        <u_interface_users_in_dev/>
+        <u_purpose/>
+        <u_status/>
+        <u_support_group_s/>
+        <ui_id>aa619c2e-4890-4fe0-82ee-0b582c207830</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=0054610adb85f0d869baf9b2f3961939"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>0054610adb85f0d869baf9b2f3961939</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>nxf52093</sys_created_by>
+        <sys_created_on>2021-07-01 05:00:50</sys_created_on>
+        <sys_id>0c54610adb85f0d869baf9b2f396193a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nxf52093</sys_updated_by>
+        <sys_updated_on>2021-07-01 05:00:50</sys_updated_on>
+        <value>sc_req_item</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>0054610adb85f0d869baf9b2f3961939</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>nxf52093</sys_created_by>
+        <sys_created_on>2021-07-01 05:00:50</sys_created_on>
+        <sys_id>4854610adb85f0d869baf9b2f396193a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nxf52093</sys_updated_by>
+        <sys_updated_on>2021-07-01 05:00:50</sys_updated_on>
+        <value>approval=rejected^close_notes=Owner of the share has rejected the access request. Hence closing the request.^state=7^stage=Request Cancelled</value>
+        <variable display_value="Fields">02d01916c31332002841b63b12d3aeee</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=0054610adb85f0d869baf9b2f3961939"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>0054610adb85f0d869baf9b2f3961939</id>
+        <sys_created_by>nxf52093</sys_created_by>
+        <sys_created_on>2021-07-01 05:00:50</sys_created_on>
+        <sys_id>0454610adb85f0d869baf9b2f396193a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nxf52093</sys_updated_by>
+        <sys_updated_on>2021-07-01 05:00:50</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{subflow.ritm}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>0054610adb85f0d869baf9b2f3961939</id>
+        <sys_created_by>nxf52093</sys_created_by>
+        <sys_created_on>2021-07-01 05:00:50</sys_created_on>
+        <sys_id>4054610adb85f0d869baf9b2f396193a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nxf52093</sys_updated_by>
+        <sys_updated_on>2021-07-01 05:00:50</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>0054610adb85f0d869baf9b2f3961939</id>
+        <sys_created_by>nxf52093</sys_created_by>
+        <sys_created_on>2021-07-01 05:00:50</sys_created_on>
+        <sys_id>c454610adb85f0d869baf9b2f396193a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nxf52093</sys_updated_by>
+        <sys_updated_on>2021-07-01 05:00:50</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create Record">2de05916c31332002841b63b12d3aee1</action_type>
+        <action_type_parent display_value="Create Record">02f0b88cc3c632002841b63b12d3aeff</action_type_parent>
+        <comment>Creating the Groups</comment>
+        <compiled_snapshot>2de05916c31332002841b63b12d3aee1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Copy of Traditional Share path not available">eb44210adb85f0d869baf9b2f3961956</flow>
+        <order>6</order>
+        <parent_ui_id>6f60a6a7-dfa1-4523-a5d2-32c6c37bfdec</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>nxf52093</sys_created_by>
+        <sys_created_on>2021-07-01 05:00:49</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>0854610adb85f0d869baf9b2f3961923</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NXP GAF Share Automation">4a417d661b85005017daa6886e4bcb74</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>nxf52093</sys_updated_by>
+        <sys_updated_on>2021-07-01 05:36:20</sys_updated_on>
+        <u_active>false</u_active>
+        <u_application_product_model/>
+        <u_assignment_group_s/>
+        <u_department/>
+        <u_interface_users_in_dev/>
+        <u_purpose/>
+        <u_status/>
+        <u_support_group_s/>
+        <ui_id>7eebc81b-7a64-439a-bc1a-b99fffb7fe2c</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=0854610adb85f0d869baf9b2f3961923"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>0854610adb85f0d869baf9b2f3961923</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>nxf52093</sys_created_by>
+        <sys_created_on>2021-07-01 05:00:49</sys_created_on>
+        <sys_id>8054610adb85f0d869baf9b2f3961925</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nxf52093</sys_updated_by>
+        <sys_updated_on>2021-07-01 05:00:49</sys_updated_on>
+        <value>u_email_distribution_lists</value>
+        <variable display_value="Table">61e05916c31332002841b63b12d3aee4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=0854610adb85f0d869baf9b2f3961923"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>0854610adb85f0d869baf9b2f3961923</id>
+        <sys_created_by>nxf52093</sys_created_by>
+        <sys_created_on>2021-07-01 05:00:49</sys_created_on>
+        <sys_id>4c54610adb85f0d869baf9b2f3961924</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nxf52093</sys_updated_by>
+        <sys_updated_on>2021-07-01 05:00:49</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>0854610adb85f0d869baf9b2f3961923</id>
+        <sys_created_by>nxf52093</sys_created_by>
+        <sys_created_on>2021-07-01 05:00:49</sys_created_on>
+        <sys_id>0054610adb85f0d869baf9b2f3961925</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nxf52093</sys_updated_by>
+        <sys_updated_on>2021-07-01 05:00:49</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
+        <value>u_name={{90747d20-1204-40fc-bfa3-05afd1e0a71f.group_r}}^u_dl_name={{90747d20-1204-40fc-bfa3-05afd1e0a71f.groupW}}^u_active=true^u_action=add_remove</value>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create Catalog Task">af51fd0e73141300612c273ffff6a785</action_type>
+        <action_type_parent display_value="Create Catalog Task">f597c41073081300612c273ffff6a767</action_type_parent>
+        <comment>Task to identify share and owner details</comment>
+        <compiled_snapshot>af51fd0e73141300612c273ffff6a785</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Copy of Traditional Share path not available">eb44210adb85f0d869baf9b2f3961956</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>nxf52093</sys_created_by>
+        <sys_created_on>2021-07-01 05:00:49</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>3744210adb85f0d869baf9b2f3961980</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NXP GAF Share Automation">4a417d661b85005017daa6886e4bcb74</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>nxf52093</sys_updated_by>
+        <sys_updated_on>2021-07-01 05:36:20</sys_updated_on>
+        <u_active>false</u_active>
+        <u_application_product_model/>
+        <u_assignment_group_s/>
+        <u_department/>
+        <u_interface_users_in_dev/>
+        <u_purpose/>
+        <u_status/>
+        <u_support_group_s/>
+        <ui_id>e838cc7e-4064-4f45-806c-668931651ba5</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=3744210adb85f0d869baf9b2f3961980"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>3744210adb85f0d869baf9b2f3961980</document_key>
+        <order>6</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>nxf52093</sys_created_by>
+        <sys_created_on>2021-07-01 05:00:49</sys_created_on>
+        <sys_id>7344210adb85f0d869baf9b2f39619c2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nxf52093</sys_updated_by>
+        <sys_updated_on>2021-07-01 05:00:49</sys_updated_on>
+        <value>36b8327cdb062410effc345239961928:item_option_new,c01810e8dbd6e410effc345239961967:item_option_new,b9441fbcdbca2410effc34523996194b:item_option_new,87cb2edcdb84f450effc345239961991:item_option_new</value>
+        <variable display_value="Catalog Variables">7b51fd0e73141300612c273ffff6a7be</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>3744210adb85f0d869baf9b2f3961980</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>nxf52093</sys_created_by>
+        <sys_created_on>2021-07-01 05:00:49</sys_created_on>
+        <sys_id>7344210adb85f0d869baf9b2f39619c3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nxf52093</sys_updated_by>
+        <sys_updated_on>2021-07-01 05:00:49</sys_updated_on>
+        <value>description=Sharepath is not available in CMDB. Folllowing actions will be included:
+1. Identify share path, Owner and group details
+2. Get the approval from share owner for requested user to share access
+3. Mark the TASK as closed complete if the approval is approved / Mark the TASK as closed skipped if the approval is rejected.^assignment_group={"display":"WPS-RemoteDesktopSupport-HCL","value":"6ff2b3eadb49ba0024e8fb541f961948"}</value>
+        <variable display_value="Fields">7751fd0e73141300612c273ffff6a7ac</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>3744210adb85f0d869baf9b2f3961980</document_key>
+        <order>5</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>nxf52093</sys_created_by>
+        <sys_created_on>2021-07-01 05:00:49</sys_created_on>
+        <sys_id>bf44210adb85f0d869baf9b2f39619c2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nxf52093</sys_updated_by>
+        <sys_updated_on>2021-07-01 05:00:49</sys_updated_on>
+        <value>7d46052d1b7c24508f13cbfe6e4bcb68</value>
+        <variable display_value="Template Catalog Item">f751fd0e73141300612c273ffff6a7b8</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>3744210adb85f0d869baf9b2f3961980</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>nxf52093</sys_created_by>
+        <sys_created_on>2021-07-01 05:00:49</sys_created_on>
+        <sys_id>fb44210adb85f0d869baf9b2f39619c2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nxf52093</sys_updated_by>
+        <sys_updated_on>2021-07-01 05:00:49</sys_updated_on>
+        <value>Share path is not available in CMDB: Approval task</value>
+        <variable display_value="Short Description">3751fd0e73141300612c273ffff6a7a6</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=3744210adb85f0d869baf9b2f3961980"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_fields</field>
+        <id>3744210adb85f0d869baf9b2f3961980</id>
+        <sys_created_by>nxf52093</sys_created_by>
+        <sys_created_on>2021-07-01 05:00:49</sys_created_on>
+        <sys_id>ff44210adb85f0d869baf9b2f39619c1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nxf52093</sys_updated_by>
+        <sys_updated_on>2021-07-01 05:00:49</sys_updated_on>
+        <table>var__m_sys_hub_action_input_af51fd0e73141300612c273ffff6a785</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_requested_item</field>
+        <id>3744210adb85f0d869baf9b2f3961980</id>
+        <sys_created_by>nxf52093</sys_created_by>
+        <sys_created_on>2021-07-01 05:00:49</sys_created_on>
+        <sys_id>7b44210adb85f0d869baf9b2f39619c1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nxf52093</sys_updated_by>
+        <sys_updated_on>2021-07-01 05:00:49</sys_updated_on>
+        <table>var__m_sys_hub_action_input_af51fd0e73141300612c273ffff6a785</table>
+        <value>{{subflow.ritm}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_short_description</field>
+        <id>3744210adb85f0d869baf9b2f3961980</id>
+        <sys_created_by>nxf52093</sys_created_by>
+        <sys_created_on>2021-07-01 05:00:49</sys_created_on>
+        <sys_id>b744210adb85f0d869baf9b2f39619c1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nxf52093</sys_updated_by>
+        <sys_updated_on>2021-07-01 05:00:49</sys_updated_on>
+        <table>var__m_sys_hub_action_input_af51fd0e73141300612c273ffff6a785</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>catalog_variables</field>
+        <id>3744210adb85f0d869baf9b2f3961980</id>
+        <sys_created_by>nxf52093</sys_created_by>
+        <sys_created_on>2021-07-01 05:00:49</sys_created_on>
+        <sys_id>f344210adb85f0d869baf9b2f39619c1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nxf52093</sys_updated_by>
+        <sys_updated_on>2021-07-01 05:00:49</sys_updated_on>
+        <table>var__m_sys_hub_action_input_af51fd0e73141300612c273ffff6a785</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>template_catalog_item</field>
+        <id>3744210adb85f0d869baf9b2f3961980</id>
+        <sys_created_by>nxf52093</sys_created_by>
+        <sys_created_on>2021-07-01 05:00:49</sys_created_on>
+        <sys_id>3f44210adb85f0d869baf9b2f39619c1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nxf52093</sys_updated_by>
+        <sys_updated_on>2021-07-01 05:00:49</sys_updated_on>
+        <table>var__m_sys_hub_action_input_af51fd0e73141300612c273ffff6a785</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Get Catalog Variables">330ba3abc31013002841b63b12d3aee8</action_type>
+        <action_type_parent display_value="Get Catalog Variables">22f0b88cc3c632002841b63b12d3aeff</action_type_parent>
+        <comment/>
+        <compiled_snapshot>330ba3abc31013002841b63b12d3aee8</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Copy of Traditional Share path not available">eb44210adb85f0d869baf9b2f3961956</flow>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>nxf52093</sys_created_by>
+        <sys_created_on>2021-07-01 05:00:49</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>3744210adb85f0d869baf9b2f39619c7</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NXP GAF Share Automation">4a417d661b85005017daa6886e4bcb74</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>nxf52093</sys_updated_by>
+        <sys_updated_on>2021-07-01 05:36:20</sys_updated_on>
+        <u_active>false</u_active>
+        <u_application_product_model/>
+        <u_assignment_group_s/>
+        <u_department/>
+        <u_interface_users_in_dev/>
+        <u_purpose/>
+        <u_status/>
+        <u_support_group_s/>
+        <ui_id>90747d20-1204-40fc-bfa3-05afd1e0a71f</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=3744210adb85f0d869baf9b2f39619c7"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>3744210adb85f0d869baf9b2f39619c7</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>nxf52093</sys_created_by>
+        <sys_created_on>2021-07-01 05:00:49</sys_created_on>
+        <sys_id>b744210adb85f0d869baf9b2f39619c9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nxf52093</sys_updated_by>
+        <sys_updated_on>2021-07-01 05:00:49</sys_updated_on>
+        <value>7d46052d1b7c24508f13cbfe6e4bcb68</value>
+        <variable display_value="Template Catalog Items and Variable Sets">bb0ba3abc31013002841b63b12d3aef1</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>3744210adb85f0d869baf9b2f39619c7</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>nxf52093</sys_created_by>
+        <sys_created_on>2021-07-01 05:00:49</sys_created_on>
+        <sys_id>f344210adb85f0d869baf9b2f39619c9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nxf52093</sys_updated_by>
+        <sys_updated_on>2021-07-01 05:00:49</sys_updated_on>
+        <value>36b8327cdb062410effc345239961928:item_option_new,c01810e8dbd6e410effc345239961967:item_option_new,b9441fbcdbca2410effc34523996194b:item_option_new,87cb2edcdb84f450effc345239961991:item_option_new</value>
+        <variable display_value="Catalog Variables">7b0ba3abc31013002841b63b12d3aef7</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=3744210adb85f0d869baf9b2f39619c7"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>catalog_variables</field>
+        <id>3744210adb85f0d869baf9b2f39619c7</id>
+        <sys_created_by>nxf52093</sys_created_by>
+        <sys_created_on>2021-07-01 05:00:49</sys_created_on>
+        <sys_id>fb44210adb85f0d869baf9b2f39619c8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nxf52093</sys_updated_by>
+        <sys_updated_on>2021-07-01 05:00:49</sys_updated_on>
+        <table>var__m_sys_hub_action_input_330ba3abc31013002841b63b12d3aee8</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>requested_item</field>
+        <id>3744210adb85f0d869baf9b2f39619c7</id>
+        <sys_created_by>nxf52093</sys_created_by>
+        <sys_created_on>2021-07-01 05:00:49</sys_created_on>
+        <sys_id>7344210adb85f0d869baf9b2f39619c9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nxf52093</sys_updated_by>
+        <sys_updated_on>2021-07-01 05:00:49</sys_updated_on>
+        <table>var__m_sys_hub_action_input_330ba3abc31013002841b63b12d3aee8</table>
+        <value>{{subflow.ritm}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>template_catalog_item</field>
+        <id>3744210adb85f0d869baf9b2f39619c7</id>
+        <sys_created_by>nxf52093</sys_created_by>
+        <sys_created_on>2021-07-01 05:00:49</sys_created_on>
+        <sys_id>bf44210adb85f0d869baf9b2f39619c8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nxf52093</sys_updated_by>
+        <sys_updated_on>2021-07-01 05:00:49</sys_updated_on>
+        <table>var__m_sys_hub_action_input_330ba3abc31013002841b63b12d3aee8</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <comment>Updating the RITM as approved</comment>
+        <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Copy of Traditional Share path not available">eb44210adb85f0d869baf9b2f3961956</flow>
+        <order>17</order>
+        <parent_ui_id>4d634c56-c007-4b07-99f2-9771c090b7dc</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>nxf52093</sys_created_by>
+        <sys_created_on>2021-07-01 05:00:50</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>4054610adb85f0d869baf9b2f3961933</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NXP GAF Share Automation">4a417d661b85005017daa6886e4bcb74</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>nxf52093</sys_updated_by>
+        <sys_updated_on>2021-07-01 05:36:21</sys_updated_on>
+        <u_active>false</u_active>
+        <u_application_product_model/>
+        <u_assignment_group_s/>
+        <u_department/>
+        <u_interface_users_in_dev/>
+        <u_purpose/>
+        <u_status/>
+        <u_support_group_s/>
+        <ui_id>62e12344-c03c-4ff3-90eb-3fdd50f4abd1</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=4054610adb85f0d869baf9b2f3961933"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>4054610adb85f0d869baf9b2f3961933</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>nxf52093</sys_created_by>
+        <sys_created_on>2021-07-01 05:00:50</sys_created_on>
+        <sys_id>0054610adb85f0d869baf9b2f3961935</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nxf52093</sys_updated_by>
+        <sys_updated_on>2021-07-01 05:00:50</sys_updated_on>
+        <value>approval=approved^stage=request_approved</value>
+        <variable display_value="Fields">02d01916c31332002841b63b12d3aeee</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>4054610adb85f0d869baf9b2f3961933</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>nxf52093</sys_created_by>
+        <sys_created_on>2021-07-01 05:00:50</sys_created_on>
+        <sys_id>c054610adb85f0d869baf9b2f3961935</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nxf52093</sys_updated_by>
+        <sys_updated_on>2021-07-01 05:00:50</sys_updated_on>
+        <value>sc_req_item</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=4054610adb85f0d869baf9b2f3961933"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>4054610adb85f0d869baf9b2f3961933</id>
+        <sys_created_by>nxf52093</sys_created_by>
+        <sys_created_on>2021-07-01 05:00:50</sys_created_on>
+        <sys_id>c854610adb85f0d869baf9b2f3961934</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nxf52093</sys_updated_by>
+        <sys_updated_on>2021-07-01 05:00:50</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{subflow.ritm}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>4054610adb85f0d869baf9b2f3961933</id>
+        <sys_created_by>nxf52093</sys_created_by>
+        <sys_created_on>2021-07-01 05:00:50</sys_created_on>
+        <sys_id>0854610adb85f0d869baf9b2f3961934</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nxf52093</sys_updated_by>
+        <sys_updated_on>2021-07-01 05:00:50</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>4054610adb85f0d869baf9b2f3961933</id>
+        <sys_created_by>nxf52093</sys_created_by>
+        <sys_created_on>2021-07-01 05:00:50</sys_created_on>
+        <sys_id>8c54610adb85f0d869baf9b2f3961934</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nxf52093</sys_updated_by>
+        <sys_updated_on>2021-07-01 05:00:50</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create Record">2de05916c31332002841b63b12d3aee1</action_type>
+        <action_type_parent display_value="Create Record">02f0b88cc3c632002841b63b12d3aeff</action_type_parent>
+        <comment>Creating Share path record</comment>
+        <compiled_snapshot>2de05916c31332002841b63b12d3aee1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Copy of Traditional Share path not available">eb44210adb85f0d869baf9b2f3961956</flow>
+        <order>8</order>
+        <parent_ui_id>064fea41-823c-4af7-92f6-cb830285774a</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>nxf52093</sys_created_by>
+        <sys_created_on>2021-07-01 05:00:49</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>4c54610adb85f0d869baf9b2f3961928</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NXP GAF Share Automation">4a417d661b85005017daa6886e4bcb74</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>nxf52093</sys_updated_by>
+        <sys_updated_on>2021-07-01 05:36:20</sys_updated_on>
+        <u_active>false</u_active>
+        <u_application_product_model/>
+        <u_assignment_group_s/>
+        <u_department/>
+        <u_interface_users_in_dev/>
+        <u_purpose/>
+        <u_status/>
+        <u_support_group_s/>
+        <ui_id>254daf5d-d273-46bc-b747-8fc61606fb13</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=4c54610adb85f0d869baf9b2f3961928"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>4c54610adb85f0d869baf9b2f3961928</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>nxf52093</sys_created_by>
+        <sys_created_on>2021-07-01 05:00:49</sys_created_on>
+        <sys_id>4054610adb85f0d869baf9b2f396192a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nxf52093</sys_updated_by>
+        <sys_updated_on>2021-07-01 05:00:49</sys_updated_on>
+        <value>cmdb_ci_storage_fileshare</value>
+        <variable display_value="Table">61e05916c31332002841b63b12d3aee4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=4c54610adb85f0d869baf9b2f3961928"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>4c54610adb85f0d869baf9b2f3961928</id>
+        <sys_created_by>nxf52093</sys_created_by>
+        <sys_created_on>2021-07-01 05:00:49</sys_created_on>
+        <sys_id>0c54610adb85f0d869baf9b2f3961929</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nxf52093</sys_updated_by>
+        <sys_updated_on>2021-07-01 05:00:49</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>4c54610adb85f0d869baf9b2f3961928</id>
+        <sys_created_by>nxf52093</sys_created_by>
+        <sys_created_on>2021-07-01 05:00:49</sys_created_on>
+        <sys_id>cc54610adb85f0d869baf9b2f3961929</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nxf52093</sys_updated_by>
+        <sys_updated_on>2021-07-01 05:00:49</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
+        <value>path={{90747d20-1204-40fc-bfa3-05afd1e0a71f.please_specify_valid_share_path}}^install_status=1^operational_status=1^u_ad_group_reference={{7eebc81b-7a64-439a-bc1a-b99fffb7fe2c.record}}^owned_by={{90747d20-1204-40fc-bfa3-05afd1e0a71f.share_own}}</value>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create Record">2de05916c31332002841b63b12d3aee1</action_type>
+        <action_type_parent display_value="Create Record">02f0b88cc3c632002841b63b12d3aeff</action_type_parent>
+        <comment>Creating share path record</comment>
+        <compiled_snapshot>2de05916c31332002841b63b12d3aee1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Copy of Traditional Share path not available">eb44210adb85f0d869baf9b2f3961956</flow>
+        <order>13</order>
+        <parent_ui_id>42f9459c-b779-4f1a-be1b-d8c9658ad798</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>nxf52093</sys_created_by>
+        <sys_created_on>2021-07-01 05:00:49</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>8854610adb85f0d869baf9b2f396192d</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NXP GAF Share Automation">4a417d661b85005017daa6886e4bcb74</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>nxf52093</sys_updated_by>
+        <sys_updated_on>2021-07-01 05:36:20</sys_updated_on>
+        <u_active>false</u_active>
+        <u_application_product_model/>
+        <u_assignment_group_s/>
+        <u_department/>
+        <u_interface_users_in_dev/>
+        <u_purpose/>
+        <u_status/>
+        <u_support_group_s/>
+        <ui_id>225ac796-9339-44fd-97c7-fc51c7feb43d</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=8854610adb85f0d869baf9b2f396192d"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>8854610adb85f0d869baf9b2f396192d</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>nxf52093</sys_created_by>
+        <sys_created_on>2021-07-01 05:00:49</sys_created_on>
+        <sys_id>8c54610adb85f0d869baf9b2f396192e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nxf52093</sys_updated_by>
+        <sys_updated_on>2021-07-01 05:00:49</sys_updated_on>
+        <value>cmdb_ci_storage_fileshare</value>
+        <variable display_value="Table">61e05916c31332002841b63b12d3aee4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=8854610adb85f0d869baf9b2f396192d"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>8854610adb85f0d869baf9b2f396192d</id>
+        <sys_created_by>nxf52093</sys_created_by>
+        <sys_created_on>2021-07-01 05:00:49</sys_created_on>
+        <sys_id>4854610adb85f0d869baf9b2f396192e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nxf52093</sys_updated_by>
+        <sys_updated_on>2021-07-01 05:00:49</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>8854610adb85f0d869baf9b2f396192d</id>
+        <sys_created_by>nxf52093</sys_created_by>
+        <sys_created_on>2021-07-01 05:00:49</sys_created_on>
+        <sys_id>0c54610adb85f0d869baf9b2f396192e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nxf52093</sys_updated_by>
+        <sys_updated_on>2021-07-01 05:00:49</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
+        <value>u_ad_group_reference={{1302cd54-d1da-499c-a843-6a5b2dc8a506.Record}}^path={{90747d20-1204-40fc-bfa3-05afd1e0a71f.please_specify_valid_share_path}}^install_status=1^operational_status=1^owned_by={{90747d20-1204-40fc-bfa3-05afd1e0a71f.share_own}}</value>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent/>
+        <comment>Update existing share path record</comment>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Copy of Traditional Share path not available">eb44210adb85f0d869baf9b2f3961956</flow>
+        <order>10</order>
+        <parent_ui_id>cfd98963-1556-4664-b634-a2e9a9c7bf77</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>nxf52093</sys_created_by>
+        <sys_created_on>2021-07-01 05:11:22</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>a2b66dcedb85f0d869baf9b2f39619f9</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NXP GAF Share Automation">4a417d661b85005017daa6886e4bcb74</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>nxf52093</sys_updated_by>
+        <sys_updated_on>2021-07-01 05:36:20</sys_updated_on>
+        <u_active>false</u_active>
+        <u_application_product_model/>
+        <u_assignment_group_s/>
+        <u_department/>
+        <u_interface_users_in_dev/>
+        <u_purpose/>
+        <u_status/>
+        <u_support_group_s/>
+        <ui_id>e54658a5-f6bc-41a4-9ad8-acdb6e5fdd05</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=a2b66dcedb85f0d869baf9b2f39619f9"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>a2b66dcedb85f0d869baf9b2f39619f9</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>nxf52093</sys_created_by>
+        <sys_created_on>2021-07-01 05:11:22</sys_created_on>
+        <sys_id>22b66dcedb85f0d869baf9b2f39619fb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nxf52093</sys_updated_by>
+        <sys_updated_on>2021-07-01 05:11:22</sys_updated_on>
+        <value>cmdb_ci_storage_fileshare</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=a2b66dcedb85f0d869baf9b2f39619f9"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>a2b66dcedb85f0d869baf9b2f39619f9</id>
+        <sys_created_by>nxf52093</sys_created_by>
+        <sys_created_on>2021-07-01 05:11:22</sys_created_on>
+        <sys_id>eab66dcedb85f0d869baf9b2f39619fa</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>nxf52093</sys_updated_by>
+        <sys_updated_on>2021-07-01 05:36:20</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{10a9f413-2cd0-414f-9364-1b7273bb406e.Record}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>a2b66dcedb85f0d869baf9b2f39619f9</id>
+        <sys_created_by>nxf52093</sys_created_by>
+        <sys_created_on>2021-07-01 05:11:22</sys_created_on>
+        <sys_id>2ab66dcedb85f0d869baf9b2f39619fa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nxf52093</sys_updated_by>
+        <sys_updated_on>2021-07-01 05:11:22</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>a2b66dcedb85f0d869baf9b2f39619f9</id>
+        <sys_created_by>nxf52093</sys_created_by>
+        <sys_created_on>2021-07-01 05:11:22</sys_created_on>
+        <sys_id>aeb66dcedb85f0d869baf9b2f39619fa</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>nxf52093</sys_updated_by>
+        <sys_updated_on>2021-07-01 05:36:20</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>operational_status=1^install_status=1^u_ad_group_reference={{7eebc81b-7a64-439a-bc1a-b99fffb7fe2c.record}}^owned_by={{90747d20-1204-40fc-bfa3-05afd1e0a71f.share_own}}</value>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Look Up Record">9d09f99587003300663ca1bb36cb0ba3</action_type>
+        <action_type_parent display_value="Look Up Record">b93f42810b30030085c083eb37673a63</action_type_parent>
+        <comment>Searching for available groups in CMDB</comment>
+        <compiled_snapshot>9d09f99587003300663ca1bb36cb0ba3</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Copy of Traditional Share path not available">eb44210adb85f0d869baf9b2f3961956</flow>
+        <order>3</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>nxf52093</sys_created_by>
+        <sys_created_on>2021-07-01 05:00:49</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>bb44610adb85f0d869baf9b2f396191c</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NXP GAF Share Automation">4a417d661b85005017daa6886e4bcb74</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>nxf52093</sys_updated_by>
+        <sys_updated_on>2021-07-01 05:36:20</sys_updated_on>
+        <u_active>false</u_active>
+        <u_application_product_model/>
+        <u_assignment_group_s/>
+        <u_department/>
+        <u_interface_users_in_dev/>
+        <u_purpose/>
+        <u_status/>
+        <u_support_group_s/>
+        <ui_id>1302cd54-d1da-499c-a843-6a5b2dc8a506</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=bb44610adb85f0d869baf9b2f396191c"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>bb44610adb85f0d869baf9b2f396191c</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>nxf52093</sys_created_by>
+        <sys_created_on>2021-07-01 05:00:49</sys_created_on>
+        <sys_id>b344610adb85f0d869baf9b2f396191f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nxf52093</sys_updated_by>
+        <sys_updated_on>2021-07-01 05:00:49</sys_updated_on>
+        <value>u_email_distribution_lists</value>
+        <variable display_value="Table">d909f99587003300663ca1bb36cb0ba4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>bb44610adb85f0d869baf9b2f396191c</document_key>
+        <order>5</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>nxf52093</sys_created_by>
+        <sys_created_on>2021-07-01 05:00:49</sys_created_on>
+        <sys_id>ff44610adb85f0d869baf9b2f396191e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nxf52093</sys_updated_by>
+        <sys_updated_on>2021-07-01 05:00:49</sys_updated_on>
+        <value>1</value>
+        <variable display_value="Don't fail on error">ceab42a673110010d70877186bf6a74f</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=bb44610adb85f0d869baf9b2f396191c"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>conditions</field>
+        <id>bb44610adb85f0d869baf9b2f396191c</id>
+        <sys_created_by>nxf52093</sys_created_by>
+        <sys_created_on>2021-07-01 05:00:49</sys_created_on>
+        <sys_id>bb44610adb85f0d869baf9b2f396191e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nxf52093</sys_updated_by>
+        <sys_updated_on>2021-07-01 05:00:49</sys_updated_on>
+        <table>var__m_sys_hub_action_input_9d09f99587003300663ca1bb36cb0ba3</table>
+        <value>u_dl_name={{90747d20-1204-40fc-bfa3-05afd1e0a71f.groupW}}^u_name={{90747d20-1204-40fc-bfa3-05afd1e0a71f.group_r}}^u_active=true^u_action=add_remove^u_dl_ownerISEMPTY</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table</field>
+        <id>bb44610adb85f0d869baf9b2f396191c</id>
+        <sys_created_by>nxf52093</sys_created_by>
+        <sys_created_on>2021-07-01 05:00:49</sys_created_on>
+        <sys_id>7f44610adb85f0d869baf9b2f396191e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nxf52093</sys_updated_by>
+        <sys_updated_on>2021-07-01 05:00:49</sys_updated_on>
+        <table>var__m_sys_hub_action_input_9d09f99587003300663ca1bb36cb0ba3</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>__snc_dont_fail_on_error</field>
+        <id>bb44610adb85f0d869baf9b2f396191c</id>
+        <sys_created_by>nxf52093</sys_created_by>
+        <sys_created_on>2021-07-01 05:00:49</sys_created_on>
+        <sys_id>f744610adb85f0d869baf9b2f396191e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nxf52093</sys_updated_by>
+        <sys_updated_on>2021-07-01 05:00:49</sys_updated_on>
+        <table>var__m_sys_hub_action_input_9d09f99587003300663ca1bb36cb0ba3</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Look Up Record">9d09f99587003300663ca1bb36cb0ba3</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Copy of Traditional Share path not available">eb44210adb85f0d869baf9b2f3961956</flow>
+        <order>4</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>nxf52093</sys_created_by>
+        <sys_created_on>2021-07-01 05:36:20</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>c47ca142db09f0d869baf9b2f3961991</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NXP GAF Share Automation">4a417d661b85005017daa6886e4bcb74</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>nxf52093</sys_updated_by>
+        <sys_updated_on>2021-07-01 05:36:20</sys_updated_on>
+        <u_active>false</u_active>
+        <u_application_product_model/>
+        <u_assignment_group_s/>
+        <u_department/>
+        <u_interface_users_in_dev/>
+        <u_purpose/>
+        <u_status/>
+        <u_support_group_s/>
+        <ui_id>10a9f413-2cd0-414f-9364-1b7273bb406e</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=c47ca142db09f0d869baf9b2f3961991"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>c47ca142db09f0d869baf9b2f3961991</document_key>
+        <order>5</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>nxf52093</sys_created_by>
+        <sys_created_on>2021-07-01 05:36:20</sys_created_on>
+        <sys_id>c07ca142db09f0d869baf9b2f3961994</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nxf52093</sys_updated_by>
+        <sys_updated_on>2021-07-01 05:36:20</sys_updated_on>
+        <value>1</value>
+        <variable display_value="Don't fail on error">ceab42a673110010d70877186bf6a74f</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>c47ca142db09f0d869baf9b2f3961991</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>nxf52093</sys_created_by>
+        <sys_created_on>2021-07-01 05:36:20</sys_created_on>
+        <sys_id>c87ca142db09f0d869baf9b2f3961994</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nxf52093</sys_updated_by>
+        <sys_updated_on>2021-07-01 05:36:20</sys_updated_on>
+        <value>cmdb_ci_storage_fileshare</value>
+        <variable display_value="Table">d909f99587003300663ca1bb36cb0ba4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=c47ca142db09f0d869baf9b2f3961991"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>conditions</field>
+        <id>c47ca142db09f0d869baf9b2f3961991</id>
+        <sys_created_by>nxf52093</sys_created_by>
+        <sys_created_on>2021-07-01 05:36:20</sys_created_on>
+        <sys_id>8c7ca142db09f0d869baf9b2f3961993</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nxf52093</sys_updated_by>
+        <sys_updated_on>2021-07-01 05:36:20</sys_updated_on>
+        <table>var__m_sys_hub_action_input_9d09f99587003300663ca1bb36cb0ba3</table>
+        <value>path={{90747d20-1204-40fc-bfa3-05afd1e0a71f.please_specify_valid_share_path}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table</field>
+        <id>c47ca142db09f0d869baf9b2f3961991</id>
+        <sys_created_by>nxf52093</sys_created_by>
+        <sys_created_on>2021-07-01 05:36:20</sys_created_on>
+        <sys_id>407ca142db09f0d869baf9b2f3961994</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nxf52093</sys_updated_by>
+        <sys_updated_on>2021-07-01 05:36:20</sys_updated_on>
+        <table>var__m_sys_hub_action_input_9d09f99587003300663ca1bb36cb0ba3</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>__snc_dont_fail_on_error</field>
+        <id>c47ca142db09f0d869baf9b2f3961991</id>
+        <sys_created_by>nxf52093</sys_created_by>
+        <sys_created_on>2021-07-01 05:36:20</sys_created_on>
+        <sys_id>c47ca142db09f0d869baf9b2f3961993</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nxf52093</sys_updated_by>
+        <sys_updated_on>2021-07-01 05:36:20</sys_updated_on>
+        <table>var__m_sys_hub_action_input_9d09f99587003300663ca1bb36cb0ba3</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent/>
+        <comment>Update existing share path record</comment>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Copy of Traditional Share path not available">eb44210adb85f0d869baf9b2f3961956</flow>
+        <order>15</order>
+        <parent_ui_id>1e33f825-3cdd-4cb0-8ba8-94af09b25bb3</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>nxf52093</sys_created_by>
+        <sys_created_on>2021-07-01 05:36:21</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>d87ca142db09f0d869baf9b2f39619b8</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NXP GAF Share Automation">4a417d661b85005017daa6886e4bcb74</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>nxf52093</sys_updated_by>
+        <sys_updated_on>2021-07-01 05:36:21</sys_updated_on>
+        <u_active>false</u_active>
+        <u_application_product_model/>
+        <u_assignment_group_s/>
+        <u_department/>
+        <u_interface_users_in_dev/>
+        <u_purpose/>
+        <u_status/>
+        <u_support_group_s/>
+        <ui_id>684cc758-c89c-4f90-9cc8-8e5a34de9538</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=d87ca142db09f0d869baf9b2f39619b8"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>d87ca142db09f0d869baf9b2f39619b8</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>nxf52093</sys_created_by>
+        <sys_created_on>2021-07-01 05:36:21</sys_created_on>
+        <sys_id>147ca142db09f0d869baf9b2f39619ba</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nxf52093</sys_updated_by>
+        <sys_updated_on>2021-07-01 05:36:21</sys_updated_on>
+        <value>cmdb_ci_storage_fileshare</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=d87ca142db09f0d869baf9b2f39619b8"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>d87ca142db09f0d869baf9b2f39619b8</id>
+        <sys_created_by>nxf52093</sys_created_by>
+        <sys_created_on>2021-07-01 05:36:21</sys_created_on>
+        <sys_id>dc7ca142db09f0d869baf9b2f39619b9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nxf52093</sys_updated_by>
+        <sys_updated_on>2021-07-01 05:36:21</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{10a9f413-2cd0-414f-9364-1b7273bb406e.Record}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>d87ca142db09f0d869baf9b2f39619b8</id>
+        <sys_created_by>nxf52093</sys_created_by>
+        <sys_created_on>2021-07-01 05:36:21</sys_created_on>
+        <sys_id>1c7ca142db09f0d869baf9b2f39619b9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nxf52093</sys_updated_by>
+        <sys_updated_on>2021-07-01 05:36:21</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>d87ca142db09f0d869baf9b2f39619b8</id>
+        <sys_created_by>nxf52093</sys_created_by>
+        <sys_created_on>2021-07-01 05:36:21</sys_created_on>
+        <sys_id>907ca142db09f0d869baf9b2f39619ba</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nxf52093</sys_updated_by>
+        <sys_updated_on>2021-07-01 05:36:21</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>operational_status=1^install_status=1^u_ad_group_reference={{1302cd54-d1da-499c-a843-6a5b2dc8a506.Record}}^owned_by={{90747d20-1204-40fc-bfa3-05afd1e0a71f.share_own}}</value>
+    </sys_element_mapping>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=eb44210adb85f0d869baf9b2f3961956^sys_idNOT IN147ca142db09f0d869baf9b2f39619af,16b66dcedb85f0d869baf9b2f39619ef,3344210adb85f0d869baf9b2f3961972,3744210adb85f0d869baf9b2f3961974,547ca142db09f0d869baf9b2f39619b3,7344210adb85f0d869baf9b2f3961977,bb44210adb85f0d869baf9b2f396196d,eab66dcedb85f0d869baf9b2f39619f3"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">187ca142db09f0d869baf9b2f39619ae</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Copy of Traditional Share path not available">eb44210adb85f0d869baf9b2f3961956</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>12</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>78aade05-b950-4725-9bfc-d1c84ed11ede</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>nxf52093</sys_created_by>
+        <sys_created_on>2021-07-01 05:36:20</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>147ca142db09f0d869baf9b2f39619af</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NXP GAF Share Automation">4a417d661b85005017daa6886e4bcb74</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>nxf52093</sys_updated_by>
+        <sys_updated_on>2021-07-01 05:36:20</sys_updated_on>
+        <u_active>false</u_active>
+        <u_application_product_model/>
+        <u_assignment_group_s/>
+        <u_department/>
+        <u_interface_users_in_dev/>
+        <u_purpose/>
+        <u_status/>
+        <u_support_group_s/>
+        <ui_id>42f9459c-b779-4f1a-be1b-d8c9658ad798</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=147ca142db09f0d869baf9b2f39619af"/>
+    <sys_element_mapping action="delete_multiple" query="id=147ca142db09f0d869baf9b2f39619af"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition</field>
+        <id>147ca142db09f0d869baf9b2f39619af</id>
+        <sys_created_by>nxf52093</sys_created_by>
+        <sys_created_on>2021-07-01 05:36:20</sys_created_on>
+        <sys_id>987ca142db09f0d869baf9b2f39619b1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nxf52093</sys_updated_by>
+        <sys_updated_on>2021-07-01 05:36:20</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value>{{10a9f413-2cd0-414f-9364-1b7273bb406e.status}}=1</value>
+    </sys_element_mapping>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">1ab66dcedb85f0d869baf9b2f39619ee</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Copy of Traditional Share path not available">eb44210adb85f0d869baf9b2f3961956</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>7</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>6f60a6a7-dfa1-4523-a5d2-32c6c37bfdec</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>nxf52093</sys_created_by>
+        <sys_created_on>2021-07-01 05:11:22</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>16b66dcedb85f0d869baf9b2f39619ef</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NXP GAF Share Automation">4a417d661b85005017daa6886e4bcb74</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>nxf52093</sys_updated_by>
+        <sys_updated_on>2021-07-01 05:36:20</sys_updated_on>
+        <u_active>false</u_active>
+        <u_application_product_model/>
+        <u_assignment_group_s/>
+        <u_department/>
+        <u_interface_users_in_dev/>
+        <u_purpose/>
+        <u_status/>
+        <u_support_group_s/>
+        <ui_id>064fea41-823c-4af7-92f6-cb830285774a</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=16b66dcedb85f0d869baf9b2f39619ef"/>
+    <sys_element_mapping action="delete_multiple" query="id=16b66dcedb85f0d869baf9b2f39619ef"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition</field>
+        <id>16b66dcedb85f0d869baf9b2f39619ef</id>
+        <sys_created_by>nxf52093</sys_created_by>
+        <sys_created_on>2021-07-01 05:11:22</sys_created_on>
+        <sys_id>aeb66dcedb85f0d869baf9b2f39619f1</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>nxf52093</sys_updated_by>
+        <sys_updated_on>2021-07-01 05:36:20</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value>{{10a9f413-2cd0-414f-9364-1b7273bb406e.status}}=1</value>
+    </sys_element_mapping>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">3df8e294db84f450effc3452399619fe</block>
+        <comment/>
+        <connected_to>6f60a6a7-dfa1-4523-a5d2-32c6c37bfdec</connected_to>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Copy of Traditional Share path not available">eb44210adb85f0d869baf9b2f3961956</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <logic_definition display_value="Else">1f781bf3c32232002841b63b12d3aee6</logic_definition>
+        <order>11</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>nxf52093</sys_created_by>
+        <sys_created_on>2021-07-01 05:00:49</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>3344210adb85f0d869baf9b2f3961972</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NXP GAF Share Automation">4a417d661b85005017daa6886e4bcb74</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>nxf52093</sys_updated_by>
+        <sys_updated_on>2021-07-01 05:36:20</sys_updated_on>
+        <u_active>false</u_active>
+        <u_application_product_model/>
+        <u_assignment_group_s/>
+        <u_department/>
+        <u_interface_users_in_dev/>
+        <u_purpose/>
+        <u_status/>
+        <u_support_group_s/>
+        <ui_id>78aade05-b950-4725-9bfc-d1c84ed11ede</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=3344210adb85f0d869baf9b2f3961972"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">31f82694db84f450effc345239961906</block>
+        <comment>Checking for approval status via task closure</comment>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Copy of Traditional Share path not available">eb44210adb85f0d869baf9b2f3961956</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>16</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>nxf52093</sys_created_by>
+        <sys_created_on>2021-07-01 05:00:49</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>3744210adb85f0d869baf9b2f3961974</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NXP GAF Share Automation">4a417d661b85005017daa6886e4bcb74</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>nxf52093</sys_updated_by>
+        <sys_updated_on>2021-07-01 05:36:21</sys_updated_on>
+        <u_active>false</u_active>
+        <u_application_product_model/>
+        <u_assignment_group_s/>
+        <u_department/>
+        <u_interface_users_in_dev/>
+        <u_purpose/>
+        <u_status/>
+        <u_support_group_s/>
+        <ui_id>4d634c56-c007-4b07-99f2-9771c090b7dc</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=3744210adb85f0d869baf9b2f3961974"/>
+    <sys_element_mapping action="delete_multiple" query="id=3744210adb85f0d869baf9b2f3961974"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition</field>
+        <id>3744210adb85f0d869baf9b2f3961974</id>
+        <sys_created_by>nxf52093</sys_created_by>
+        <sys_created_on>2021-07-01 05:00:49</sys_created_on>
+        <sys_id>bb44210adb85f0d869baf9b2f3961976</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nxf52093</sys_updated_by>
+        <sys_updated_on>2021-07-01 05:00:49</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value>{{e838cc7e-4064-4f45-806c-668931651ba5.Catalog Task.state}}=3</value>
+    </sys_element_mapping>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">9c7ca142db09f0d869baf9b2f39619b2</block>
+        <comment/>
+        <connected_to>42f9459c-b779-4f1a-be1b-d8c9658ad798</connected_to>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Copy of Traditional Share path not available">eb44210adb85f0d869baf9b2f3961956</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <logic_definition display_value="Else">1f781bf3c32232002841b63b12d3aee6</logic_definition>
+        <order>14</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>78aade05-b950-4725-9bfc-d1c84ed11ede</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>nxf52093</sys_created_by>
+        <sys_created_on>2021-07-01 05:36:20</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>547ca142db09f0d869baf9b2f39619b3</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NXP GAF Share Automation">4a417d661b85005017daa6886e4bcb74</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>nxf52093</sys_updated_by>
+        <sys_updated_on>2021-07-01 05:36:20</sys_updated_on>
+        <u_active>false</u_active>
+        <u_application_product_model/>
+        <u_assignment_group_s/>
+        <u_department/>
+        <u_interface_users_in_dev/>
+        <u_purpose/>
+        <u_status/>
+        <u_support_group_s/>
+        <ui_id>1e33f825-3cdd-4cb0-8ba8-94af09b25bb3</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=547ca142db09f0d869baf9b2f39619b3"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">3692725cdb08f450effc345239961969</block>
+        <comment/>
+        <connected_to>4d634c56-c007-4b07-99f2-9771c090b7dc</connected_to>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Copy of Traditional Share path not available">eb44210adb85f0d869baf9b2f3961956</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <logic_definition display_value="Else">1f781bf3c32232002841b63b12d3aee6</logic_definition>
+        <order>18</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>nxf52093</sys_created_by>
+        <sys_created_on>2021-07-01 05:00:49</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>7344210adb85f0d869baf9b2f3961977</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NXP GAF Share Automation">4a417d661b85005017daa6886e4bcb74</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>nxf52093</sys_updated_by>
+        <sys_updated_on>2021-07-01 05:36:21</sys_updated_on>
+        <u_active>false</u_active>
+        <u_application_product_model/>
+        <u_assignment_group_s/>
+        <u_department/>
+        <u_interface_users_in_dev/>
+        <u_purpose/>
+        <u_status/>
+        <u_support_group_s/>
+        <ui_id>957954fe-5869-4774-a325-686b711681c0</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=7344210adb85f0d869baf9b2f3961977"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">a5f8e294db84f450effc3452399619f0</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Copy of Traditional Share path not available">eb44210adb85f0d869baf9b2f3961956</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>5</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>nxf52093</sys_created_by>
+        <sys_created_on>2021-07-01 05:00:48</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>bb44210adb85f0d869baf9b2f396196d</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NXP GAF Share Automation">4a417d661b85005017daa6886e4bcb74</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>nxf52093</sys_updated_by>
+        <sys_updated_on>2021-07-01 05:36:20</sys_updated_on>
+        <u_active>false</u_active>
+        <u_application_product_model/>
+        <u_assignment_group_s/>
+        <u_department/>
+        <u_interface_users_in_dev/>
+        <u_purpose/>
+        <u_status/>
+        <u_support_group_s/>
+        <ui_id>6f60a6a7-dfa1-4523-a5d2-32c6c37bfdec</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=bb44210adb85f0d869baf9b2f396196d"/>
+    <sys_element_mapping action="delete_multiple" query="id=bb44210adb85f0d869baf9b2f396196d"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition</field>
+        <id>bb44210adb85f0d869baf9b2f396196d</id>
+        <sys_created_by>nxf52093</sys_created_by>
+        <sys_created_on>2021-07-01 05:00:49</sys_created_on>
+        <sys_id>ff44210adb85f0d869baf9b2f3961970</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nxf52093</sys_updated_by>
+        <sys_updated_on>2021-07-01 05:00:49</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value>{{1302cd54-d1da-499c-a843-6a5b2dc8a506.status}}=1</value>
+    </sys_element_mapping>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">26b66dcedb85f0d869baf9b2f39619f3</block>
+        <comment/>
+        <connected_to>064fea41-823c-4af7-92f6-cb830285774a</connected_to>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Copy of Traditional Share path not available">eb44210adb85f0d869baf9b2f3961956</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <logic_definition display_value="Else">1f781bf3c32232002841b63b12d3aee6</logic_definition>
+        <order>9</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>6f60a6a7-dfa1-4523-a5d2-32c6c37bfdec</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>nxf52093</sys_created_by>
+        <sys_created_on>2021-07-01 05:11:22</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>eab66dcedb85f0d869baf9b2f39619f3</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NXP GAF Share Automation">4a417d661b85005017daa6886e4bcb74</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>nxf52093</sys_updated_by>
+        <sys_updated_on>2021-07-01 05:36:20</sys_updated_on>
+        <u_active>false</u_active>
+        <u_application_product_model/>
+        <u_assignment_group_s/>
+        <u_department/>
+        <u_interface_users_in_dev/>
+        <u_purpose/>
+        <u_status/>
+        <u_support_group_s/>
+        <ui_id>cfd98963-1556-4664-b634-a2e9a9c7bf77</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=eab66dcedb85f0d869baf9b2f39619f3"/>
+</record_update>

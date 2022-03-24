@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="ansible_tower" table="var__m_sys_hub_flow_input_d9e78c491b5de090d3addd39cd4bcb7e" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>ansible_tower</element>
+            <name>var__m_sys_hub_flow_input_d9e78c491b5de090d3addd39cd4bcb7e</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>nxf49970</sys_created_by>
+            <sys_created_on>2022-02-15 11:54:53</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>1227127b8769c51472da33b40cbb3568</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>ansible_tower</sys_name>
+            <sys_package display_value="NXP GAF Share Automation" source="x_nxps3_nxp_gaf_sh">4a417d661b85005017daa6886e4bcb74</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="NXP GAF Share Automation">4a417d661b85005017daa6886e4bcb74</sys_scope>
+            <sys_update_name>sys_choice_var__m_sys_hub_flow_input_d9e78c491b5de090d3addd39cd4bcb7e_ansible_tower</sys_update_name>
+            <sys_updated_by>nxf49970</sys_updated_by>
+            <sys_updated_on>2022-02-15 11:54:53</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>ansible_tower</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>EMEA</label>
+            <language>en</language>
+            <name>var__m_sys_hub_flow_input_d9e78c491b5de090d3addd39cd4bcb7e</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>nxf52091</sys_created_by>
+            <sys_created_on>2020-12-23 09:47:41</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>15e78c491b5de090d3addd39cd4bcbb9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>nxf52091</sys_updated_by>
+            <sys_updated_on>2020-12-23 09:47:41</sys_updated_on>
+            <value>EMEA-1</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>ansible_tower</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>SWIS</label>
+            <language>en</language>
+            <name>var__m_sys_hub_flow_input_d9e78c491b5de090d3addd39cd4bcb7e</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>nxf52091</sys_created_by>
+            <sys_created_on>2020-12-23 09:47:41</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>11e78c491b5de090d3addd39cd4bcbba</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>nxf52091</sys_updated_by>
+            <sys_updated_on>2020-12-23 09:47:41</sys_updated_on>
+            <value>swis</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

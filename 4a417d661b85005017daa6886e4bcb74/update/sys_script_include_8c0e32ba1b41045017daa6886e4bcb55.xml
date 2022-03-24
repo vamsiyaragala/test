@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>x_nxps3_nxp_gaf_sh.NXPReferenceQualifierForShareFolder</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description>Script to fetch the Share path based on SiteID and Base share folder selected on the form</description>
+        <name>NXPReferenceQualifierForShareFolder</name>
+        <script><![CDATA[var NXPReferenceQualifierForShareFolder = Class.create();
+NXPReferenceQualifierForShareFolder.prototype = {
+    initialize: function() {
+    },
+
+	getShareDetails: function(siteid,base)
+	{
+		//gs.info('callinggetShareDetails');
+		var sitenamedetails=[];
+		var uniqueshare = [];
+				var Ssitenamedetails=new GlideRecord('cmdb_ci_storage_fileshare');
+			Ssitenamedetails.addQuery('location',siteid);
+			Ssitenamedetails.addQuery('u_base_share',base);
+				Ssitenamedetails.query();
+				//gs.info('zzzz2');
+					while(Ssitenamedetails.next()){		
+						sitenamedetails.push(Ssitenamedetails.sys_id.toString());
+						
+						
+					//gs.info('zzzz3' +sitenamedetails);
+						
+					}		
+					return "sys_idIN"+sitenamedetails.join(',');
+	
+	},
+	
+    type: 'NXPReferenceQualifierForShareFolder'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>nxf52093</sys_created_by>
+        <sys_created_on>2019-11-15 06:56:16</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>8c0e32ba1b41045017daa6886e4bcb55</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_name>NXPReferenceQualifierForShareFolder</sys_name>
+        <sys_package display_value="NXP GAF Share Automation" source="x_nxps3_nxp_gaf_sh">4a417d661b85005017daa6886e4bcb74</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NXP GAF Share Automation">4a417d661b85005017daa6886e4bcb74</sys_scope>
+        <sys_update_name>sys_script_include_8c0e32ba1b41045017daa6886e4bcb55</sys_update_name>
+        <sys_updated_by>nxf52093</sys_updated_by>
+        <sys_updated_on>2021-03-11 09:31:08</sys_updated_on>
+    </sys_script_include>
+</record_update>

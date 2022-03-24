@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_report_users_groups">
+    <sys_report_users_groups action="INSERT_OR_UPDATE">
+        <group_id/>
+        <report_id display_value="Inactive GAF share owners">c716432d1bb2c4d417daa6886e4bcb83</report_id>
+        <sys_class_name>sys_report_users_groups</sys_class_name>
+        <sys_created_by>nxf29089</sys_created_by>
+        <sys_created_on>2020-02-06 10:07:34</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>4f16432d1bb2c4d417daa6886e4bcb83</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>c716432d1bb2c4d417daa6886e4bcb83</sys_name>
+        <sys_package display_value="NXP GAF Share Automation" source="x_nxps3_nxp_gaf_sh">4a417d661b85005017daa6886e4bcb74</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NXP GAF Share Automation">4a417d661b85005017daa6886e4bcb74</sys_scope>
+        <sys_update_name>sys_report_users_groups_4f16432d1bb2c4d417daa6886e4bcb83</sys_update_name>
+        <sys_updated_by>nxf29089</sys_updated_by>
+        <sys_updated_on>2020-02-06 10:07:34</sys_updated_on>
+        <user_id display_value="Vaishali Sharma">817b2506db4dba00f985f438bf9619a0</user_id>
+    </sys_report_users_groups>
+</record_update>

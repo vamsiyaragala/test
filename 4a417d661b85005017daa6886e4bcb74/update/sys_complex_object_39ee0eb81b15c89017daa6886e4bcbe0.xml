@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_complex_object">
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FD75ee0eb8b115c8901806b81f398316e0</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>4a417d661b85005017daa6886e4bcb74</scope_name>
+        <serialized_content>{"FlowDesigner:FD75ee0eb8b115c8901806b81f398316e0":{"$COCollectionField":[{"Object":{}}],"$COCollectionField.$field_facets":{"SimpleMapFacet":"{\"up-shift-collection-level\":\"true\"}"}},"FlowDesigner:FD75ee0eb8b115c8901806b81f398316e0.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"child_hint\":\"\",\"child_maxsize\":\"\",\"label\":\"sys\",\"mandatory\":\"true\",\"child_name\":\"sys_child0\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FD75ee0eb8b115c8901806b81f398316e0\",\"child_label\":\"sys_child0\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"array.object\",\"child_defaultValue\":\"\",\"child_type\":\"object\",\"order\":\"3\",\"max_length\":\"8000\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>nxf52093</sys_created_by>
+        <sys_created_on>2019-11-21 08:36:44</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>39ee0eb81b15c89017daa6886e4bcbe0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>FD75ee0eb8b115c8901806b81f398316e0</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="NXP GAF Share Automation" source="x_nxps3_nxp_gaf_sh">4a417d661b85005017daa6886e4bcb74</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NXP GAF Share Automation">4a417d661b85005017daa6886e4bcb74</sys_scope>
+        <sys_update_name>sys_complex_object_39ee0eb81b15c89017daa6886e4bcbe0</sys_update_name>
+        <sys_updated_by>nxf52093</sys_updated_by>
+        <sys_updated_on>2019-11-21 08:36:44</sys_updated_on>
+        <type>complex_object_collection</type>
+    </sys_complex_object>
+</record_update>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_category">
+    <sc_category action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description/>
+        <entitlement_script/>
+        <header_icon/>
+        <homepage_image/>
+        <homepage_renderer display_value="">Default</homepage_renderer>
+        <icon/>
+        <image/>
+        <location/>
+        <mobile_hide_description>false</mobile_hide_description>
+        <mobile_picture/>
+        <mobile_subcategory_render_type>list</mobile_subcategory_render_type>
+        <module/>
+        <order>0</order>
+        <parent display_value="Services for Workplace">b9ba6c340f6ca60003acfe5ce1050eb4</parent>
+        <roles/>
+        <sc_catalog display_value="IT Service Catalog">e0d08b13c3330100c8b837659bba8fb4</sc_catalog>
+        <show_in_cms>false</show_in_cms>
+        <sys_class_name>sc_category</sys_class_name>
+        <sys_created_by>nxf47734</sys_created_by>
+        <sys_created_on>2019-11-18 06:46:40</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>e198527bdb414010027d80ab0b9619fe</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Shared Folder Access</sys_name>
+        <sys_package display_value="NXP GAF Share Automation" source="x_nxps3_nxp_gaf_sh">4a417d661b85005017daa6886e4bcb74</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NXP GAF Share Automation">4a417d661b85005017daa6886e4bcb74</sys_scope>
+        <sys_update_name>sc_category_e198527bdb414010027d80ab0b9619fe</sys_update_name>
+        <sys_updated_by>nxf47734</sys_updated_by>
+        <sys_updated_on>2019-11-18 06:46:40</sys_updated_on>
+        <title>Shared Folder Access</title>
+    </sc_category>
+    <sys_translated_text action="delete_multiple" query="documentkey=e198527bdb414010027d80ab0b9619fe"/>
+</record_update>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sysauto_report">
+    <sysauto_report action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <address_list>dhanya.maddukuri@nxp.com, vaishali.sharma@nxp.com</address_list>
+        <business_calendar/>
+        <condition/>
+        <conditional>true</conditional>
+        <entered_time/>
+        <group_list/>
+        <include_detail>false</include_detail>
+        <include_with/>
+        <name>Inactive GAF share owners </name>
+        <offset/>
+        <offset_type>0</offset_type>
+        <omit_if_no_records>true</omit_if_no_records>
+        <output_type>XLSX</output_type>
+        <page_height_in_pixels>612</page_height_in_pixels>
+        <page_size>Letter</page_size>
+        <page_width_in_pixels>792</page_width_in_pixels>
+        <report display_value="Inactive GAF share owners">c716432d1bb2c4d417daa6886e4bcb83</report>
+        <report_body><![CDATA[<p>Dear All,</p>
+<p>Please find the attached list of inactive GAF share owners this week.</p>
+<p>Kindly share the substitute for approval tasks.</p>
+<p>&nbsp;</p>
+<p>Thanks and Regards</p>
+<p>Servicenow</p>]]></report_body>
+        <report_title>Inactive GAF share owners </report_title>
+        <run_as display_value="Vaishali Sharma">817b2506db4dba00f985f438bf9619a0</run_as>
+        <run_as_tz/>
+        <run_dayofmonth>1</run_dayofmonth>
+        <run_dayofweek>5</run_dayofweek>
+        <run_period/>
+        <run_start>2020-02-06 10:01:22</run_start>
+        <run_time>1970-01-01 07:30:00</run_time>
+        <run_type>daily</run_type>
+        <sys_class_name>sysauto_report</sys_class_name>
+        <sys_created_by>nxf29089</sys_created_by>
+        <sys_created_on>2020-02-06 10:10:48</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>44b48fa51bb2c4d417daa6886e4bcbd9</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Inactive GAF share owners </sys_name>
+        <sys_package display_value="NXP GAF Share Automation" source="x_nxps3_nxp_gaf_sh">4a417d661b85005017daa6886e4bcb74</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NXP GAF Share Automation">4a417d661b85005017daa6886e4bcb74</sys_scope>
+        <sys_update_name>sysauto_report_44b48fa51bb2c4d417daa6886e4bcbd9</sys_update_name>
+        <sys_updated_by>nxf29089</sys_updated_by>
+        <sys_updated_on>2020-04-06 07:15:55</sys_updated_on>
+        <time_zone/>
+        <upgrade_safe>false</upgrade_safe>
+        <user_list>05d17114db9beb00600bf9751d961966,817b2506db4dba00f985f438bf9619a0</user_list>
+        <zip>false</zip>
+    </sysauto_report>
+</record_update>

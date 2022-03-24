@@ -1,0 +1,476 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>false</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <compiler_build/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>test_subflow_vendor</internal_name>
+        <label_cache>[{"name":"bbdefd11-13a0-47aa-8e81-c4c447aff3d1.variable","label":"1➛psoutput","reference_display":"psoutput","type":"string","base_type":"string","attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiType":"string","uiUniqueId":"abeea576-969c-41dd-aff9-739acd1b09f9"}},{"name":"bbdefd11-13a0-47aa-8e81-c4c447aff3d1.variable1","label":"1➛Error","reference_display":"Error","type":"string","base_type":"string","attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiType":"string","uiUniqueId":"216232a5-1019-43ff-8564-a38fe5c1af4d"}},{"name":"bbdefd11-13a0-47aa-8e81-c4c447aff3d1.variable12","label":"1➛windowserror","reference_display":"windowserror","type":"string","base_type":"string","attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiType":"string","uiUniqueId":"f1e5e950-afd3-4b81-803a-f31799390b17"}},{"name":"subflow.users_read","label":"Input➛users_read","type":"string","base_type":"string","attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"2df31b4e-2fc2-49fd-ac33-13cade2dcd3f"}},{"name":"subflow.group_read","label":"Input➛group_read","type":"string","base_type":"string","attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"d5bb168c-ecc3-4b6a-bb36-4ad16aba802f"}},{"name":"subflow.folderpath","label":"Input➛folderpath","type":"string","base_type":"string","attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"0df3c2c5-63de-4e86-a119-2f5dd48f4640"}}]</label_cache>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <name>test subflow vendor</name>
+        <natlang/>
+        <outputs/>
+        <remote_trigger_id/>
+        <run_as>system</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>draft</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>nxf52093</sys_created_by>
+        <sys_created_on>2021-05-21 15:54:53</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>15d03041dbdc3810effc345239961974</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>test subflow vendor</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="NXP GAF Share Automation" source="x_nxps3_nxp_gaf_sh">4a417d661b85005017daa6886e4bcb74</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NXP GAF Share Automation">4a417d661b85005017daa6886e4bcb74</sys_scope>
+        <sys_update_name>sys_hub_flow_15d03041dbdc3810effc345239961974</sys_update_name>
+        <sys_updated_by>nxf52093</sys_updated_by>
+        <sys_updated_on>2021-05-21 16:03:49</sys_updated_on>
+        <type>subflow</type>
+    </sys_hub_flow>
+    <sys_variable_value action="delete_multiple" query="document_key=15d03041dbdc3810effc345239961974"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=15d03041dbdc3810effc345239961974^sys_idNOT IN9dd03041dbdc3810effc345239961975"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>15d03041dbdc3810effc345239961974</id>
+        <name>test subflow vendor</name>
+        <sys_class_name>sys_flow_cat_variable_model</sys_class_name>
+        <sys_created_by>nxf52093</sys_created_by>
+        <sys_created_on>2021-05-21 15:54:53</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>9dd03041dbdc3810effc345239961975</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NXP GAF Share Automation">4a417d661b85005017daa6886e4bcb74</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>nxf52093</sys_updated_by>
+        <sys_updated_on>2021-05-21 15:54:53</sys_updated_on>
+        <u_active>false</u_active>
+        <u_application_product_model/>
+        <u_assignment_group_s/>
+        <u_department/>
+        <u_interface_users_in_dev/>
+        <u_purpose/>
+        <u_status/>
+        <u_support_group_s/>
+    </sys_flow_cat_variable_model>
+    <sys_hub_flow_input action="delete_multiple" query="model=15d03041dbdc3810effc345239961974^sys_idNOT IN0ce2b0c5dbdc3810effc345239961978,4ce2b0c5dbdc3810effc34523996197e,7bd2b0c5dbdc3810effc345239961971"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=d5bb168c-ecc3-4b6a-bb36-4ad16aba802f</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>group_read</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>group_read</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="test subflow vendor">15d03041dbdc3810effc345239961974</model>
+        <model_id>15d03041dbdc3810effc345239961974</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_15d03041dbdc3810effc345239961974</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>nxf52093</sys_created_by>
+        <sys_created_on>2021-05-21 16:03:48</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>0ce2b0c5dbdc3810effc345239961978</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NXP GAF Share Automation">4a417d661b85005017daa6886e4bcb74</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>nxf52093</sys_updated_by>
+        <sys_updated_on>2021-05-21 16:03:48</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <u_model_id/>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=0df3c2c5-63de-4e86-a119-2f5dd48f4640</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>folderpath</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>folderpath</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="test subflow vendor">15d03041dbdc3810effc345239961974</model>
+        <model_id>15d03041dbdc3810effc345239961974</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_15d03041dbdc3810effc345239961974</name>
+        <next_element/>
+        <order>3</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>nxf52093</sys_created_by>
+        <sys_created_on>2021-05-21 16:03:48</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>4ce2b0c5dbdc3810effc34523996197e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NXP GAF Share Automation">4a417d661b85005017daa6886e4bcb74</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>nxf52093</sys_updated_by>
+        <sys_updated_on>2021-05-21 16:03:48</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <u_model_id/>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=2df31b4e-2fc2-49fd-ac33-13cade2dcd3f</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>users_read</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>users_read</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="test subflow vendor">15d03041dbdc3810effc345239961974</model>
+        <model_id>15d03041dbdc3810effc345239961974</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_15d03041dbdc3810effc345239961974</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>nxf52093</sys_created_by>
+        <sys_created_on>2021-05-21 16:03:48</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>7bd2b0c5dbdc3810effc345239961971</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NXP GAF Share Automation">4a417d661b85005017daa6886e4bcb74</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>nxf52093</sys_updated_by>
+        <sys_updated_on>2021-05-21 16:03:48</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <u_model_id/>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_instance action="delete_multiple" query="flow=15d03041dbdc3810effc345239961974^sys_idNOT IN0ce2b0c5dbdc3810effc34523996198f"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Copy of Provide ACL share permissions via PowerShell">608130c1dbdc3810effc345239961972</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="test subflow vendor">15d03041dbdc3810effc345239961974</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>nxf52093</sys_created_by>
+        <sys_created_on>2021-05-21 16:03:49</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>0ce2b0c5dbdc3810effc34523996198f</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NXP GAF Share Automation">4a417d661b85005017daa6886e4bcb74</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>nxf52093</sys_updated_by>
+        <sys_updated_on>2021-05-21 16:03:49</sys_updated_on>
+        <u_active>false</u_active>
+        <u_application_product_model/>
+        <u_assignment_group_s/>
+        <u_department/>
+        <u_interface_users_in_dev/>
+        <u_purpose/>
+        <u_status/>
+        <u_support_group_s/>
+        <ui_id>bbdefd11-13a0-47aa-8e81-c4c447aff3d1</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=0ce2b0c5dbdc3810effc34523996198f"/>
+    <sys_element_mapping action="delete_multiple" query="id=0ce2b0c5dbdc3810effc34523996198f"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>folderpath</field>
+        <id>0ce2b0c5dbdc3810effc34523996198f</id>
+        <sys_created_by>nxf52093</sys_created_by>
+        <sys_created_on>2021-05-21 16:03:49</sys_created_on>
+        <sys_id>c4e2b0c5dbdc3810effc345239961992</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nxf52093</sys_updated_by>
+        <sys_updated_on>2021-05-21 16:03:49</sys_updated_on>
+        <table>var__m_sys_hub_action_input_608130c1dbdc3810effc345239961972</table>
+        <value>{{subflow.folderpath}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>group_read</field>
+        <id>0ce2b0c5dbdc3810effc34523996198f</id>
+        <sys_created_by>nxf52093</sys_created_by>
+        <sys_created_on>2021-05-21 16:03:49</sys_created_on>
+        <sys_id>40e2b0c5dbdc3810effc345239961993</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nxf52093</sys_updated_by>
+        <sys_updated_on>2021-05-21 16:03:49</sys_updated_on>
+        <table>var__m_sys_hub_action_input_608130c1dbdc3810effc345239961972</table>
+        <value>{{subflow.group_read}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>users_read</field>
+        <id>0ce2b0c5dbdc3810effc34523996198f</id>
+        <sys_created_by>nxf52093</sys_created_by>
+        <sys_created_on>2021-05-21 16:03:49</sys_created_on>
+        <sys_id>8ce2b0c5dbdc3810effc345239961992</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nxf52093</sys_updated_by>
+        <sys_updated_on>2021-05-21 16:03:49</sys_updated_on>
+        <table>var__m_sys_hub_action_input_608130c1dbdc3810effc345239961972</table>
+        <value>{{subflow.users_read}}</value>
+    </sys_element_mapping>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_15d03041dbdc3810effc345239961974^sys_idNOT IN44e2b0c5dbdc3810effc345239961977,84e2b0c5dbdc3810effc34523996197d,c4e2b0c5dbdc3810effc345239961983"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>users_read</element>
+        <help/>
+        <hint/>
+        <label>users_read</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_15d03041dbdc3810effc345239961974</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>nxf52093</sys_created_by>
+        <sys_created_on>2021-05-21 16:03:48</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>44e2b0c5dbdc3810effc345239961977</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>users_read</sys_name>
+        <sys_package display_value="NXP GAF Share Automation" source="x_nxps3_nxp_gaf_sh">4a417d661b85005017daa6886e4bcb74</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NXP GAF Share Automation">4a417d661b85005017daa6886e4bcb74</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_15d03041dbdc3810effc345239961974_users_read_en</sys_update_name>
+        <sys_updated_by>nxf52093</sys_updated_by>
+        <sys_updated_on>2021-05-21 16:03:48</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>group_read</element>
+        <help/>
+        <hint/>
+        <label>group_read</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_15d03041dbdc3810effc345239961974</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>nxf52093</sys_created_by>
+        <sys_created_on>2021-05-21 16:03:48</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>84e2b0c5dbdc3810effc34523996197d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>group_read</sys_name>
+        <sys_package display_value="NXP GAF Share Automation" source="x_nxps3_nxp_gaf_sh">4a417d661b85005017daa6886e4bcb74</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NXP GAF Share Automation">4a417d661b85005017daa6886e4bcb74</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_15d03041dbdc3810effc345239961974_group_read_en</sys_update_name>
+        <sys_updated_by>nxf52093</sys_updated_by>
+        <sys_updated_on>2021-05-21 16:03:48</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>folderpath</element>
+        <help/>
+        <hint/>
+        <label>folderpath</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_15d03041dbdc3810effc345239961974</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>nxf52093</sys_created_by>
+        <sys_created_on>2021-05-21 16:03:48</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>c4e2b0c5dbdc3810effc345239961983</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>folderpath</sys_name>
+        <sys_package display_value="NXP GAF Share Automation" source="x_nxps3_nxp_gaf_sh">4a417d661b85005017daa6886e4bcb74</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NXP GAF Share Automation">4a417d661b85005017daa6886e4bcb74</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_15d03041dbdc3810effc345239961974_folderpath_en</sys_update_name>
+        <sys_updated_by>nxf52093</sys_updated_by>
+        <sys_updated_on>2021-05-21 16:03:48</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+</record_update>
